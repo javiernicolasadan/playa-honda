@@ -1,5 +1,10 @@
 
 import './App.css'
+import NavBar from './assets/components/NavBar/Navbar'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
+
 
 function App() {
   
@@ -9,6 +14,7 @@ function App() {
       <div>
        <p></p>
       </div>
+      <NavBar/>
       <div className='container'>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod, dui at suscipit venenatis, risus felis dictum lectus, in accumsan risus quam non nisi. In nec semper odio. Cras sed turpis porta, accumsan diam vel, pharetra ipsum. Fusce in interdum felis, vel hendrerit orci. Ut id odio hendrerit, fringilla nulla quis, volutpat odio. Morbi fermentum tellus eu facilisis mattis. Mauris vitae tortor sodales, ullamcorper sem a, consectetur odio. Morbi non odio id felis rhoncus fringilla aliquam non mauris. Aenean sagittis venenatis enim sed facilisis. Aenean ultricies mattis tincidunt. Aliquam cursus mollis volutpat. Aenean eu feugiat elit.
         Nulla facilisi. Vivamus congue, nulla eu rutrum pretium, turpis nisl lobortis augue, quis pellentesque velit mauris eleifend est. Sed in nisl non nisi ultrices elementum vitae non justo. Etiam porta leo at sapien feugiat, eget volutpat libero molestie. Nulla nec enim orci. Nam viverra dolor mollis nisl hendrerit fermentum. In dolor massa, convallis et orci cursus, hendrerit ullamcorper lacus. Praesent sagittis ligula vitae rhoncus condimentum.
