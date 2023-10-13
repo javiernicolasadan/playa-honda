@@ -1,3 +1,7 @@
-/* .navBar {
-    background-color: red;
-} */
+.buttonsNavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
