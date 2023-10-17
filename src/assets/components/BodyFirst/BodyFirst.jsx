@@ -5,7 +5,8 @@ const BodyFirst = () => {
     return ( 
     <>
     
-        <img src="/beach.jpg"/>
+        <img src="/DSCF2942.JPG" className="img-fluid d-lg-block d-xl-block d-xxl-block"/>
+        
     </> );
 }
  
