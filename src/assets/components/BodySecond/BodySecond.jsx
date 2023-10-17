@@ -3,7 +3,7 @@ const BodySecond = () => {
     <>
         <div className='container'>
         <div className="row">
-            <div className="col-8">
+            <div className="col-8 ">
                 <div className="box"></div>
             </div>
             <div className="col">
