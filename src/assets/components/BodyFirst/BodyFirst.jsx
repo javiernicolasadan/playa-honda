@@ -1,5 +1,5 @@
 
-import React from "react";
+
 import "./bodyfirst.css"
 import BodySecond from "../BodySecond/BodySecond";
 
