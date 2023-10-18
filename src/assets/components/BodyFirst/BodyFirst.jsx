@@ -1,11 +1,14 @@
 
+import React from "react";
 import "./bodyfirst.css"
+import BodySecond from "../BodySecond/BodySecond";
 
 const BodyFirst = () => {
     return ( 
     <>
     
-        <img src="/DSCF2942.JPG" className="img-fluid d-lg-block d-xl-block d-xxl-block"/>
+        <img src="/DSCF2942.JPG" className="img-fluid img-thumbnail "/>
+        <BodySecond/>
         
     </> );
 }

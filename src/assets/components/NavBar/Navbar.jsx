@@ -1,22 +1,35 @@
 import React from "react";
 import "./navbar.css"
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
     return ( 
     <React.Fragment  >
-    <div className="container">
+    
 
-        <div className="buttonsNavBar">
+        <nav className="buttonsNavBar navbar fixed-top bg-body-tertiary">
+        <Link to="/">
+        <button className="navbar-toggler" type="button">Inicio</button>
+        </Link>
+        <Link to="/gallery" className="nav-link">
+        <button className="navbar-toggler" type="button">Galería</button>
+        </Link>
+        <Link to="/actividades">
+        <button className="navbar-toggler" type="button">Actividades</button>
+        </Link>
+        <Link to="/contacto">
+        <button className="navbar-toggler" type="button">Contacto</button>
+        </Link>
+         
 
-        <p>Inicio</p>
-        <p>Galería</p>
-        <p>Actividads</p>
-        <p>Contacto</p>
-
-        </div>
+        </nav>
         
         
-    </div>
+    
+    
+  
+  
+
     </React.Fragment> 
     );
 }
