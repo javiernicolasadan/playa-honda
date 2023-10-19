@@ -7,6 +7,7 @@ import NavBar from './assets/components/NavBar/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { Route, Routes } from "react-router-dom";
+import Activities from './assets/components/Activities.jsx/Activities';
 
 
 
@@ -21,8 +22,8 @@ function App() {
         <Route path='/' element={<BodyFirst/>}/>
         <Route path='/gallery' element={<Gallery/>}/>
         <Route path='/carousel' element={<CarouselComponent/>}/>
-        {/* <Route path='/activities' element={<Activities/>}/>
-        <Route path='/gallery' element={<Gallery/>}/> */}
+        <Route path='/activities' element={<Activities/>}/>
+        
       
       </Routes>
       

@@ -21,7 +21,7 @@ const NavBar = () => {
         <Link to="/carousel" className="nav-link">
         <button className="navbar-toggler" type="button">Carrusel</button>
         </Link>
-        <Link to="/actividades">
+        <Link to="/activities">
         <button className="navbar-toggler" type="button">Actividades</button>
         </Link>
         <Link to="/contacto">
