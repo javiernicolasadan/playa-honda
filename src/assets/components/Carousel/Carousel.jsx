@@ -1,4 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
+import "./carousel.css"
 
 const CarouselComponent = () => {
     return ( 
@@ -6,19 +7,20 @@ const CarouselComponent = () => {
         <Carousel>
       <Carousel.Item>
         <img
-      src="/DSCF2706.JPG"
+        
+      src="/DSCF2805.JPG"
       className="w-100 shadow-1-strong rounded mb-4"
       alt="Kite Surf"
      />
         <Carousel.Caption>
-          <h3>Mar Menor, paraíso de los deportes de vela</h3>
-          <p>En el Mar Menor se pueden practicar todo tipo de deportes de vela como Windsurf, Kitesurf, Vela Latina.</p>
+          <h3>Deportes nauticos.</h3>
+          <p></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
       <img
       src="/DSCF2864.JPG"
-      className="w-100 shadow-1-strong rounded mb-4"
+      className="w-100 shadow-1-strong rounded mb-4 "
       alt="Kite Surf"
      />
         <Carousel.Caption>
@@ -28,8 +30,8 @@ const CarouselComponent = () => {
       </Carousel.Item>
       <Carousel.Item>
       <img
-      src="/DSCF2895.JPG"
-      className="w-100 shadow-1-strong rounded mb-4"
+      src="/DSCF2940.JPG"
+      className="w-100 shadow-1-strong rounded mb-4 col-lg-8"
       alt="Kite Surf"
      />
         <Carousel.Caption>
