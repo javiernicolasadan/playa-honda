@@ -4,39 +4,36 @@ import "./carousel.css"
 const CarouselComponent = () => {
     return ( 
     <>
-        <Carousel>
-      <Carousel.Item>
+      <Carousel>
+      <Carousel.Item interval={15000}>
         <img
         
-      src="/DSCF2805.JPG"
-      className="w-100 shadow-1-strong rounded mb-4"
-      alt="Kite Surf"
-     />
+        src="/DSCF2805.JPG"
+        className=" shadow-1-strong rounded mb-4"
+        alt="Kite Surf"
+        />
         <Carousel.Caption>
-          <h3>Deportes nauticos.</h3>
-          <p></p>
+        <h3></h3>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-      <img
-      src="/DSCF2864.JPG"
-      className="w-100 shadow-1-strong rounded mb-4 "
-      alt="Kite Surf"
-     />
+      <Carousel.Item interval={15000}>
+        <img
+        src="/DSCF2864.JPG"
+        className=" shadow-1-strong rounded mb-4 "
+        alt="Kite Surf"
+        />
         <Carousel.Caption>
-          <h3>Conecta con la naturaleza</h3>
-          <p>En un marco incomparable, rodeado de belleza.</p>
+        <h3></h3>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={15000}>
       <img
       src="/DSCF2940.JPG"
-      className="w-100 shadow-1-strong rounded mb-4 col-lg-8"
+      className=" shadow-1-strong rounded mb-4 "
       alt="Kite Surf"
      />
         <Carousel.Caption>
-          <h3>Tranquilidad</h3>
-          <p>Paseos que relajan el alma</p>
+          <h3></h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

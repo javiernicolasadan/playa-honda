@@ -1,3 +1,6 @@
-.carouselImg {
-    width: 10px;
-  }
+.carousel-indicators [data-bs-target] {
+  border-radius: 100%;
+  width: 1rem!important;
+  height: 1rem!important;
+  margin-bottom: 1rem!important;
+}
