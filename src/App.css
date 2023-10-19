@@ -32,15 +32,30 @@ nav.navbar {
   justify-content: space-evenly;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  margin-bottom: 5rem!important;
+
   
 }
 
 
 
+@media (max-width: 576px) {
+  body::before {
+    content: "whatever";
+    .img-thumbnail {
+      margin-top: 100px!important;
+    }
+    .img-fluid {
+      margin-top: 100px!important;
+    }
+    
+  }
+}
 
 @media (min-width: 576px) {
   body::before {
     content: "SM";
+    
   }
 }
 

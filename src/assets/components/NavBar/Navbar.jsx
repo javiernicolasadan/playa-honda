@@ -9,6 +9,10 @@ const NavBar = () => {
 
         <nav className="buttonsNavBar navbar fixed-top bg-body-tertiary">
         <Link to="/">
+
+        <button type="button" className=" navbar-toggler btn btn-light">Light</button>
+        </Link>
+        <Link to="/">
         <button className="navbar-toggler" type="button">Inicio</button>
         </Link>
         <Link to="/gallery" className="nav-link">
