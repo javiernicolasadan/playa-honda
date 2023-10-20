@@ -9,7 +9,7 @@ const CarouselComponent = () => {
         <img
         
         src="/DSCF2805.JPG"
-        className=" shadow-1-strong rounded mb-4"
+        className="imgCarousel shadow-1-strong rounded mb-4"
         alt="Kite Surf"
         />
         <Carousel.Caption>
@@ -19,7 +19,7 @@ const CarouselComponent = () => {
       <Carousel.Item interval={15000}>
         <img
         src="/DSCF2864.JPG"
-        className=" shadow-1-strong rounded mb-4 "
+        className="imgCarousel shadow-1-strong rounded mb-4 "
         alt="Kite Surf"
         />
         <Carousel.Caption>
@@ -29,7 +29,7 @@ const CarouselComponent = () => {
       <Carousel.Item interval={15000}>
       <img
       src="/DSCF2940.JPG"
-      className=" shadow-1-strong rounded mb-4 "
+      className="imgCarousel shadow-1-strong rounded mb-4 "
       alt="Kite Surf"
      />
         <Carousel.Caption>

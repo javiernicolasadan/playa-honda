@@ -7,7 +7,7 @@ const BodyFirst = () => {
     return ( 
     <>
     
-        <img src="/DSCF2942.JPG" className="img-fluid img-thumbnail "/>
+        <img src="/DSCF2942.JPG" className="img-fluid img-thumbnail imgHome "/>
         <BodySecond/>
         
     </> );
