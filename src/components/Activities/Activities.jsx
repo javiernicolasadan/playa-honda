@@ -16,7 +16,9 @@ const Activities = () => {
           <Card.Body>
             <Card.Title>{card.title}</Card.Title>
             <Card.Text>{card.description}</Card.Text>
-            <Button variant="primary">{card.button}</Button>
+            <Button  href={card.path} variant="secondary"><a href={card.path} style={{color: "white", textDecoration: "none"}} target="_blank" rel="noopener noreferrer">
+                    {card.button}
+                  </a></Button>
           </Card.Body>
         </Card>
     </Col>
