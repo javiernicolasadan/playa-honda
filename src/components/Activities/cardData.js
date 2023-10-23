@@ -18,7 +18,11 @@ const cardData = [
       title: 'Paseos en barco',
       description: 'Puedes dar paseos en barco desde varios puntos del Mar Menor.',
       button: "Chapi Taxi",
-      path: "https://chapitaxi.com/"
+      path: "https://chapitaxi.com/",
+      button2: "Cruceros Mar Menor",
+      path2: "https://www.crucerosmarmenor.com/",
+      button3: "Solaz Lines",
+      path3: "https://www.solazlines.com/index.php/es/rutas-regulares/desde-la-manga/2-mares-isla-grosa"
     },
     {
      imageSrc: 'DSCF2692.JPG',

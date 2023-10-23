@@ -19,6 +19,16 @@ const Activities = () => {
             <Button  href={card.path} variant="secondary"><a href={card.path} style={{color: "white", textDecoration: "none"}} target="_blank" rel="noopener noreferrer">
                     {card.button}
                   </a></Button>
+            {card.button2 ? 
+            <Button  href={card.path2} variant="secondary"><a href={card.path2} style={{color: "white", textDecoration: "none"}} target="_blank" rel="noopener noreferrer">
+                    {card.button2}
+                  </a></Button> : ""
+            }      
+            {card.button3 ? 
+            <Button  href={card.path3} variant="secondary"><a href={card.path3} style={{color: "white", textDecoration: "none"}} target="_blank" rel="noopener noreferrer">
+                    {card.button3}
+                  </a></Button> : ""
+            }      
           </Card.Body>
         </Card>
     </Col>
