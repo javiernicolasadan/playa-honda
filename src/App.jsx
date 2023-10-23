@@ -7,7 +7,7 @@ import NavBar from './assets/components/NavBar/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { Route, Routes } from "react-router-dom";
-import Activities from './assets/components/Activities.jsx/Activities';
+import Activities from './components/Activities/Activities';
 
 
 
