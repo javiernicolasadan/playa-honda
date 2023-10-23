@@ -12,9 +12,6 @@ const NavBar = () => {
             <Link to="/gallery" className="nav-link">
             <button className="navbar-toggler" type="button">Galería</button>
             </Link>
-            <Link to="/carousel" className="nav-link">
-            <button className="navbar-toggler" type="button">Carrusel</button>
-            </Link>
             <Link to="/activities">
             <button className="navbar-toggler" type="button">Actividades</button>
             </Link>
