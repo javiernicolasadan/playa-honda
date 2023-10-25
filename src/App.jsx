@@ -8,6 +8,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { Route, Routes } from "react-router-dom";
 import Activities from './components/Activities/Activities';
 import NavBar from './components/NavBar/Navbar';
+import Calendar from './components/Calendar/Calendar';
 
 function App() {
 
@@ -18,8 +19,8 @@ function App() {
       <Routes>
         <Route path='/' element={<CarouselComponent/>}/>
         <Route path='/gallery' element={<Gallery/>}/>
-        
         <Route path='/activities' element={<Activities/>}/>
+        <Route path='/availability' element={<Calendar/>}/>
       </Routes>
     </>
   )
