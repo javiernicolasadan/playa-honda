@@ -1,7 +1,6 @@
 
 import CarouselComponent from './assets/components/Carousel/Carousel';
 import './App.css'
-
 import Gallery from './assets/components/Gallery/gallery';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
