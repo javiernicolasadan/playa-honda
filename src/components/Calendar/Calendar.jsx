@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import DatePicker from "react-datepicker"
+import DatePicker, { registerLocale } from "react-datepicker"
 import { addDays } from "date-fns"
-/* import { registerLocale } from "react-datepicker"; */
-/* import es from "../../locales/es.js"; */
+import es from "../../locales/es";
 
 const Calendar = () => {
     const [startDate, setStartDate] = useState(new Date());
@@ -12,6 +11,7 @@ const Calendar = () => {
     setStartDate(start);
     setEndDate(end);
   };
+  registerLocale("es", es);
 
   return (
     <React.Fragment >
@@ -27,6 +27,7 @@ const Calendar = () => {
         selectsRange
         selectsDisabledDaysInRange
         inline
+        locale="es"
         />
         </div>
     </div>
