@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import cardData from './cardData';
 
 const Activities = () => {
-  console.log(cardData)
+  /* console.log(cardData) */
     return ( 
         <>
       <Row xs={1} md={2} className="g-4">
