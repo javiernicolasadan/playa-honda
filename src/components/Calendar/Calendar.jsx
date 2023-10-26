@@ -21,14 +21,16 @@ const Calendar = () => {
     <React.Fragment >
     <h3 style={{ marginTop: "8rem" }} className="d-flex justify-content-center align-items-center">Elige las fechas para consultar precio y disponibilidad</h3>
     <div style={{ marginTop: "3rem" }} className="d-flex justify-content-center align-items-center">
+    {/* Type of calendar from ractdatepicker: Date range for one datepicker with disabled dates highlighted */}
       <DatePicker
         selected={startDate}
         onChange={onChange}
         startDate={startDate}
         endDate={endDate}
+        minDate={addDays(new Date(), 1)}
         excludeDates={[addDays(new Date(), 1), addDays(new Date(), 5)]}
         selectsRange
-        selectsDisabledDaysInRange
+        
         inline
         locale="es"
         />
