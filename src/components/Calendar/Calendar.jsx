@@ -5,7 +5,7 @@ import es from "../../locales/es";
 
 
 const Calendar = () => {
-    const [startDate, setStartDate] = useState(addDays(new Date(), 1));
+    const [startDate, setStartDate] = useState(null);
     const [endDate, setEndDate] = useState(null);
     const onChange = (dates) => {
     const [start, end] = dates;
