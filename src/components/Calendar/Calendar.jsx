@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import DatePicker, { registerLocale } from "react-datepicker"
-import { addDays } from "date-fns"
+import { addDays, addMonths } from "date-fns"
 import es from "../../locales/es";
 
 
@@ -28,7 +28,8 @@ const Calendar = () => {
         startDate={startDate}
         endDate={endDate}
         minDate={addDays(new Date(), 1)}
-        excludeDates={[addDays(new Date(), 1), addDays(new Date(), 5)]}
+        maxDate={addMonths(new Date(), 12)}
+        excludeDates={[addDays(new Date(), 1), addDays(new Date(), 12)]}
         selectsRange
         
         inline
