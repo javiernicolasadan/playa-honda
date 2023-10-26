@@ -9,6 +9,7 @@ const Calendar = () => {
     const [startDate, setStartDate] = useState(null);
     const [endDate, setEndDate] = useState(null);
     const [notAvailability, setNotAvailability] = useState(false)
+    const [availability, setAvailability] = useState(false)
 
     const onChange = (dates) => {
       const [start, end] = dates;
@@ -16,6 +17,8 @@ const Calendar = () => {
       setEndDate(end);
   };
   useEffect(() => {
+    setNotAvailability(false)
+    setAvailability(false)
     if (startDate && endDate) {
       availableDays();
     }
@@ -29,7 +32,7 @@ const Calendar = () => {
     );
   }
     const availableDays = () => {
-      setNotAvailability(false)
+      
 
       let currentDate = new Date(startDate);
       while (currentDate <= endDate) {
@@ -39,14 +42,12 @@ const Calendar = () => {
         }
       currentDate.setDate(currentDate.getDate() + 1); 
       }
+      setAvailability(true)
     }
 
   registerLocale("es", es);
 
-  console.log("fecha inicio", startDate)
-  console.log("fecha fin", endDate)
-  
-
+ 
   return (
     <React.Fragment >
     <h3 style={{ marginTop: "8rem" }} className="d-flex justify-content-center align-items-center">Elige las fechas para consultar precio y disponibilidad</h3>
@@ -69,6 +70,8 @@ const Calendar = () => {
         </div>
         </DatePicker>
     </div>
+    {availability && <h3 style={{ marginTop: "8rem" }} className="d-flex justify-content-center align-items-center">Según las fechas el precio sería de: </h3>}
+    
     </React.Fragment>
   );
 }
