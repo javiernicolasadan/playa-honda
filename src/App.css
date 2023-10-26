@@ -42,7 +42,9 @@ div.card {
   margin-right: 2rem;
 }
 
-
+span.react-datepicker__aria-live {
+  display: none;
+}
 
 @media (max-width: 576px) {
   body::before {
