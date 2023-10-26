@@ -6,34 +6,36 @@ import reservations from "./reservations";
 
 
 const Calendar = () => {
-    const [startDate, setStartDate] = useState(null);
-    const [endDate, setEndDate] = useState(null);
-    const [notAvailability, setNotAvailability] = useState(false)
-    const [availability, setAvailability] = useState(false)
-
-    const onChange = (dates) => {
+  const [startDate, setStartDate] = useState(null);
+  const [endDate, setEndDate] = useState(null);
+  const [notAvailability, setNotAvailability] = useState(false)
+  const [availability, setAvailability] = useState(false)
+  const [price, setPrice] = useState()
+  
+  const onChange = (dates) => {
       const [start, end] = dates;
       setStartDate(start);
       setEndDate(end);
   };
+
   useEffect(() => {
     setNotAvailability(false)
     setAvailability(false)
     if (startDate && endDate) {
       availableDays();
+      priceCalculator()
     }
   }, [startDate, endDate]);
 
-    const areDatesEqual = (date1, date2) => {
+  const areDatesEqual = (date1, date2) => {
       return (
         date1.getDate() === date2.getDate() &&
         date1.getMonth() === date2.getMonth() &&
         date1.getFullYear() === date2.getFullYear()
     );
   }
-    const availableDays = () => {
-      
 
+  const availableDays = () => {
       let currentDate = new Date(startDate);
       while (currentDate <= endDate) {
         if (reservations.some(reservationDate => areDatesEqual(reservationDate, currentDate))) {
@@ -45,12 +47,31 @@ const Calendar = () => {
       setAvailability(true)
     }
 
+  const priceCalculator = () => {
+    const priceWeekday = 40
+    const priceWeedend = 60
+    let totalPrice = 0
+    let currentDate = new Date(startDate)
+    
+    while (currentDate <= endDate) {
+      if (currentDate.getDay() > 0 && currentDate.getDay() < 6) {
+       totalPrice += priceWeekday;
+      } else {
+        totalPrice += priceWeedend;
+      }
+      currentDate.setDate(currentDate.getDate() + 1)
+    }
+    setPrice(totalPrice)
+    
+  }
+
+
   registerLocale("es", es);
 
  
   return (
     <React.Fragment >
-    <h3 style={{ marginTop: "8rem" }} className="d-flex justify-content-center align-items-center">Elige las fechas para consultar precio y disponibilidad</h3>
+    <h3 style={{ marginTop: "10rem" }} className="d-flex justify-content-center align-items-center">Elige las fechas para consultar precio y disponibilidad</h3>
     <div style={{ marginTop: "3rem" }} className="d-flex justify-content-center align-items-center">
     {/* Type of calendar from ractdatepicker: Date range for one datepicker with disabled dates highlighted */}
       <DatePicker
@@ -70,7 +91,7 @@ const Calendar = () => {
         </div>
         </DatePicker>
     </div>
-    {availability && <h3 style={{ marginTop: "8rem" }} className="d-flex justify-content-center align-items-center">Según las fechas el precio sería de: </h3>}
+    {availability && <h3 style={{ marginTop: "3rem" }} className="d-flex justify-content-center align-items-center">Según las fechas el precio sería de: {`${price}` }€</h3>}
     
     </React.Fragment>
   );
