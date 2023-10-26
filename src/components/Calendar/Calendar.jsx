@@ -48,13 +48,14 @@ const Calendar = () => {
     }
 
   const priceCalculator = () => {
+    // Here we can change the price of each weekday (Sun-Thurs) or weekend day (Fri-Satur).
     const priceWeekday = 40
     const priceWeedend = 60
     let totalPrice = 0
     let currentDate = new Date(startDate)
     
     while (currentDate <= endDate) {
-      if (currentDate.getDay() > 0 && currentDate.getDay() < 6) {
+      if (currentDate.getDay() > 0 && currentDate.getDay() < 5) {
        totalPrice += priceWeekday;
       } else {
         totalPrice += priceWeedend;
@@ -91,7 +92,7 @@ const Calendar = () => {
         </div>
         </DatePicker>
     </div>
-    {availability && <h3 style={{ marginTop: "3rem" }} className="d-flex justify-content-center align-items-center">Según las fechas el precio sería de: {`${price}` }€</h3>}
+    {availability && <h3 style={{ marginTop: "3rem" }} className="d-flex justify-content-center align-items-center">Según las fechas el precio sería de: {`${price}`} €</h3>}
     
     </React.Fragment>
   );
