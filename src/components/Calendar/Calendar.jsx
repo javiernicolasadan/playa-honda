@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import DatePicker, { registerLocale } from "react-datepicker"
 import { addDays, addMonths } from "date-fns"
 import es from "../../locales/es";
+import reservations from "./reservations";
 
 
 const Calendar = () => {
@@ -29,9 +30,8 @@ const Calendar = () => {
         endDate={endDate}
         minDate={addDays(new Date(), 1)}
         maxDate={addMonths(new Date(), 12)}
-        excludeDates={[addDays(new Date(), 1), addDays(new Date(), 12)]}
+        excludeDates={[...reservations]}
         selectsRange
-        
         inline
         locale="es"
         />
