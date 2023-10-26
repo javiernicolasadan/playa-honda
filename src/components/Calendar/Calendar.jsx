@@ -3,8 +3,9 @@ import DatePicker, { registerLocale } from "react-datepicker"
 import { addDays } from "date-fns"
 import es from "../../locales/es";
 
+
 const Calendar = () => {
-    const [startDate, setStartDate] = useState(new Date());
+    const [startDate, setStartDate] = useState(addDays(new Date(), 1));
     const [endDate, setEndDate] = useState(null);
     const onChange = (dates) => {
     const [start, end] = dates;
@@ -12,6 +13,9 @@ const Calendar = () => {
     setEndDate(end);
   };
   registerLocale("es", es);
+  console.log("fecha inicio", startDate)
+  console.log("fecha fin", endDate)
+  
 
   return (
     <React.Fragment >
