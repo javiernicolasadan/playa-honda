@@ -15,10 +15,9 @@ const Calendar = () => {
 
   return (
     <React.Fragment >
-    <div className="d-flex justify-content-center align-items-center">
-        <div style={{ marginTop: "10rem",  }} >
-
-        <DatePicker
+    <h3 style={{ marginTop: "8rem" }} className="d-flex justify-content-center align-items-center">Elige las fechas para consultar precio y disponibilidad</h3>
+    <div style={{ marginTop: "3rem" }} className="d-flex justify-content-center align-items-center">
+      <DatePicker
         selected={startDate}
         onChange={onChange}
         startDate={startDate}
@@ -29,7 +28,6 @@ const Calendar = () => {
         inline
         locale="es"
         />
-        </div>
     </div>
     </React.Fragment>
   );
