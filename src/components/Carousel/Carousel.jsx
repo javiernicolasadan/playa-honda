@@ -1,13 +1,14 @@
 import Carousel from 'react-bootstrap/Carousel';
 import "./carousel.css"
 
+
 const CarouselComponent = () => {
     return ( 
     <>
+    
       <Carousel>
       <Carousel.Item interval={15000}>
         <img
-        
         src="/DSCF2805.JPG"
         className="imgCarousel shadow-1-strong rounded mb-4"
         alt="Kite Surf"
@@ -37,6 +38,7 @@ const CarouselComponent = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    
     </> );
 }
  

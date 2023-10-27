@@ -8,6 +8,7 @@ import { Route, Routes } from "react-router-dom";
 import Activities from './components/Activities/Activities';
 import NavBar from './components/NavBar/Navbar';
 import Calendar from './components/Calendar/Calendar';
+import Contact from './components/Contact/Contact';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='/gallery' element={<Gallery/>}/>
         <Route path='/activities' element={<Activities/>}/>
         <Route path='/availability' element={<Calendar/>}/>
+        <Route path='/contact' element={<Contact/>}/>
       </Routes>
     </>
   )

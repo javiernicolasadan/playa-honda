@@ -18,7 +18,7 @@ const NavBar = () => {
             <Link to="/availability">
             <button className="navbar-toggler" type="button">Disponibilidad</button>
             </Link>
-            <Link to="/contacto">
+            <Link to="/contact">
             <button className="navbar-toggler" type="button">Contacto</button>
             </Link>
         </nav>
