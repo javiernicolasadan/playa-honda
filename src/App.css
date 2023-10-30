@@ -46,6 +46,16 @@ span.react-datepicker__aria-live {
   display: none;
 }
 
+div.row {
+  
+  margin-top: 6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+}
+
+
+
 @media (max-width: 576px) {
   body::before {
     content: "whatever";

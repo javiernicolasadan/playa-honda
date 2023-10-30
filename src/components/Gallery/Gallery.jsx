@@ -1,4 +1,4 @@
-
+import "./gallery.css"
 
 
 
@@ -7,13 +7,14 @@ const Gallery = () => {
         <>
      
 
-  <div  className="row">
+  <div  className="row gallery"  >
 
-    <div className="col-lg-4 col-md-12 mb-4 mb-lg-0" >
+    <div className="col-lg-4 col-md-12 mb-4 mb-lg-0" style={{ marginTop: "30rem", paddingTop: "30rem" }} >
       <img
         src="/DSCF2751.JPG"
         className="w-100 shadow-1-strong rounded mb-4"
         alt="Kite Surf"
+        
       />
 
       <img
