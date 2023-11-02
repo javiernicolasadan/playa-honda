@@ -25,7 +25,8 @@ const Gallery2 = () => {
                         <button
                         key={index}
                         onClick={() => changeCategory(category)}
-                        className={category === activeCategory ? "active" : ""}
+                        className="btn btn-outline-secondary"
+                        
                         >
                         {category}
                         </button>
