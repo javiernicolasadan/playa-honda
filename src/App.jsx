@@ -9,6 +9,7 @@ import Activities from './components/Activities/Activities';
 import NavBar from './components/NavBar/Navbar';
 import Calendar from './components/Calendar/Calendar';
 import Contact from './components/Contact/Contact';
+import Gallery2 from './components/Gallery2/Gallery2';
 
 function App() {
 
@@ -22,6 +23,8 @@ function App() {
         <Route path='/activities' element={<Activities/>}/>
         <Route path='/availability' element={<Calendar/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/gallery2' element={<Gallery2/>}/>
+
       </Routes>
     </>
   )

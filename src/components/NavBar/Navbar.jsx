@@ -21,6 +21,9 @@ const NavBar = () => {
             <Link to="/contact">
             <button className="navbar-toggler" type="button">Contacto</button>
             </Link>
+            <Link to="/gallery2">
+            <button className="navbar-toggler" type="button">Gallery2</button>
+            </Link>
         </nav>
     </React.Fragment> 
     );
