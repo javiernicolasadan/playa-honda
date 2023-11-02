@@ -5,7 +5,7 @@ import  "./gallery2.css"
 
 const Gallery2 = () => {
     const [selectedImage, setSelectedImage] = useState(null)
-    const [activeCategory, setActiveCategory] = useState("all")
+    const [activeCategory, setActiveCategory] = useState("todas")
 
     const categories = Object.keys(media.categories);
 
@@ -19,7 +19,7 @@ const Gallery2 = () => {
     return ( 
         <>
             <div className="container-galleryTwo">
-                <h2>Galeria</h2>
+                <h2>Selecciona una categoría.</h2>
                 <div className="category-buttons">
                     {categories.map((category, index) => (
                         <button
