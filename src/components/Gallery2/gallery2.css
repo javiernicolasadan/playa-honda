@@ -2,7 +2,7 @@
     width: 95%;
     min-height: 100vh;
     position: relative;
-    margin: 0 auto;
+    margin: 4rem auto;
 }
 
 .container-galleryTwo h2 {
@@ -39,7 +39,7 @@
     transform: scale(1.1);
 }
 
-/*   .container-galleryTwo .popup-media {
+  .container-galleryTwo .popup-media {
     position: fixed;
     top: 0;
     left: 0; 
@@ -50,7 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}  */
+} 
 
 .container-galleryTwo .popup-media img {
     position: absolute;
@@ -72,7 +72,7 @@
     font-weight: bolder;
     z-index: 100;
     cursor: pointer;
-    color: black;
+    color: purple;
     user-select: none;
 
 }
