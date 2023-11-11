@@ -20,4 +20,5 @@ const cardData = [
      description: 'Puedes dar paseos en barco desde varios puntos del Mar Menor.',
     },
     // Puedes agregar más objetos de datos para cada tarjeta
+    //esto hay que borrarlo
   ];
