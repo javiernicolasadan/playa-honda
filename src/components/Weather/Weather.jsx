@@ -50,13 +50,14 @@ const Weather = () => {
     <>
 
         <div style={{ marginTop: "10rem" }} className="text-center weather" >
-        <h5>El tiempo hoy en Playa Honda:</h5><br/>
-        
-        {description}<br/>
-        {temp} ºG<br/>
-        {tempMin} ºG min - {tempMax} ºG max<br/>
-        {humidity}%- humedad<br/>
-        {speedWind} m/s
+            <div className="weather-text">
+            <h5>El tiempo hoy en Playa Honda:</h5>
+            {description}<br/>
+            {temp} ºG<br/>
+            {tempMin} ºG min - {tempMax} ºG max<br/>
+            {humidity}%- humedad<br/>
+            {speedWind} m/s
+            </div>
         </div>
 
         

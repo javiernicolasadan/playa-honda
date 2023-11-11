@@ -61,6 +61,24 @@ div.row {
   background-size: cover;
 }
 
+.weather-text{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  gap:3rem;
+  width: 40rem;
+  height: 8rem;
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente */
+  border-radius: 8px;
+  text-align: center;
+  color: black;  
+}
+
 @media (max-width: 576px) {
   body::before {
     content: "whatever";
