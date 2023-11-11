@@ -1,29 +1,32 @@
+import { useEffect } from "react"
+
 const Weather = () => {
-    
-    const fetchData = () => {
+
+    const fetchWeather = async () => {
         try {
-            fetch(`http://api.openweathermap.org/geo/1.0/direct?q=Playa Honda,30385&limit=5&appid=${process.env.OPENWEATHERMAP_API_KEY}`)
-            .then(response => {
-               return response.json() 
-            })
-            .then((data) => {
-                console.log(data)
-            })
-            
+            const response = await fetch("https://api.openweathermap.org/data/2.5/weather?lat=37.63&lon=-0.84&appid=")
+            if(response.status === 200) {
+                const parsed = await response.json() 
+                console.log(parsed)
+            }
         } catch (error) {
             console.log(error)
         }
-        
-    
+    }
+
+    useEffect(() => {
+        fetchWeather()
+    },[])
+
     return ( 
-        <>
-            <p>weather</p>
-            <p>weather</p>
-            <p>weather</p>
-            <p>weather</p>
-            <p>weather</p>
-        </>
-     );
+    <>
+        <p>weather</p>
+        <p>weather</p>
+        <p>weather</p>
+        <p>weather</p>
+        <p>weather</p>
+        <p>weather</p>
+    </>  );
 }
-}
+ 
 export default Weather;
