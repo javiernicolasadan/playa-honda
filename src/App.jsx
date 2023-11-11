@@ -10,6 +10,7 @@ import NavBar from './components/NavBar/Navbar';
 import Calendar from './components/Calendar/Calendar';
 import Contact from './components/Contact/Contact';
 import Gallery2 from './components/Gallery2/Gallery2';
+import Weather from './components/Weather/Weather';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route path='/availability' element={<Calendar/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/gallery2' element={<Gallery2/>}/>
+        <Route path='/weather' element={<Weather/>}/>
 
       </Routes>
     </>
