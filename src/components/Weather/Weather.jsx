@@ -2,7 +2,6 @@ import { useEffect, useState } from "react"
 
 
 const Weather = () => {
-    console.log(process.env)
     const [description, setDescription] = useState();
     const [temp, setTemp] = useState();
     const [tempMax, setTempMax] = useState();
@@ -21,18 +20,31 @@ const Weather = () => {
                 setTempMin(parsed.main.temp_min)
                 setHumidity(parsed.main.humidity)
                 setSpeedWind(parsed.wind.speed)
-                
-             console.log(parsed)
             }
-               
         } catch (error) {
             console.log(error)
         }
     }
+    
+    /* const fetchPolution = async () => {
+        try {
+            const response = await fetch(`http://api.openweathermap.org/data/2.5/air_pollution?lat=37.63&lon=-0.84&appid=${process.env.OPENWEATHERMAP_API_KEY}`)
+            if(response.status === 200) {
+                const parsed = await response.json()
+                console.log(parsed.list[0])
+            }
+        } catch (error) {
+           console.log(error) 
+        }
+    } */
 
     useEffect(() => {
         fetchWeather()
     },[])
+
+    /* useEffect(() => {
+        fetchPolution()
+    },[]) */
 
     return ( 
     <>
@@ -42,10 +54,12 @@ const Weather = () => {
         
         {description}<br/>
         {temp} ºG<br/>
-        <h7>{tempMin} ºG min - {tempMax} ºG max</h7><br/>
+        {tempMin} ºG min - {tempMax} ºG max<br/>
         {humidity}%- humedad<br/>
         {speedWind} m/s
         </div>
+
+        
         
     </>  );
 }
