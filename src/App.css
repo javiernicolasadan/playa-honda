@@ -54,7 +54,12 @@ div.row {
 
 }
 
-
+.weather {
+  background-color: red;
+  height: 20rem;
+  background-image: url(/DSCF2853-2.JPG);
+  background-size: cover;
+}
 
 @media (max-width: 576px) {
   body::before {
