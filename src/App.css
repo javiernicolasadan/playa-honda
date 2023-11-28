@@ -68,6 +68,24 @@ div.row {
   text-align: center;
   color: black;  
 }
+.carousel-indicators [data-bs-target] {
+  border-radius: 100%;
+  width: 1rem!important;
+  height: 1rem!important;
+  margin-bottom: 1rem!important;
+}
+
+.imgCarousel {
+    width: 90vw;
+    height: 65vh;
+    display: block;
+    margin: 0 auto 3rem;
+    margin-top: 80px;
+}
+nav.navbar {
+  background-color: white!important;
+  padding-top: 1.5rem!important;
+}
 @media (max-width: 576px) {
   body::before {
     content: "whatever";
