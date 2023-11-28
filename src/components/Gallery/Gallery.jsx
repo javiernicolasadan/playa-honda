@@ -5,7 +5,7 @@ import  "./gallery.css"
 
 const Gallery = () => {
     const [selectedImage, setSelectedImage] = useState(null)
-    const [activeCategory, setActiveCategory] = useState("todas")
+    const [activeCategory, setActiveCategory] = useState("Todas")
 
     const categories = Object.keys(media.categories);
 

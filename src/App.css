@@ -25,42 +25,32 @@ body::before {
   color: black;
 }
 
-
-
 /* app.css */
 nav.navbar {
   justify-content: space-evenly;
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 5rem!important;
-
-  
 }
 div.card {
   margin-top: 5rem;
   margin-left: 2rem;
   margin-right: 2rem;
 }
-
 span.react-datepicker__aria-live {
   display: none;
 }
-
 div.row {
-  
   margin-top: 6rem;
   margin-left: 1rem;
   margin-right: 1rem;
-
 }
-
 .weather {
   background-color: red;
   height: 30rem;
   background-image: url(/DSCF2853-2.JPG);
   background-size: cover;
 }
-
 .weather-text{
   display: flex;
   flex-direction: row;
@@ -78,7 +68,6 @@ div.row {
   text-align: center;
   color: black;  
 }
-
 @media (max-width: 576px) {
   body::before {
     content: "whatever";
@@ -91,7 +80,6 @@ div.row {
     
   }
 }
-
 @media (min-width: 576px) {
   body::before {
     content: "SM";

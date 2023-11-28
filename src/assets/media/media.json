@@ -1,6 +1,6 @@
 {
     "categories": {
-        "todas" :
+        "Todas" :
         [
           "./DSCF2751.JPG",
           "./DSCF2762.JPG",
@@ -9,18 +9,18 @@
           "./DSCF2803.JPG",
           "./DSCF2816.JPG"
         ],
-        "actividades" :  
+        "Actividades" :  
         [
           "./DSCF2751.JPG",
           "./DSCF2762.JPG"
         ],
        
-        "naturaleza" : [
+        "Naturaleza" : [
             "./DSCF2771.JPG",
             "./DSCF2786.JPG",
             "./DSCF2816.JPG"
         ],
-        "sitios" : [
+        "Sitios" : [
             "./DSCF2803.JPG"
         ]
     }
