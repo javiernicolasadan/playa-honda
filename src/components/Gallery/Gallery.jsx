@@ -1,58 +1,58 @@
-
-
-import "./gallery.css"
-
+import { useState } from "react";
+import media from "../../assets/media/media.json"
+import  "./gallery.css"
 
 
 const Gallery = () => {
+    const [selectedImage, setSelectedImage] = useState(null)
+    const [activeCategory, setActiveCategory] = useState("todas")
+
+    const categories = Object.keys(media.categories);
+
+    const imagesByCategory = media.categories;
+
+    const changeCategory = (category) => {
+        setActiveCategory(category);
+        setSelectedImage(null);
+      };
+
     return ( 
         <>
-        <div  className="row">
-            <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
-              <img
-                src="/DSCF2751.JPG"
-                className="w-100 shadow-1-strong rounded mb-4"
-                alt="Kite Surf"
-             />
-             
+            <div className="container-galleryTwo">
+                <h2>Selecciona una categoría.</h2>
+                <div className="category-buttons">
+                    {categories.map((category, index) => (
+                        <button
+                        key={index}
+                        onClick={() => changeCategory(category)}
+                        className="btn btn-outline-secondary"
+                        
+                        >
+                        {category}
+                        </button>
+                ))}
+                </div>
+                <div className="media-container">
+                    { 
+                        imagesByCategory[activeCategory].map((image, index) => (
+                        <div className="media" key={index} onClick={() => setSelectedImage(image)}>
+                            <img src={image} alt={`image ${index + 1}`} />
+                        </div>
+                    ))
+                    }
+                </div>
 
-              <img
-                src="/DSCF2762.JPG"
-                className="w-100 shadow-1-strong rounded mb-4"
-                alt="Windsurf"
-              />
+                <div className="popup-media" style={{display: selectedImage? "block" : "none"}}>
+                <span onClick={() => setSelectedImage(null)}>&times;</span>
+                {
+                    selectedImage?
+                    <img src={selectedImage} alt="Selected Image"></img> :
+                    null
+                }
+
+                </div>    
+
             </div>
-            
-            <div className="col-lg-4 mb-4 mb-lg-0">
-              <img
-                src="/DSCF2771.JPG"
-                className="w-100 shadow-1-strong rounded mb-4"
-                alt="Gaviotas"
-              />
-
-              <img
-                src="/DSCF2786.JPG"
-                className="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-            </div>
-
-            <div className="col-lg-4 mb-4 mb-lg-0">
-              <img
-                src="/DSCF2803.JPG"
-                className="w-100 shadow-1-strong rounded mb-4"
-                alt="Vela School"
-              />
-
-              <img
-                src="/DSCF2816.JPG"
-                className="w-100 shadow-1-strong rounded mb-4"
-                alt="Boats"
-              />
-            </div>
-          
-          </div>
-          
         </>
      );
 }

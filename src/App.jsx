@@ -1,7 +1,7 @@
 
 import CarouselComponent from './components/Carousel/Carousel';
 import './App.css'
-import Gallery from './components/Gallery/Gallery';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { Route, Routes } from "react-router-dom";
@@ -9,7 +9,7 @@ import Activities from './components/Activities/Activities';
 import NavBar from './components/NavBar/Navbar';
 import Calendar from './components/Calendar/Calendar';
 import Contact from './components/Contact/Contact';
-import Gallery2 from './components/Gallery2/Gallery2';
+import Gallery from './components/Gallery/Gallery';
 import Weather from './components/Weather/Weather';
 
 
@@ -25,7 +25,7 @@ function App() {
         <Route path='/activities' element={<Activities/>}/>
         <Route path='/availability' element={<Calendar/>}/>
         <Route path='/contact' element={<Contact/>}/>
-        <Route path='/gallery2' element={<Gallery2/>}/>
+        
         <Route path='/weather' element={<Weather/>}/>
         
 
