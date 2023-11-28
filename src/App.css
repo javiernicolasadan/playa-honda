@@ -86,6 +86,7 @@ nav.navbar {
   background-color: white!important;
   padding-top: 1.5rem!important;
 }
+
 @media (max-width: 576px) {
   body::before {
     content: "whatever";
