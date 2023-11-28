@@ -8,7 +8,7 @@ body::before {
   margin-top: 60px;
   right: 0;
 }
-
+/* NavBar */
 nav.navbar {
   justify-content: space-evenly;
   padding-top: 1rem;
@@ -65,14 +65,18 @@ div.row {
     width: 90vw;
     height: 65vh;
     display: block;
-    margin: 0 auto 3rem;
-    margin-top: 80px;
+    margin: 80px auto 3rem;
 }
 nav.navbar {
   background-color: white!important;
   padding-top: 1.5rem!important;
 }
-
+@media (max-width: 570px) and (min-width: 293px){
+  .imgCarousel {
+    margin: 100px auto 3rem;
+    
+}
+}
 @media (max-width: 576px) {
   body::before {
     content: "whatever";
@@ -83,14 +87,16 @@ nav.navbar {
       margin-top: 100px!important;
     }
   }
-  
- 
+  .imgCarousel {
+    margin: 190px auto 3rem;
+}
+
 }
 @media (min-width: 576px) {
   body::before {
     content: "SM";
   }
- 
+
 }
 
 @media (min-width: 768px) {
