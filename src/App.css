@@ -61,22 +61,14 @@ div.row {
   height: 1rem!important;
   margin-bottom: 1rem!important;
 }
-.imgCarousel {
-    width: 90vw;
-    height: 65vh;
-    display: block;
-    margin: 80px auto 3rem;
-}
 nav.navbar {
   background-color: white!important;
   padding-top: 1.5rem!important;
 }
-@media (max-width: 570px) and (min-width: 293px){
-  .imgCarousel {
-    margin: 100px auto 3rem;
-    
-}
-}
+
+  
+
+
 @media (max-width: 576px) {
   body::before {
     content: "whatever";
@@ -88,13 +80,30 @@ nav.navbar {
     }
   }
   .imgCarousel {
-    margin: 190px auto 3rem;
+      width: 90vw;
+      height: 65vh;
+      display: block;
+      margin: 160px auto 3rem;
+  }
+  .buttonsNavBar.buttonsNavBar{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
-}
 @media (min-width: 576px) {
   body::before {
     content: "SM";
+  }
+  .imgCarousel {
+    width: 90vw;
+    height: 65vh;
+    display: block;
+    margin: 110px auto 3rem;
+  }
+  .buttonsNavBar.buttonsNavBar{
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
 }
