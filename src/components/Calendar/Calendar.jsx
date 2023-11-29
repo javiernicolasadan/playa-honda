@@ -93,7 +93,7 @@ const Calendar = () => {
  
   return (
     <React.Fragment >
-    <h3 style={{ marginTop: "10rem" }} className="d-flex justify-content-center text-center align-items-center">Elige las fechas para consultar precio y disponibilidad</h3>
+    <h3 style={{ marginTop: "10rem" }} className="chooseDate d-flex justify-content-center text-center align-items-center">Elige las fechas para consultar precio y disponibilidad</h3>
     <div style={{ marginTop: "3rem" }} className="d-flex justify-content-center align-items-center">
     {/* Type of calendar from ractdatepicker: Date range for one datepicker with disabled dates highlighted */}
       <DatePicker
@@ -113,8 +113,8 @@ const Calendar = () => {
         </div>
         </DatePicker>
     </div>
-      {availability && <h3 style={{ marginTop: "3rem" }} className="d-flex justify-content-center text-center align-items-center">Según las fechas el precio sería de: {`${price}`} €</h3>}
-      {startDate && <h5 style={{ marginTop: "3rem" }} className="d-flex justify-content-center align-items-center">Fecha de entrada: {`${convertDate(startDate)}`}</h5>}
+      {availability && <h3 style={{ marginTop: "3rem" }} className="chooseDate d-flex justify-content-center text-center align-items-center">Según las fechas el precio sería de: {`${price}`} €</h3>}
+      {startDate && <h5 style={{ marginTop: "3rem" }} className=" d-flex justify-content-center align-items-center">Fecha de entrada: {`${convertDate(startDate)}`}</h5>}
       {endDate && <h5 style={{ marginTop: "1rem" }} className="d-flex justify-content-center align-items-center">Fecha de salida: {`${convertDate(endDate)}`}</h5>}
     </React.Fragment>
   );
