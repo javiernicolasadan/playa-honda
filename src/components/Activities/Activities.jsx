@@ -13,7 +13,7 @@ const Activities = () => {
         <Row  className="g-5 justify-content-center">
           {cardData.map((card, idx) => (
             <Col key={idx} xs={1} sm={1} lg={2} style={{ width: "35rem", height: "32rem" }}>
-              <Card border="secondary" >
+              <Card className="border border-5 rounded-3 " >
                 <Card.Img variant="top" src={card.imageSrc} />
                 <Card.Body>
                   <Card.Title>{card.title}</Card.Title>

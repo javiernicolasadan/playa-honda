@@ -2,7 +2,7 @@ const cardData = [
     {
       imageSrc: "/DSCF2803.JPG",
       title: 'Deportes Nauticos',
-      description: 'Escuela de deportes nauticos para alquilar tablas de windsurf, patines, barcos de vela, asi como recibir clases.',
+      description: 'Escuela de deportes nauticos para alquilar tablas de windsurf, patines, barcos de vela, clases...',
       button: "KSURF",
       path: "https://www.ksurflamanga.com/blogksurf/"
     },

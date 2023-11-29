@@ -11,10 +11,8 @@ body::before {
 }
 /* NavBar */
 nav.navbar {
-  justify-content: space-evenly;
+  justify-content: center;
   padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 5rem!important;
 }
 .buttonsNavBar .navbar-toggler{
   background-color: rgba(156, 152, 152, 0.145);
@@ -23,9 +21,9 @@ nav.navbar {
 
 /* activities */
 div.card {
-  margin-top: 5rem;
   margin-left: 2rem;
   margin-right: 2rem;
+  
 }
 span.react-datepicker__aria-live {
   display: none;
@@ -34,7 +32,13 @@ div.row {
   margin-top: 6rem;
   margin-left: 1rem;
   margin-right: 1rem;
+  
 }
+.card-body a {
+  margin: 0.1rem;
+  background-color: rgb(151, 163, 170);
+}
+
 
 
 .carousel-indicators [data-bs-target] {
@@ -43,10 +47,7 @@ div.row {
   height: 1rem!important;
   margin-bottom: 1rem!important;
 }
-nav.navbar {
-  background-color: white!important;
-  padding-top: 1.5rem!important;
-}
+
 
 @media (max-width: 576px){
   .category-buttons {
