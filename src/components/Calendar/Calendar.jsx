@@ -46,33 +46,54 @@ const Calendar = () => {
       }
       setAvailability(true)
     }
+  //check if dates are high season(june, july, august, september, december) o or low season
+  const highSeason = (date) => {
+    const month = date.getMonth()
+    const highSeasonMonths = [5,6,7,8,11]
+    return highSeasonMonths.includes(month)
+  }
 
+  //Calculate price
   const priceCalculator = () => {
     // Here we can change the price of each weekday (Sun-Thurs) or weekend day (Fri-Satur).
-    const priceWeekday = 40
-    const priceWeedend = 60
+    const priceWeekdayLowSeason = 40
+    const priceWeekendLowSeason = 60
+    const priceWeekdayHighSeason = 60
+    const priceWeekendHighSeason = 80
     let totalPrice = 0
     let currentDate = new Date(startDate)
     
     while (currentDate <= endDate) {
-      if (currentDate.getDay() > 0 && currentDate.getDay() < 5) {
-       totalPrice += priceWeekday;
-      } else {
-        totalPrice += priceWeedend;
+      if (currentDate.getDay() > 0 && currentDate.getDay() < 5 && highSeason(currentDate)) {
+       totalPrice += priceWeekdayHighSeason;
+      } else if (currentDate.getDay() > 4 &&  highSeason(currentDate)){
+        totalPrice += priceWeekendHighSeason;
+      } else if (currentDate.getDay() > 0 && currentDate.getDay() < 5){
+        totalPrice += priceWeekdayLowSeason;
+      } else if (currentDate.getDay() > 4){
+        totalPrice += priceWeekendLowSeason;
       }
+      
       currentDate.setDate(currentDate.getDate() + 1)
     }
     setPrice(totalPrice)
     
   }
-
+  //To convert date to readable date for customer
+  const convertDate = (date) => {
+    const day = date.getDate();
+    const month = date.getMonth() + 1; 
+    const year = date.getFullYear();
+    const formatedDate = `${day}/${month}/${year}`;
+      return formatedDate
+  }
 
   registerLocale("es", es);
 
  
   return (
     <React.Fragment >
-    <h3 style={{ marginTop: "10rem" }} className="d-flex justify-content-center align-items-center">Elige las fechas para consultar precio y disponibilidad</h3>
+    <h3 style={{ marginTop: "10rem" }} className="d-flex justify-content-center text-center align-items-center">Elige las fechas para consultar precio y disponibilidad</h3>
     <div style={{ marginTop: "3rem" }} className="d-flex justify-content-center align-items-center">
     {/* Type of calendar from ractdatepicker: Date range for one datepicker with disabled dates highlighted */}
       <DatePicker
@@ -92,8 +113,9 @@ const Calendar = () => {
         </div>
         </DatePicker>
     </div>
-    {availability && <h3 style={{ marginTop: "3rem" }} className="d-flex justify-content-center align-items-center">Según las fechas el precio sería de: {`${price}`} €</h3>}
-    
+      {availability && <h3 style={{ marginTop: "3rem" }} className="d-flex justify-content-center text-center align-items-center">Según las fechas el precio sería de: {`${price}`} €</h3>}
+      {startDate && <h5 style={{ marginTop: "3rem" }} className="d-flex justify-content-center align-items-center">Fecha de entrada: {`${convertDate(startDate)}`}</h5>}
+      {endDate && <h5 style={{ marginTop: "1rem" }} className="d-flex justify-content-center align-items-center">Fecha de salida: {`${convertDate(endDate)}`}</h5>}
     </React.Fragment>
   );
 }
