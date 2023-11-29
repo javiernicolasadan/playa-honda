@@ -35,28 +35,8 @@ div.row {
   margin-left: 1rem;
   margin-right: 1rem;
 }
-.weather {
-  height: 30rem;
-  background-image: url(/DSCF2853-2.JPG);
-  background-size: cover;
-}
-.weather-text{
-  display: flex;
-  flex-direction: row;
-  justify-content:center;
-  align-items: center;
-  gap:3rem;
-  width: 40rem;
-  height: 8rem;
-  position: absolute;
-  top: 36%;
-  left: 50%;
-  transform: translate(-50%, -70%);
-  background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente */
-  border-radius: 8px;
-  text-align: center;
-  color: black;  
-}
+
+
 .carousel-indicators [data-bs-target] {
   border-radius: 100%;
   width: 1rem!important;
@@ -99,6 +79,32 @@ nav.navbar {
   .chooseDate{
     font-size:larger;
   }
+  .weather-info{
+    display: flex;
+    flex-direction: column;
+  }
+  .weather {
+    height: 30rem;
+    background-image: url(/DSCF2853-2.JPG);
+    background-size: cover;
+  }
+  .weather-text{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap:3rem;
+    width: 15rem;
+    height: 30rem;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente */
+    border-radius: 8px;
+    text-align: center;
+    color: black;  
+  }
   
 }
 
@@ -115,6 +121,28 @@ nav.navbar {
   .buttonsNavBar.buttonsNavBar{
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .weather {
+    height: 45rem;
+    background-image: url(/DSCF2853-2.JPG);
+    background-size: cover;
+  }
+  .weather-text{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap:3rem;
+    width: 40rem;
+    height: 8rem;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente */
+    border-radius: 8px;
+    text-align: center;
+    color: black;  
   }
 
 }

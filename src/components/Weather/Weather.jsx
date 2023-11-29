@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 
-
 const Weather = () => {
     const [description, setDescription] = useState();
     const [temp, setTemp] = useState();
@@ -25,7 +24,7 @@ const Weather = () => {
             console.log(error)
         }
     }
-    
+    //In case we want to add polution info from the API
     /* const fetchPolution = async () => {
         try {
             const response = await fetch(`http://api.openweathermap.org/data/2.5/air_pollution?lat=37.63&lon=-0.84&appid=${process.env.OPENWEATHERMAP_API_KEY}`)
@@ -49,14 +48,16 @@ const Weather = () => {
     return ( 
     <>
 
-        <div style={{ marginTop: "10rem" }} className="text-center weather" >
-            <div className="weather-text">
+        <div style={{ marginTop: "9rem" }} className="text-center weather" >
+            <div className="weather-text overflow-auto weather-info" style={{ minHeight: "100px", maxHeight: "300px" }}>
             <h5>El tiempo hoy en Playa Honda:</h5>
-            {description}<br/>
-            {temp} ºG<br/>
-            {tempMin} ºG min - {tempMax} ºG max<br/>
-            {humidity}%- humedad<br/>
-            {speedWind} m/s
+            <div className="d-flex flex-column align-items-center">
+                <p className="mb-0">{description}</p>
+                <p className="mb-0">{temp} ºG</p>
+                <p className="mb-0">{tempMin} ºG min - {tempMax} ºG max</p>
+                <p className="mb-0">{humidity}%- humedad</p>
+                <p className="mb-0">{speedWind} m/s</p>
+            </div>
             </div>
         </div>
 
