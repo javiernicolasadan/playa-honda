@@ -67,7 +67,12 @@ nav.navbar {
   padding-top: 1.5rem!important;
 }
 
-  
+@media (max-width: 576px){
+  .category-buttons {
+    padding-top:1.5rem;
+    
+  }
+}
 
 
 @media (max-width: 576px) {
@@ -90,9 +95,7 @@ nav.navbar {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  .category-buttons button {
-    display: none;
-  }
+  
 }
 
 @media (min-width: 576px) {

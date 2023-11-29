@@ -20,7 +20,7 @@ const Gallery = () => {
         <>
             <div className="container-galleryTwo">
                 <h2>Selecciona una categoría.</h2>
-                <div className="category-buttons">
+                <div className="category-buttons flex-wrap">
                     {categories.map((category, index) => (
                         <button
                         key={index}
