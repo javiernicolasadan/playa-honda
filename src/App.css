@@ -10,14 +10,8 @@ body::before {
   right: 0;
 }
 /* NavBar */
-nav.navbar {
-  justify-content: center;
-  padding-top: 1rem;
-}
-.buttonsNavBar .navbar-toggler{
-  background-color: rgba(156, 152, 152, 0.145);
-  margin: 0.25rem 0.2rem;
-}
+
+
 
 /* activities */
 div.card {
@@ -106,6 +100,18 @@ div.row {
     text-align: center;
     color: black;  
   }
+  .buttonsNavBar.buttonsNavBar{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+  }
+  .buttonsNavBar .navbar-toggler{
+    background-color: rgba(156, 152, 152, 0.145);
+    margin: 0.15rem 1rem;
+  }
   
 }
 
@@ -114,7 +120,7 @@ div.row {
     content: "SM";
   }
   .imgCarousel {
-    width: 90vw;
+    width: 95vw;
     height: 65vh;
     display: block;
     margin: 110px auto 3rem;
@@ -122,6 +128,9 @@ div.row {
   .buttonsNavBar.buttonsNavBar{
     padding-left: 1rem;
     padding-right: 1rem;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
   }
   .weather {
     height: 45rem;
@@ -144,6 +153,10 @@ div.row {
     border-radius: 8px;
     text-align: center;
     color: black;  
+  }
+  .buttonsNavBar .navbar-toggler{
+    background-color: rgba(156, 152, 152, 0.145);
+    margin: 0.55rem 1.5rem;
   }
 
 }

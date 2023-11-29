@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
     return ( 
     <React.Fragment  >
-        <nav className="buttonsNavBar navbar fixed-top bg-body-tertiary">
+        <nav className="buttonsNavBar navbar fixed-top bg-body-tertiary ">
             <Link to="/">
             <button className="navbar-toggler" type="button">Inicio</button>
             </Link>
