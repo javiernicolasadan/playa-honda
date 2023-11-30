@@ -5,6 +5,7 @@ const NavBar = () => {
     return ( 
     <React.Fragment  >
         <nav className="buttonsNavBar navbar fixed-top bg-body-tertiary ">
+            
             <Link to="/">
             <button className="navbar-toggler" type="button">Inicio</button>
             </Link>
@@ -24,6 +25,7 @@ const NavBar = () => {
             <button className="navbar-toggler" type="button">El Tiempo</button>
             </Link>
         </nav>
+        
     </React.Fragment> 
     );
 }

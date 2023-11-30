@@ -33,8 +33,6 @@ div.row {
   background-color: rgb(151, 163, 170);
 }
 
-
-
 .carousel-indicators [data-bs-target] {
   border-radius: 100%;
   width: 1rem!important;
@@ -49,6 +47,8 @@ div.row {
     
   }
 }
+
+
 
 
 @media (max-width: 576px) {
@@ -106,8 +106,8 @@ div.row {
     display: flex;
     justify-content:center;
     align-items: center;
-    
   }
+  
   .buttonsNavBar .navbar-toggler{
     background-color: rgba(156, 152, 152, 0.145);
     margin: 0.15rem 1rem;
@@ -129,9 +129,11 @@ div.row {
     padding-left: 1rem;
     padding-right: 1rem;
     display: flex;
-    justify-content:flex-end;
+    justify-content:center;
     align-items: center;
+    
   }
+ 
   .weather {
     height: 45rem;
     background-image: url(/DSCF2853-2.JPG);
@@ -157,6 +159,10 @@ div.row {
   .buttonsNavBar .navbar-toggler{
     background-color: rgba(156, 152, 152, 0.145);
     margin: 0.55rem 1.5rem;
+  }
+  .logo-container{
+    display: block;
+    text-align: center;
   }
 
 }
