@@ -19,7 +19,7 @@ const Gallery = () => {
     return ( 
         <>
             <div className="container-galleryTwo">
-                <h2>Selecciona una categoría.</h2>
+                <h2 style={{paddingTop:"2.5rem"}}>Selecciona una categoría.</h2>
                 <div className="category-buttons flex-wrap">
                     {categories.map((category, index) => (
                         <button

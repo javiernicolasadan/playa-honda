@@ -4,6 +4,13 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import cardData from "./cardData";
 import { Container } from "react-bootstrap";
+const buttonStyle = {
+  fontFamily: "'Hedvig Letters Serif', serif",
+};
+const titleStyle = {
+  fontFamily: "'Hedvig Letters Serif', serif",
+  fontWeight: "bold"
+}
 
 const Activities = () => {
   /* console.log(cardData) */
@@ -16,9 +23,9 @@ const Activities = () => {
               <Card className="border border-5 rounded-3 " >
                 <Card.Img variant="top" src={card.imageSrc} />
                 <Card.Body>
-                  <Card.Title>{card.title}</Card.Title>
+                  <Card.Title style={titleStyle}>{card.title}</Card.Title>
                   <Card.Text>{card.description}</Card.Text>
-                  <Button href={card.path} variant="secondary">
+                  <Button  style={buttonStyle} href={card.path} variant="secondary">
                     <a
                       href={card.path}
                       style={{ color: "white", textDecoration: "none" }}
@@ -29,7 +36,7 @@ const Activities = () => {
                     </a>
                   </Button>
                   {card.button2 ? (
-                    <Button href={card.path2} variant="secondary">
+                    <Button style={buttonStyle} href={card.path2} variant="secondary">
                       <a
                         href={card.path2}
                         style={{ color: "white", textDecoration: "none" }}
@@ -43,7 +50,7 @@ const Activities = () => {
                     ""
                   )}
                   {card.button3 ? (
-                    <Button href={card.path3} variant="secondary">
+                    <Button style={buttonStyle} href={card.path3} variant="secondary">
                       <a
                         href={card.path3}
                         style={{ color: "white", textDecoration: "none" }}

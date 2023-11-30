@@ -50,7 +50,7 @@ const Weather = () => {
 
         <div style={{ marginTop: "9rem" }} className="text-center weather" >
             <div className="weather-text overflow-auto weather-info" style={{ minHeight: "100px", maxHeight: "300px" }}>
-            <h5>El tiempo hoy en Playa Honda:</h5>
+            <h5 style={{fontWeight: "bold"}}>El tiempo hoy en Playa Honda:</h5>
             <div className="d-flex flex-column align-items-center">
                 <p className="mb-0">{description}</p>
                 <p className="mb-0">{temp} ºG</p>

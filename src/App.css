@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif&family=Martel+Sans:wght@700&display=swap');
+
+body{
+  font-family: 'Hedvig Letters Serif', serif; 
+}
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Hedvig Letters Serif', serif;
+}
+.buttonsNavBar button,
+.category-buttons button {
+  font-family: 'Hedvig Letters Serif', serif;
+}
+
+
 
 body::before {
   content: "XS";
@@ -38,6 +52,10 @@ div.row {
   width: 1rem!important;
   height: 1rem!important;
   margin-bottom: 1rem!important;
+}
+.logo-container{
+  display: block;
+  text-align: center;
 }
 
 
@@ -112,6 +130,11 @@ div.row {
     background-color: rgba(156, 152, 152, 0.145);
     margin: 0.15rem 1rem;
   }
+  .logo-container img{
+    max-width: 200px;
+  }
+ 
+  
   
 }
 
@@ -133,6 +156,7 @@ div.row {
     align-items: center;
     
   }
+  
  
   .weather {
     height: 45rem;
@@ -160,10 +184,9 @@ div.row {
     background-color: rgba(156, 152, 152, 0.145);
     margin: 0.55rem 1.5rem;
   }
-  .logo-container{
-    display: block;
-    text-align: center;
-  }
+  
+  
+  
 
 }
 
@@ -188,6 +211,12 @@ div.row {
 @media (min-width: 1200px) {
   body::before {
     content: "XL";
+  }
+  .text-container-big{
+    display: block;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
   }
 }
 
