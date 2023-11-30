@@ -47,6 +47,11 @@ const CarouselComponent = () => {
            ¡Sumérgete en la calidez de la Costa Cálida y descubre un lugar donde la tranquilidad y la diversión se unen de manera perfecta para ofrecerte unas vacaciones inolvidables!<br/><br/>
             ¡Te esperamos para vivir una experiencia única en nuestro apartamento en Playa Honda, Murcia!</h5>
       </div>
+      <div className="text-container-small px-5 py-2">
+        <h6 className="text-center">Descubre nuestro apartamento en Playa Honda, Murcia. Sumérgete en un paraíso costero, donde el sol y el mar se combinan para brindarte una experiencia inolvidable.<br/><br/> Despierta con el sonido suave de las olas del Mediterráneo y disfruta de la serenidad en cada rincón. <br/><br/>
+        Explora playas cristalinas, practica deportes acuáticos emocionantes o haz senderismo para admirar la belleza natural. Sumado a la rica cultura y deliciosa gastronomía local, nuestro acogedor apartamento te ofrece comodidad y vistas impresionantes para relajarte y disfrutar de magníficos atardeceres.<br/><br/> 
+        Únete a nosotros en este refugio moderno y cálido en la Costa Cálida para unas vacaciones inolvidables.</h6>
+      </div>
       
     </>
   );

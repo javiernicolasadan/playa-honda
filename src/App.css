@@ -133,6 +133,9 @@ div.row {
   .logo-container img{
     max-width: 200px;
   }
+  .text-container-big{
+    display: none;
+  }
  
   
   
@@ -184,7 +187,9 @@ div.row {
     background-color: rgba(156, 152, 152, 0.145);
     margin: 0.55rem 1.5rem;
   }
-  
+  .text-container-small{
+    display: none;
+  }
   
   
 
