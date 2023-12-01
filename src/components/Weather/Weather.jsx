@@ -49,7 +49,7 @@ const Weather = () => {
 
   return (
     <>
-      <div style={{ marginTop: "9rem" }} className="text-center weather">
+      <div className="text-center weather">
         <div
           className="weather-text overflow-auto weather-info"
           style={{ minHeight: "100px", maxHeight: "300px" }}

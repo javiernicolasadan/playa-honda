@@ -23,7 +23,7 @@ const NavigationBar = () => {
       <Navbar
         expand="sm"
         expanded={expanded}
-        className="NavigationBar  bg-body-tertiary  navbar-expand-md-lg-xl-xxl"
+        className="NavigationBar  bg-body-tertiary  m-0 navbar-expand-md-lg-xl-xxl"
       >
         <Navbar.Toggle onClick={handleNavbarToggle} />
         <Navbar.Collapse>

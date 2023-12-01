@@ -1,6 +1,7 @@
 import { useState } from "react";
 import media from "../../assets/media/media.json"
 import  "./gallery.css"
+import { Nav } from "react-bootstrap";
 
 
 const Gallery = () => {
@@ -18,18 +19,17 @@ const Gallery = () => {
 
     return ( 
         <>
-            <div className="container-galleryTwo">
-                <h2 style={{paddingTop:"2.5rem"}}>Selecciona una categoría.</h2>
-                <div className="category-buttons flex-wrap">
+            <div className="container-galleryTwo mt-0">
+                <h2>Selecciona una categoría.</h2>
+                <div className="category-buttons flex-wrap g-0">
                     {categories.map((category, index) => (
-                        <button
+                        <Nav.Link
                         key={index}
                         onClick={() => changeCategory(category)}
-                        className="btn btn-outline-secondary"
-                        
+                        style={{fontSize:"1.3rem", padding:" 0 0.7rem"}}
                         >
                         {category}
-                        </button>
+                        </Nav.Link>
                 ))}
                 </div>
                 <div className="media-container">

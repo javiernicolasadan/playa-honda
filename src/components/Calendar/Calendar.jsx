@@ -93,7 +93,7 @@ const Calendar = () => {
  
   return (
     <React.Fragment >
-    <h3 style={{ marginTop: "10rem" }} className="chooseDate d-flex justify-content-center text-center align-items-center">Elige las fechas para consultar precio y disponibilidad</h3>
+    <h4 style={{ marginTop: "3rem" }} className="chooseDate d-flex justify-content-center text-center align-items-center">Elige las fechas para consultar precio y disponibilidad</h4>
     <div style={{ marginTop: "3rem" }} className="d-flex justify-content-center align-items-center">
     {/* Type of calendar from ractdatepicker: Date range for one datepicker with disabled dates highlighted */}
       <DatePicker

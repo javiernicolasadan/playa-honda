@@ -40,7 +40,7 @@ span.react-datepicker__aria-live {
   display: none;
 }
 div.row {
-  margin-top: 6rem;
+  margin-top: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
   
@@ -86,7 +86,7 @@ div.row {
       width: 90vw;
       height: 65vh;
       display: block;
-      margin: 160px auto 3rem;
+      
   }
   .buttonsNavBar.buttonsNavBar{
     padding-left: 1rem;
@@ -152,7 +152,7 @@ div.row {
     width: 95vw;
     height: 65vh;
     display: block;
-    margin: 110px auto 3rem;
+    
   }
   .buttonsNavBar.buttonsNavBar{
     padding-left: 1rem;
@@ -206,7 +206,7 @@ div.row {
     justify-content: space-evenly;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    margin-bottom: 5rem!important;
+    
   }
   .navbar-nav-centered {
   display: flex;
