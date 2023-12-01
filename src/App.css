@@ -6,11 +6,14 @@ body{
 h1, h2, h3, h4, h5, h6, p {
   font-family: 'Hedvig Letters Serif', serif;
 }
-.buttonsNavBar button,
+.nav-link,
 .category-buttons button {
   font-family: 'Hedvig Letters Serif', serif;
 }
 
+.nav-link {
+  
+}
 
 
 body::before {
@@ -205,6 +208,14 @@ div.row {
     padding-bottom: 1rem;
     margin-bottom: 5rem!important;
   }
+  .navbar-nav-centered {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap:2rem;
+}
+
+
 }
 
 @media (min-width: 992px) {
