@@ -1,0 +1,23 @@
+.parallax {
+     /* Altura completa de la ventana */
+    overflow-x: hidden;
+    overflow-y: auto; /* Habilitar el desplazamiento vertical */
+    position: relative;
+  }
+  
+  .parallax-background {
+    position: fixed;
+    top: 700px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/DSCF2853-2.JPG'); /* Ruta de tu imagen */
+    background-attachment: fixed; /* Fija la imagen de fondo */
+    background-position: center;
+    background-size: cover;
+    z-index: 1; /* Coloca la imagen detrás del contenido */
+  }
+  
+  .parallax-content {
+    padding: 20px;
+  }

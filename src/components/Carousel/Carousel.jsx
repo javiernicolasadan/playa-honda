@@ -1,4 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
+import Parallax from "../Parallax/Parallax";
+
 
 const CarouselComponent = () => {
   return (
@@ -102,6 +104,8 @@ const CarouselComponent = () => {
           para unas vacaciones inolvidables.
         </h6>
       </div>
+      <Parallax/>
+      
     </>
   );
 };
