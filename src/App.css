@@ -64,7 +64,8 @@ div.row {
 
 @media (max-width: 576px){
   .category-buttons {
-    padding-top:1.5rem;
+    padding-top:1rem;
+    
     
   }
 }
@@ -139,7 +140,15 @@ div.row {
   .text-container-big{
     display: none;
   }
- 
+  .category-buttons{
+    flex-direction: column;
+    align-content: center;
+    padding: 0;
+  }
+  .container-galleryTwo .popup-media img {
+    max-width: 85%;
+   
+  } 
   
   
 }
@@ -234,6 +243,7 @@ div.row {
     max-width: 50%;
     margin: 0 auto;
   }
+  
 }
 
 @media (min-width: 1400px) {
