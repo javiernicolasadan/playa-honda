@@ -5,7 +5,7 @@ const Grid = () => {
         className="container text-center grid-container"
         style={{ marginTop: "4rem" }}
       >
-        <div className="row justify-content-evenly " style={{ gap: "2rem" }}>
+        <div className="row justify-content-evenly grid-row" style={{ gap: "2rem" }}>
           <div className="p-3 col-xl-4 col-xl-3 col-md-4 col-sm-6 col-12 grid-item item-1">
             
               <h4>Playa Honda</h4>
