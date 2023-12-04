@@ -9,6 +9,7 @@ import Contact from "./components/Contact/Contact";
 import Gallery from "./components/Gallery/Gallery";
 import Weather from "./components/Weather/Weather";
 import NavigationBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/weather" element={<Weather />} />
       </Routes>
+
+      <Footer/>
     </>
   );
 }

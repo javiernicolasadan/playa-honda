@@ -107,6 +107,7 @@ const CarouselComponent = () => {
       </div>
       <Parallax/>
       <Grid/>
+      
     </>
   );
 };
