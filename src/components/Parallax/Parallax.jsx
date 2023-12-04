@@ -4,7 +4,7 @@ const Parallax = () => {
   return (
     <>
       <section className="parallax">
-        <h1>Tu refugio frente al mar te aguarda en Playa Honda</h1>
+        <h1>Tu refugio frente al mar te espera en Playa Honda</h1>
       </section>
 
       

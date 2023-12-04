@@ -11,11 +11,6 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: 'Hedvig Letters Serif', serif;
 }
 
-.nav-link {
-  
-}
-
-
 body::before {
   content: "XS";
   color: red;
@@ -61,6 +56,12 @@ div.row {
   text-align: center;
 }
 
+.grid-item img{
+  max-height:8rem;
+  width:100%;
+  border-radius:30px;
+}
+
 
 @media (max-width: 576px){
   .category-buttons {
@@ -87,6 +88,7 @@ div.row {
       width: 90vw;
       height: 65vh;
       display: block;
+      object-fit: cover;
       
   }
   .buttonsNavBar.buttonsNavBar{

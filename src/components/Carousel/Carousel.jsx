@@ -1,5 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
 import Parallax from "../Parallax/Parallax";
+import Grid from "../Grid";
 
 
 const CarouselComponent = () => {
@@ -105,7 +106,7 @@ const CarouselComponent = () => {
         </h6>
       </div>
       <Parallax/>
-      
+      <Grid/>
     </>
   );
 };
