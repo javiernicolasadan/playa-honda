@@ -1,4 +1,4 @@
-import CarouselComponent from "./components/Carousel/Carousel";
+
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
@@ -10,6 +10,7 @@ import Gallery from "./components/Gallery/Gallery";
 import Weather from "./components/Weather/Weather";
 import NavigationBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <NavigationBar />
 
       <Routes>
-        <Route path="/" element={<CarouselComponent />} />
+        <Route path="/" element={<Home />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/activities" element={<Activities />} />
         <Route path="/availability" element={<Calendar />} />
