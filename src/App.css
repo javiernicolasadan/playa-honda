@@ -238,6 +238,7 @@ div.row {
     content: "XL";
   }
   .text-container-big{
+    margin-top: 30px!important;
     display: block;
     text-align: center;
     max-width: 50%;
