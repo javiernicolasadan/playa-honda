@@ -3,7 +3,7 @@
 const Contact = () => {
   return (
     <>
-      <div style={{ marginTop: "3rem"}} className="d-flex text-center contact">
+      <div style={{ marginTop: "3rem"}} className="d-flex justify-content-center align-items-center contact">
         {/* <Spinner animation="grow" variant="secondary" role="status">
           <span className="visually-hidden">Loading...</span>
         </Spinner> */}
