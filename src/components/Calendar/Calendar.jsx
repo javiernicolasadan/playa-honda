@@ -93,8 +93,10 @@ const Calendar = () => {
  
   return (
     <React.Fragment >
-    <h4 style={{ marginTop: "3rem" }} className="chooseDate d-flex justify-content-center text-center align-items-center">Elige las fechas para consultar precio y disponibilidad</h4>
-    <div style={{ marginTop: "3rem" }} className="d-flex justify-content-center align-items-center">
+    <div className="date-picker-all">
+
+    <h4 style={{ marginTop: "3rem" }} className="chooseDate d-flex justify-content-center text-center align-items-center ">Elige las fechas para consultar precio y disponibilidad</h4>
+    <div style={{ marginTop: "2rem" }} className="d-flex justify-content-center align-items-center" >
     {/* Type of calendar from ractdatepicker: Date range for one datepicker with disabled dates highlighted */}
       <DatePicker
         selected={startDate}
@@ -116,6 +118,7 @@ const Calendar = () => {
       {availability && <h3 style={{ marginTop: "3rem" }} className="chooseDate d-flex justify-content-center text-center align-items-center">Según las fechas el precio sería de: {`${price}`} €</h3>}
       {startDate && <h5 style={{ marginTop: "3rem" }} className=" d-flex justify-content-center align-items-center">Fecha de entrada: {`${convertDate(startDate)}`}</h5>}
       {endDate && <h5 style={{ marginTop: "1rem" }} className="d-flex justify-content-center align-items-center">Fecha de salida: {`${convertDate(endDate)}`}</h5>}
+    </div>
     </React.Fragment>
   );
 }

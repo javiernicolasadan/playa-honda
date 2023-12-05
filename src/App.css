@@ -2,6 +2,7 @@
 
 body{
   font-family: 'Hedvig Letters Serif', serif; 
+  
 }
 h1, h2, h3, h4, h5, h6, p, a {
   font-family: 'Hedvig Letters Serif', serif;
@@ -24,6 +25,7 @@ body::before {
   
   right: 0;
 }
+
 /* NavBar */
 
 
@@ -154,6 +156,10 @@ div.row {
     max-width: 85%;
    
   } 
+  .date-picker-all{
+    min-height: 80vh;
+  }
+  
   
   
 }
@@ -207,6 +213,14 @@ div.row {
   .text-container-small{
     display: none;
   }
+  .date-picker-all{
+    min-height: 60vh;
+  }
+  .contact {
+    
+    min-height: 59vh;
+  }
+ 
   
   
 
@@ -232,6 +246,11 @@ div.row{
  
   gap: 0 !important;
   
+}
+footer li,
+footer p {
+  
+  text-align: center;
 }
 
 

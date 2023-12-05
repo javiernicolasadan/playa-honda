@@ -1,21 +1,28 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from "react-bootstrap";
 
 const Footer = () => {
-    return ( 
-        <footer className="bg-secondary text-light py-4">
+  return (
+    <footer className="bg-secondary text-light py-4 ">
       <Container>
         <Row>
           <Col md={6}>
             <p>Ave. Julietta Orbaiceta, Playa Honda, Cartagena</p>
             <p>javiernicolasadan@gmail.com</p>
-           
           </Col>
           <Col md={6}>
             <ul className="list-unstyled">
-              <li><a href="/gallery">Galería</a></li>
-              <li><a href="/activities">Actividades</a></li>
-              <li><a href="/availability">Disponibilidad</a></li>
-              <li><a href="/weather">El Tiempo</a></li>
+              <li>
+                <a href="/gallery">Galería</a>
+              </li>
+              <li>
+                <a href="/activities">Actividades</a>
+              </li>
+              <li>
+                <a href="/availability">Disponibilidad</a>
+              </li>
+              <li>
+                <a href="/weather">El Tiempo</a>
+              </li>
             </ul>
           </Col>
         </Row>
@@ -26,7 +33,7 @@ const Footer = () => {
         </Row>
       </Container>
     </footer>
-     );
-}
- 
+  );
+};
+
 export default Footer;
