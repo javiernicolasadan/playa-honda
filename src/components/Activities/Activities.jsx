@@ -3,7 +3,8 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import cardData from "./cardData";
-import { Container } from "react-bootstrap";
+import { Container, Spinner } from "react-bootstrap";
+import { useEffect } from "react";
 const buttonStyle = {
   fontFamily: "'Hedvig Letters Serif', serif",
 };
@@ -12,10 +13,18 @@ const titleStyle = {
   fontWeight: "bold"
 }
 
-const Activities = () => {
-  /* console.log(cardData) */
+const Activities = ({ isLoading, handleLoadingChange }) => {
+  useEffect(()=>{
+    handleLoadingChange(true)
+   },[])
+
+  setTimeout(() => {
+    handleLoadingChange(false);
+  }, 2000);
+
   return (
     <>
+    {isLoading? <Spinner/> : (
       <Container style={{ paddingBottom: "8rem"}}>
         <Row  className="g-5 justify-content-center">
           {cardData.map((card, idx) => (
@@ -69,6 +78,8 @@ const Activities = () => {
           ))}
         </Row>
       </Container>
+    )}
+      
     </>
   );
 };

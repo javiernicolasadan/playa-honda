@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 .category-buttons button {
   font-family: 'Hedvig Letters Serif', serif;
 }
+
 footer a{
   text-decoration: none;
   color: inherit
@@ -28,6 +29,15 @@ body::before {
 
 /* NavBar */
 
+.spinner-border{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
 
 
 /* activities */

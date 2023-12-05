@@ -11,22 +11,28 @@ import Weather from "./components/Weather/Weather";
 import NavigationBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
+import { useState } from "react";
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+  const handleLoadingChange = (value) => {
+    setIsLoading(value);
+  };
+
   return (
     <>
       <NavigationBar />
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/activities" element={<Activities />} />
-        <Route path="/availability" element={<Calendar />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/weather" element={<Weather />} />
+        <Route path="/" element={<Home isLoading={isLoading} handleLoadingChange={handleLoadingChange}/>} />
+        <Route path="/gallery" element={<Gallery isLoading={isLoading} handleLoadingChange={handleLoadingChange} />} />
+        <Route path="/activities" element={<Activities isLoading={isLoading} handleLoadingChange={handleLoadingChange}/>} />
+        <Route path="/availability" element={<Calendar isLoading={isLoading} handleLoadingChange={handleLoadingChange}/>} />
+        <Route path="/contact" element={<Contact isLoading={isLoading} handleLoadingChange={handleLoadingChange}/>} />
+        <Route path="/weather" element={<Weather isLoading={isLoading} handleLoadingChange={handleLoadingChange}/>} />
       </Routes>
 
-      <Footer/>
+      <Footer isLoading={isLoading}/>
     </>
   );
 }

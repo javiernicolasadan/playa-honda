@@ -1,7 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
 
-const Footer = () => {
-  return (
+const Footer = ({ isLoading }) => {
+ 
+  return isLoading ? null : (
     <footer className="bg-secondary text-light py-4 ">
       <Container>
         <Row>

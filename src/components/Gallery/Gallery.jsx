@@ -1,21 +1,33 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import media from "../../assets/media/media.json";
 import "./gallery.css";
 import { Nav } from "react-bootstrap";
+import { Spinner } from "react-bootstrap";
 
-const Gallery = () => {
+const Gallery = ({ isLoading, handleLoadingChange }) => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [activeCategory, setActiveCategory] = useState("Todas");
   const categories = Object.keys(media.categories);
   const imagesByCategory = media.categories;
+  
+  useEffect(()=>{
+    handleLoadingChange(true)
+   },[])
+
+  setTimeout(() => {
+    handleLoadingChange(false);
+  }, 2500);
 
   const changeCategory = (category) => {
     setActiveCategory(category);
     setSelectedImage(null);
   };
+  
+  
 
   return (
     <>
+    {isLoading? <Spinner/> : (
       <div className="container-galleryTwo mt-0">
         <h2>Selecciona una categoría.</h2>
         <div className="category-buttons flex-wrap g-0">
@@ -51,6 +63,8 @@ const Gallery = () => {
           ) : null}
         </div>
       </div>
+    )}
+      
     </>
   );
 };

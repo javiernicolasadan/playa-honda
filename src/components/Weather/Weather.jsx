@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+
 const Weather = () => {
   const [description, setDescription] = useState();
   const [temp, setTemp] = useState();
@@ -7,6 +8,7 @@ const Weather = () => {
   const [tempMin, setTempMin] = useState();
   const [humidity, setHumidity] = useState();
   const [speedWind, setSpeedWind] = useState();
+  
 
   const fetchWeather = async () => {
     try {
@@ -24,8 +26,15 @@ const Weather = () => {
       }
     } catch (error) {
       console.log(error);
+    } finally {
+      setLoading(false);
     }
   };
+
+  useEffect(() => {
+    fetchWeather();
+  }, []);
+
   //In case we want to add polution info from the API
   /* const fetchPolution = async () => {
         try {
@@ -39,13 +48,11 @@ const Weather = () => {
         }
     } */
 
-  useEffect(() => {
-    fetchWeather();
-  }, []);
-
   /* useEffect(() => {
         fetchPolution()
     },[]) */
+
+
 
   return (
     <>
