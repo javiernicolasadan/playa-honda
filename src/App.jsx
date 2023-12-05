@@ -27,8 +27,8 @@ function App() {
         <Route path="/" element={<Home isLoading={isLoading} handleLoadingChange={handleLoadingChange}/>} />
         <Route path="/gallery" element={<Gallery isLoading={isLoading} handleLoadingChange={handleLoadingChange} />} />
         <Route path="/activities" element={<Activities isLoading={isLoading} handleLoadingChange={handleLoadingChange}/>} />
-        <Route path="/availability" element={<Calendar isLoading={isLoading} handleLoadingChange={handleLoadingChange}/>} />
-        <Route path="/contact" element={<Contact isLoading={isLoading} handleLoadingChange={handleLoadingChange}/>} />
+        <Route path="/availability" element={<Calendar />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/weather" element={<Weather isLoading={isLoading} handleLoadingChange={handleLoadingChange}/>} />
       </Routes>
 
