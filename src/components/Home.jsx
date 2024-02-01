@@ -12,7 +12,7 @@ const Home = ({ isLoading, handleLoadingChange }) => {
 
   setTimeout(() => {
     handleLoadingChange(false);
-  }, 2500);
+  }, 2000);
 
   return (
     <>
