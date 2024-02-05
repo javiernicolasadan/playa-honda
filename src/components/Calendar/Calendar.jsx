@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from "react";
+//import a date picker component to handle the calendar and reservations info
 import DatePicker, { registerLocale } from "react-datepicker"
+//importing date-fns dependecy to handle dates 
 import { addDays, addMonths } from "date-fns"
+//importing from other file letting the possibility of other idioms in the future
 import es from "../../locales/es";
+//THIS IS THE FILE WERE WE ARE MANAGING THE RESERVATIONS, to show properly in the calendar.
 import reservations from "./reservations";
 
 
@@ -27,6 +31,7 @@ const Calendar = () => {
     }
   }, [startDate, endDate]);
 
+  //cheking in avaibleDays and areDatesEqual is the dates choosed by the customer are avaible or not.
   const areDatesEqual = (date1, date2) => {
       return (
         date1.getDate() === date2.getDate() &&

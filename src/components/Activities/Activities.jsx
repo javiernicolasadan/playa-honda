@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import cardData from "./cardData";
 import { Container, Spinner } from "react-bootstrap";
 import { useEffect } from "react";
+
 const buttonStyle = {
   fontFamily: "'Hedvig Letters Serif', serif",
 };
@@ -13,6 +14,7 @@ const titleStyle = {
   fontWeight: "bold"
 }
 
+//using handleLoadingChange to show spinner 2seg untill pic are showed
 const Activities = ({ isLoading, handleLoadingChange }) => {
   useEffect(()=>{
     handleLoadingChange(true)
@@ -44,6 +46,7 @@ const Activities = ({ isLoading, handleLoadingChange }) => {
                       {card.button}
                     </a>
                   </Button>
+                  //just in case the card have more than one button
                   {card.button2 ? (
                     <Button style={buttonStyle} href={card.path2} variant="secondary">
                       <a
