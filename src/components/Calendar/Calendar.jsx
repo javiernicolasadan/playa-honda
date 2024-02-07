@@ -5,9 +5,9 @@ import DatePicker, { registerLocale } from "react-datepicker"
 import { addDays, addMonths } from "date-fns"
 //importing from other file letting the possibility of other idioms in the future
 import es from "../../locales/es";
-//THIS IS THE FILE WERE WE ARE MANAGING THE RESERVATIONS, to show properly in the calendar.
-import reservations from "./reservations";
-
+//THIS IS THE FILE WERE WE ARE MANAGING THE RESERVATIONS AND THE PRICING, to show properly in the calendar.
+import reservations from "./PricingAndReservations";
+import { priceWeekdayHighSeason,priceWeekdayLowSeason, priceWeekendHighSeason,priceWeekendLowSeason } from "./PricingAndReservations";
 
 const Calendar = () => {
   const [startDate, setStartDate] = useState(null);
@@ -60,11 +60,7 @@ const Calendar = () => {
 
   //Calculate price
   const priceCalculator = () => {
-    // Here we can change the price of each weekday (Sun-Thurs) or weekend day (Fri-Satur).
-    const priceWeekdayLowSeason = 40
-    const priceWeekendLowSeason = 60
-    const priceWeekdayHighSeason = 60
-    const priceWeekendHighSeason = 80
+    
     let totalPrice = 0
     let currentDate = new Date(startDate)
     
