@@ -1,4 +1,4 @@
-
+//main file of the proyect, where all routes and manage
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
