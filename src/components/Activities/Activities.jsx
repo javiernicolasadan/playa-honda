@@ -46,7 +46,7 @@ const Activities = ({ isLoading, handleLoadingChange }) => {
                       {card.button}
                     </a>
                   </Button>
-                  //just in case the card have more than one button
+                  {/* just in case the card have more than one button */}
                   {card.button2 ? (
                     <Button style={buttonStyle} href={card.path2} variant="secondary">
                       <a
