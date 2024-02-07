@@ -16,18 +16,18 @@ footer a{
   text-decoration: none;
   color: inherit
 }
-body::before {
+
+/* 
+  Really useful tool to check the screen size while developing
+  body::before {
   content: "XS";
   color: red;
   font-size: 2rem;
   font-weight: bold;
   position: fixed;
   margin-top: 60px;
-  
   right: 0;
-}
-
-/* NavBar */
+} */
 
 .spinner-border{
   position: fixed;
@@ -36,7 +36,6 @@ body::before {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 
@@ -80,20 +79,8 @@ div.row {
   text-align: center;
 }
 
-
-@media (max-width: 576px){
-  .category-buttons {
-    padding-top:1rem;
-    
-    
-  }
-}
-
-
-
-
 @media (max-width: 576px) {
-  body::before {
+  /* body::before {
     content: "whatever";
     .img-thumbnail {
       margin-top: 100px!important;
@@ -101,13 +88,15 @@ div.row {
     .img-fluid {
       margin-top: 100px!important;
     }
+  } */
+  .category-buttons {
+    padding-top:1rem;
   }
   .imgCarousel {
       width: 90vw;
       height: 65vh;
       display: block;
       object-fit: cover;
-      
   }
   .buttonsNavBar.buttonsNavBar{
     padding-left: 1rem;
@@ -150,7 +139,6 @@ div.row {
     justify-content:center;
     align-items: center;
   }
-  
   .buttonsNavBar .navbar-toggler{
     background-color: rgba(156, 152, 152, 0.145);
     margin: 0.15rem 1rem;
@@ -173,20 +161,16 @@ div.row {
   .date-picker-all{
     min-height: 80vh;
   }
-  
-  
-  
 }
 
 @media (min-width: 576px) {
-  body::before {
+  /* body::before {
     content: "SM";
-  }
+  } */
   .imgCarousel {
     width: 95vw;
     height: 65vh;
     display: block;
-    
   }
   .buttonsNavBar.buttonsNavBar{
     padding-left: 1rem;
@@ -194,10 +178,7 @@ div.row {
     display: flex;
     justify-content:center;
     align-items: center;
-    
   }
-  
- 
   .weather {
     height: 45rem;
     background-image: url(/DSCF2853-2.JPG);
@@ -231,55 +212,44 @@ div.row {
     min-height: 60vh;
   }
   .contact {
-    
     min-height: 59vh;
   }
- 
-  
-  
-
 }
 
 @media (min-width: 768px) {
-  body::before {
+  /* body::before {
     content: "MD";
-  }
+  } */
   nav.navbar {
     justify-content: space-evenly;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    
   }
   .navbar-nav-centered {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  gap:2rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap:2rem;
 }
-div.row{
- 
-  gap: 0 !important;
-  
+  div.row{
+     gap: 0 !important;
+  }
+  footer li,
+  footer p {
+    text-align: center;
 }
-footer li,
-footer p {
-  
-  text-align: center;
-}
-
-
 }
 
 @media (min-width: 992px) {
-  body::before {
+  /* body::before {
     content: "LG";
-  }
+  } */
 }
 
 @media (min-width: 1200px) {
-  body::before {
+  /* body::before {
     content: "XL";
-  }
+  } */
   .text-container-big{
     margin-top: 30px!important;
     display: block;
@@ -287,12 +257,11 @@ footer p {
     max-width: 50%;
     margin: 0 auto;
   }
-  
 }
 
 @media (min-width: 1400px) {
-  body::before {
+  /* body::before {
     content: "XXL";
-  }
+  } */
 }
 
