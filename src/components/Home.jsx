@@ -1,4 +1,4 @@
-import CarouselComponent from "./Carousel/Carousel";
+import CarouselComponent from "./Carousel";
 import Text from "./Text";
 import Grid from "./Grid";
 import Parallax from "./Parallax/Parallax";

@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
+//in media.json we are filtering the tag of each picture for "all", "nature", "activities" and "places"
 import media from "../../assets/media/media.json";
+//particular CSS for the gallery
 import "./gallery.css";
 import { Nav } from "react-bootstrap";
 import { Spinner } from "react-bootstrap";

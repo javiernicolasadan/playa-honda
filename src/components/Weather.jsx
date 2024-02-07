@@ -9,7 +9,8 @@ const Weather = () => {
   const [humidity, setHumidity] = useState();
   const [speedWind, setSpeedWind] = useState();
   
-
+//here we manage the api call to get the weather, using a .env variable to hide the api personal password
+//and render the info in the component if everything its ok
   const fetchWeather = async () => {
     try {
       const response = await fetch(

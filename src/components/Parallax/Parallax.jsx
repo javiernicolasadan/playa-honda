@@ -6,8 +6,6 @@ const Parallax = () => {
       <section className="parallax">
         <h1>Tu refugio frente al mar te espera en Playa Honda</h1>
       </section>
-
-      
     </>
   );
 };
