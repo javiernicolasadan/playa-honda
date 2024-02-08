@@ -7,7 +7,7 @@ const cardData = [
     description:
       "Escuela de deportes nauticos para alquilar tablas de windsurf, patines, barcos de vela, clases...",
     button: "KSURF",
-    path: "https://www.ksurflamanga.com/blogksurf/",
+    path: "https://www.google.com/maps/place/KSURF+LA+MANGA/@37.6333893,-0.7479462,17z/data=!3m1!4b1!4m6!3m5!1s0xd6322a8ee5c830b:0x6bb819a51fc01cbb!8m2!3d37.6333851!4d-0.7453713!16s%2Fg%2F12hkpx764?entry=ttu",
   },
   {
     imageSrc: "/DSCF2892.JPG",
@@ -35,8 +35,8 @@ const cardData = [
     title: "Paseos en bicicleta",
     description:
       "Puedes dar paseos en barco desde varios puntos del Mar Menor.",
-    button: "Sobikes",
-    path: "https://www.sobikes.com/",
+    button: "BikingLaManga",
+    path: "https://bikinglamanga.com/wordpress/",
   },
 ];
 
