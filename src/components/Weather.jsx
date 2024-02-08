@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 
-
 const Weather = () => {
   const [description, setDescription] = useState();
   const [temp, setTemp] = useState();
@@ -8,9 +7,9 @@ const Weather = () => {
   const [tempMin, setTempMin] = useState();
   const [humidity, setHumidity] = useState();
   const [speedWind, setSpeedWind] = useState();
-  
-//here we manage the api call to get the weather, using a .env variable to hide the api personal password
-//and render the info in the component if everything its ok
+
+  //here we manage the api call to get the weather, using a .env variable to hide the api personal password
+  //and render the info in the component if everything its ok
   const fetchWeather = async () => {
     try {
       const response = await fetch(
@@ -27,8 +26,6 @@ const Weather = () => {
       }
     } catch (error) {
       console.log(error);
-    } finally {
-      setLoading(false);
     }
   };
 
@@ -53,8 +50,6 @@ const Weather = () => {
         fetchPolution()
     },[]) */
 
-
-
   return (
     <>
       <div className="text-center weather">
@@ -70,7 +65,7 @@ const Weather = () => {
               {tempMin} ºG min - {tempMax} ºG max
             </p>
             <p className="mb-0">{humidity}%- humedad</p>
-            <p className="mb-0">{speedWind} m/s</p>
+            <p className="mb-0">{speedWind} m/s - viento</p>
           </div>
         </div>
       </div>
