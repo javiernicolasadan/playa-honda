@@ -52,7 +52,7 @@ This page showcases an apartment available for rent, providing details about the
 
 [Repository Link](https://github.com/javiernicolasadan/bootstrap_practice/)
 
-[Deployed App Link](https://kaleidoscopic-eclair-d386a9.netlify.app/)
+[Deployed App Link](https://playa-honda.vercel.app/)
 
 
 
