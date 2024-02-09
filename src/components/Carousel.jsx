@@ -3,10 +3,11 @@ import Carousel from "react-bootstrap/Carousel";
 const CarouselComponent = () => {
   return (
     <>
-      <Carousel style={{ width: "100vw" }}>
+    <div className="carousel-container">
+    <Carousel>
         <Carousel.Item interval={15000}>
           <img
-            src="/DSCF2805.JPG"
+            src="/carouselOneJPG.jpg"
             className="imgCarousel shadow-1-strong  mb-4 d-block w-100"
             alt="boats in the sea"
           />
@@ -29,6 +30,8 @@ const CarouselComponent = () => {
           <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+    </div>
+      
     </>
   );
 };
