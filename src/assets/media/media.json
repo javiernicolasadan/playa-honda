@@ -23,8 +23,7 @@
             "./cabopalos2.jpg",
             "./faro.jpg",
             "./Miaya4.jpg"
-            
-          ],
+         ],
         
         "Apartamento" : 
           [
@@ -67,25 +66,23 @@
           ],
         "Naturaleza" : 
           [
+            "./atardecer4.jpg",
             "./DSCF2771.JPG",
             "./DSCF2786.JPG",
             "./DSCF2816.JPG",
-            "./atardecer.jpg",
-            "./atardecer2.jpg",
-            "./atardecer3.jpg",
-            "./atardecer4.jpg",
             "./atardecer5.jpg",
-            "./atardecer6.jpg",
             "./Bote1.jpg",
-            "./bote2.jpg",
             "./cabopalos2.jpg",
             "./calafria.jpg",
+            "./atardecer3.jpg",
             "./calblanque.jpg",
             "./calblanque2.jpg",
             "./faro.jpg",
+            "./atardecer2.jpg",
             "./pluma.jpg",
             "./Mar.jpg",
-            "./Playa1.jpg"
+            "./Playa1.jpg",
+            "./atardecer6.jpg"
            ],
         "Sitios" : 
           [
