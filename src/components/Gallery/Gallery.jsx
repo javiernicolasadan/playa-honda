@@ -8,7 +8,7 @@ import { Spinner } from "react-bootstrap";
 
 const Gallery = ({ isLoading, handleLoadingChange }) => {
   const [selectedImage, setSelectedImage] = useState(null);
-  const [activeCategory, setActiveCategory] = useState("Todas");
+  const [activeCategory, setActiveCategory] = useState("De todo");
   const categories = Object.keys(media.categories);
   const imagesByCategory = media.categories;
   
