@@ -1,29 +1,13 @@
 {
     "categories": {
         "Todas" :
-        [
-          "./DSCF2751.JPG",
-          "./DSCF2762.JPG",
-          "./DSCF2771.JPG",
-          "./DSCF2786.JPG",
-          "./DSCF2803.JPG",
-          "./DSCF2816.JPG"
-        ],
-        "Actividades" :  
-        [
-          "./DSCF2751.JPG",
-          "./DSCF2762.JPG"
-        ],
-       
-        "Naturaleza" : [
+          [
+            "./DSCF2751.JPG",
+            "./DSCF2762.JPG",
             "./DSCF2771.JPG",
             "./DSCF2786.JPG",
-            "./DSCF2816.JPG"
-        ],
-        "Sitios" : [
-            "./DSCF2803.JPG"
-        ],
-        "Apartamento" : [
+            "./DSCF2803.JPG",
+            "./DSCF2816.JPG",
             "./Terraza_1_min.jpg",
             "./Salon_cocina_1_min.jpg",
             "./Salon_2_min.jpg",
@@ -41,7 +25,44 @@
             "./Dormitorio_principal_3_min.jpg",
             "./Dormitorio_literas_1_min.jpg",
             "./Dormitorio_literas_2_min.jpg"
-        ]
+          ],
+        
+        "Apartamento" : 
+          [
+            "./Terraza_1_min.jpg",
+            "./Salon_cocina_1_min.jpg",
+            "./Salon_2_min.jpg",
+            "./Salon_1_min.jpg",
+            "./Aseo_2_min.jpg",
+            "./Aseo_1_min.jpg",
+            "./Cocina_1_min.jpg",
+            "./Cocina_2_min.jpg",
+            "./Cocina_3_min.jpg",
+            "./Aseo_3_min.jpg",
+            "./Distribuidor_1_min.jpg",
+            "./Distribuidor_2_min.jpg",
+            "./Dormitorio_principal_1_min.jpg",
+            "./Dormitorio_principal_2_min.jpg",
+            "./Dormitorio_principal_3_min.jpg",
+            "./Dormitorio_literas_1_min.jpg",
+            "./Dormitorio_literas_2_min.jpg"
+          ],
+        "Actividades" :  
+          [
+            "./DSCF2751.JPG",
+            "./DSCF2762.JPG"
+          ],
+        "Naturaleza" : 
+          [
+            "./DSCF2771.JPG",
+            "./DSCF2786.JPG",
+            "./DSCF2816.JPG"
+           ],
+        "Sitios" : 
+          [
+            "./DSCF2803.JPG"
+          ]
+        
     }
     
   }
