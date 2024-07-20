@@ -44,17 +44,19 @@ const cardData = [
     description: "Gastronomia para disfrutar de la vida en la costa.",
     button: "Malvasia",
     path: "https://restaurantemalvasia.com/",
-    button3: "Scabetti",
-    path3:
+    button2: "Scabetti",
+    path2:
       "http://scabetti.es/",
   },
   {
-    imageSrc: "/DSCF2692.JPG",
-    title: "Paseos en bicicleta",
+    imageSrc: "/masaje.jpg",
+    title: "Otras experiencias",
     description:
-      "Puedes dar paseos en barco desde varios puntos del Mar Menor.",
-    button: "BikingLaManga",
-    path: "https://bikinglamanga.com/wordpress/",
+      "Disfruta de multitud de experiencias inolvidables en la zona.",
+    button: "Masaje Thailandes",
+    path: "https://yayathai.com/",
+    button2: "BikingLaManga",
+    path2: "https://bikinglamanga.com/wordpress/",
   },
 ];
 
