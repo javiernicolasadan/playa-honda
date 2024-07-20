@@ -19,7 +19,7 @@ const Footer = ({ isLoading }) => {
                 <a href="/activities">Actividades</a>
               </li>
               <li>
-                <a href="/availability">Disponibilidad</a>
+                <a href="/booking">Reserva</a>
               </li>
               <li>
                 <a href="/weather">El Tiempo</a>
