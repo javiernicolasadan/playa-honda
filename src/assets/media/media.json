@@ -37,7 +37,11 @@
             "./calafria.jpg",
             "./calblanque.jpg",
             "./calblanque2.jpg",
-            "./faro.jpg"
+            "./faro.jpg",
+            "./Miaya.jpg",
+            "./Miaya2.jpg",
+            "./Miaya3.jpg",
+            "./Miaya4.jpg"
           ],
         
         "Apartamento" : 
@@ -84,11 +88,24 @@
             "./calafria.jpg",
             "./calblanque.jpg",
             "./calblanque2.jpg",
-            "./faro.jpg"
+            "./faro.jpg",
+            "./pluma.jpg",
+            "./Mar.jpg",
+            "./Playa1.jpg"
            ],
         "Sitios" : 
           [
-            "./DSCF2803.JPG"
+            "./DSCF2803.JPG",
+            "./laManga.jpg",
+            "./Miaya.jpg",
+            "./Miaya2.jpg",
+            "./Miaya3.jpg",
+            "./Miaya4.jpg",
+            "./Zankara4.jpg",
+            "./Zankara3.jpg",
+            "./cocomelon1.jpg",
+            "./cocomelon2.jpg"
+            
           ]
         
     }
