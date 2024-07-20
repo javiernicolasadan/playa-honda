@@ -79,26 +79,22 @@
             "./atardecer3.jpg",
             "./calblanque.jpg",
             "./calblanque2.jpg",
-            "./faro.jpg",
             "./atardecer2.jpg",
             "./pluma.jpg",
             "./Mar.jpg",
             "./Playa1.jpg",
             "./atardecer6.jpg"
            ],
-        "Sitios" : 
+        "Lugares" : 
           [
-            "./DSCF2803.JPG",
+            "./faro.jpg",
             "./laManga.jpg",
-            "./Miaya.jpg",
-            "./Miaya2.jpg",
-            "./Miaya3.jpg",
-            "./Miaya4.jpg",
-            "./Zankara4.jpg",
-            "./Zankara3.jpg",
-            "./cocomelon1.jpg",
-            "./cocomelon2.jpg"
-            
+            "./calblanque.jpg",
+            "./marchamalo.jpg",
+            "./estacio.jpg",
+            "./puerto.jpg",
+            "./teatroRomano.jpg"
+                       
           ]
         
     }
