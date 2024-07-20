@@ -24,7 +24,20 @@
             "./Dormitorio_principal_2_min.jpg",
             "./Dormitorio_principal_3_min.jpg",
             "./Dormitorio_literas_1_min.jpg",
-            "./Dormitorio_literas_2_min.jpg"
+            "./Dormitorio_literas_2_min.jpg",
+            "./atardecer.jpg",
+            "./atardecer2.jpg",
+            "./atardecer3.jpg",
+            "./atardecer4.jpg",
+            "./atardecer5.jpg",
+            "./atardecer6.jpg",
+            "./Bote1.jpg",
+            "./bote2.jpg",
+            "./cabopalos2.jpg",
+            "./calafria.jpg",
+            "./calblanque.jpg",
+            "./calblanque2.jpg",
+            "./faro.jpg"
           ],
         
         "Apartamento" : 
@@ -45,18 +58,33 @@
             "./Dormitorio_principal_2_min.jpg",
             "./Dormitorio_principal_3_min.jpg",
             "./Dormitorio_literas_1_min.jpg",
-            "./Dormitorio_literas_2_min.jpg"
+            "./Dormitorio_literas_2_min.jpg",
+            "./DSCF2911.JPG"
           ],
         "Actividades" :  
           [
             "./DSCF2751.JPG",
-            "./DSCF2762.JPG"
+            "./DSCF2762.JPG",
+            "./DSCF2692.JPG"
           ],
         "Naturaleza" : 
           [
             "./DSCF2771.JPG",
             "./DSCF2786.JPG",
-            "./DSCF2816.JPG"
+            "./DSCF2816.JPG",
+            "./atardecer.jpg",
+            "./atardecer2.jpg",
+            "./atardecer3.jpg",
+            "./atardecer4.jpg",
+            "./atardecer5.jpg",
+            "./atardecer6.jpg",
+            "./Bote1.jpg",
+            "./bote2.jpg",
+            "./cabopalos2.jpg",
+            "./calafria.jpg",
+            "./calblanque.jpg",
+            "./calblanque2.jpg",
+            "./faro.jpg"
            ],
         "Sitios" : 
           [
