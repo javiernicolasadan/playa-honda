@@ -49,15 +49,8 @@ const NavigationBar = () => {
             >
               Actividades
             </Link>
-            <Link
-              to="/availability"
-              className="nav-link"
-              onClick={handleLinkClick}
-            >
-              Disponibilidad
-            </Link>
-            <Link to="/contact" className="nav-link" onClick={handleLinkClick}>
-              Contacto
+             <Link to="/booking" className="nav-link" onClick={handleLinkClick}>
+              Reserva
             </Link>
             <Link to="/weather" className="nav-link" onClick={handleLinkClick}>
               El Tiempo

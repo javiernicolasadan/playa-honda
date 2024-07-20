@@ -1,4 +1,4 @@
-const Contact = () => {
+const Booking = () => {
   return (
     <>
       <div
@@ -15,4 +15,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Booking;
