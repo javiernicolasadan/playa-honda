@@ -75,6 +75,7 @@ const Activities = ({ isLoading, handleLoadingChange }) => {
                   ) : (
                     ""
                   )}
+                  
                 </Card.Body>
               </Card>
             </Col>
