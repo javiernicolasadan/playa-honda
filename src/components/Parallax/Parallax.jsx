@@ -1,10 +1,12 @@
+import { getTranslation } from "../../services/localizationservice";
 import "./parallax.css";
 
-const Parallax = () => {
+const Parallax = ({language,onHandleLanguage}) => {
   return (
     <>
       <section className="parallax">
-        <h1>Tu refugio frente al mar te espera en Playa Honda</h1>
+        <h1>
+        {getTranslation("home.parallax", language)}</h1>
       </section>
     </>
   );
