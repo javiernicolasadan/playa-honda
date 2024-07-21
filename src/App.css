@@ -165,7 +165,8 @@ div.row {
   .language-button {
     font-size: 1.5rem; /* Aumenta el tamaño de fuente */
     height: 4rem; /* Ajusta la altura del contenedor */
-    margin: auto 0; /* Centra verticalmente de otra manera */
+    margin: auto 0;
+    max-width: 50px; /* Centra verticalmente de otra manera */
   }
   
 }
