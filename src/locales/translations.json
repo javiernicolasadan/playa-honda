@@ -11,8 +11,18 @@
     "gallery": {
       "category": "Selecciona una categoría"
     },
+    "booking": {
+      "intro": "Por favor, contacta en este email para cualquier consulta o sugerencia:"
+      
+    },
     "footer": {
-      "copyright": "Todos los derechos reservados"
+      "adress": "Ave. Julietta Orbaiceta, Playa Honda, Cartagena",
+      "home": "Inicio",
+      "gallery": "Galería",
+      "activities": "Actividades",
+      "booking": "Reserva",
+      "weather": "El Tiempo",
+      "madeWith": "Hecho con ❤️ por JavierN"
     }
   },
   "en": {
@@ -26,8 +36,17 @@
     "gallery": {
       "category": "Select a category"
     },
+    "booking": {
+      "intro": "Please contact us at this email for any inquiries or suggestions:"
+    },
     "footer": {
-      "copyright": "All rights reserved"
+      "adress": "Julietta Orbaiceta Street, Playa Honda, Cartagena",
+      "home": "Home",
+      "gallery": "Gallery",
+      "activities": "Activities",
+      "booking": "Booking",
+      "weather": "Wather",
+      "madeWith": "Made with by ❤️ JavierN"
     }
   }
 }

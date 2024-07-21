@@ -31,17 +31,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Home isLoading={isLoading} handleLoadingChange={handleLoadingChange} language={language} onLanguageChange={handleLanguageChange}/>}
          />
-        
         <Route path="/gallery" element={<Gallery isLoading={isLoading} handleLoadingChange={handleLoadingChange} language={language} onLanguageChange={handleLanguageChange}/>} 
-          
-        />
-        {console.log(language)}
+         />
         <Route path="/activities" element={<Activities isLoading={isLoading} handleLoadingChange={handleLoadingChange}/>} 
           language={language} onLanguageChange={handleLanguageChange}
         />
         <Route path="/availability" element={<Calendar />} />
-        <Route path="/booking" element={<Booking />} 
-          language={language} onLanguageChange={handleLanguageChange}
+        <Route path="/booking" element={<Booking language={language} onLanguageChange={handleLanguageChange}/>} 
         />
         <Route path="/weather" element={<Weather isLoading={isLoading} handleLoadingChange={handleLoadingChange}/>} 
           language={language} onLanguageChange={handleLanguageChange}
@@ -50,7 +46,7 @@ function App() {
       </Routes>
       
 
-      <Footer isLoading={isLoading}/>
+      <Footer isLoading={isLoading} language={language} onLanguageChange={handleLanguageChange}/>
     </>
   );
 }
