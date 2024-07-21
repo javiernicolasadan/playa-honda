@@ -33,8 +33,8 @@ function App() {
          />
         <Route path="/gallery" element={<Gallery isLoading={isLoading} handleLoadingChange={handleLoadingChange} language={language} onLanguageChange={handleLanguageChange}/>} 
          />
-        <Route path="/activities" element={<Activities isLoading={isLoading} handleLoadingChange={handleLoadingChange}/>} 
-          language={language} onLanguageChange={handleLanguageChange}
+        <Route path="/activities" element={<Activities isLoading={isLoading} handleLoadingChange={handleLoadingChange} language={language} onLanguageChange={handleLanguageChange}/>} 
+          
         />
         <Route path="/availability" element={<Calendar />} />
         <Route path="/booking" element={<Booking language={language} onLanguageChange={handleLanguageChange}/>} 
