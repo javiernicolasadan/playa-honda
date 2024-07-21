@@ -3,6 +3,7 @@ import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useMediaQuery } from "@react-hook/media-query";
 import { getTranslation } from "../services/localizationservice";
+import Button from "react-bootstrap/Button";
 
 const NavigationBar = ({ language, onLanguageChange }) => {
   const [expanded, setExpanded] = useState(false);
@@ -56,9 +57,9 @@ const NavigationBar = ({ language, onLanguageChange }) => {
             <Link to="/weather" className="nav-link" onClick={handleLinkClick}>
             {getTranslation("navbar.weather", language)}
             </Link>
-            <button onClick={() => onLanguageChange(!language)}>
+            <Button variant="light" onClick={() => onLanguageChange(!language)}>
               {language === "es" ? "EN" : "ES"}
-            </button>
+            </Button>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
