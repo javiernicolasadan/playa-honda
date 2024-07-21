@@ -161,6 +161,13 @@ div.row {
   .date-picker-all{
     min-height: 80vh;
   }
+  
+  .language-button {
+    font-size: 1.5rem; /* Aumenta el tamaño de fuente */
+    height: 4rem; /* Ajusta la altura del contenedor */
+    margin: auto 0; /* Centra verticalmente de otra manera */
+  }
+  
 }
 
 @media (min-width: 576px) {

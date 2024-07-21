@@ -23,7 +23,7 @@ const CarouselComponent = () => {
         </Carousel.Item>
         <Carousel.Item interval={15000}>
           <img
-            src="/DSCF2940.JPG"
+            src="/BarcoSolaz3.jpeg"
             className="imgCarousel shadow-1-strong mb-4 d-block w-100"
             alt="Mar Menor´s shore"
           />

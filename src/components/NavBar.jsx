@@ -57,12 +57,12 @@ const NavigationBar = ({ language, onLanguageChange }) => {
             <Link to="/weather" className="nav-link" onClick={handleLinkClick}>
               {getTranslation("navbar.weather", language)}
             </Link>
-            <Button variant="light" onClick={() => onLanguageChange(!language)}>
+            <Button variant="light" onClick={() => onLanguageChange(!language)} className="language-button">
               {language === "es" ? "EN" : "ES"}
               {language === "es" ? (
-                <img src="/public/gb.svg" alt="Descripción del SVG" />
+                <img src="/gb.svg" alt="Descripción del SVG" />
               ) : (
-                <img src="/public/es.svg" alt="Descripción del SVG" />
+                <img src="/es.svg" alt="Descripción del SVG" />
               )}
             </Button>
           </Nav>
