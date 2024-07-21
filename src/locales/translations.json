@@ -23,6 +23,15 @@
       "booking": "Reserva",
       "weather": "El Tiempo",
       "madeWith": "Hecho con ❤️ por JavierN"
+    },
+    "weather": {
+      "description": "Por favor, contacta en este email para cualquier consulta o sugerencia:",
+      "weatherToday": "El tiempo hoy en Playa Honda:",
+      "tempMax": "ºG max",
+      "tempMin": "ºG min -",
+      "humidity": "humedad",
+      "speedWind": "viento"
+      
     }
   },
   "en": {
@@ -47,6 +56,15 @@
       "booking": "Booking",
       "weather": "Wather",
       "madeWith": "Made with by ❤️ JavierN"
+    },
+    "weather": {
+      "description": "Por favor, contacta en este email para cualquier consulta o sugerencia:",
+      "weatherToday": "The weather today in Playa Honda:",
+      "tempMin": "ºG min -",
+      "tempMax": "ºG max",
+      "humidity": "humidity",
+      "speedWind": "speedWind"
+      
     }
   }
 }
