@@ -14,7 +14,7 @@ const Grid = ({
           <div className="p-3 col-xl-4 col-xl-3 col-md-4 col-sm-6 col-12 grid-item item-1">
             
               <h4>Playa Honda</h4>
-              <img src="/DSCF2706.JPG" className="mb-3"/>
+              <img src="/atardecer4.jpg" className="mb-3"/>
             
             <p>
             {getTranslation("grid.textOne", language)}
@@ -23,7 +23,7 @@ const Grid = ({
           <div className="p-3 col-xl-4 col-xl-3 col-md-4 col-sm-6 col-12 grid-item item-2">
             <h4>Cabo de palos</h4>
             <div>
-              <img src="/DSCF2776.JPG" className="mb-3"/>
+              <img src="/faro.jpg" className="mb-3"/>
             </div>
             <p>
             {getTranslation("grid.textTwo", language)}
@@ -32,7 +32,7 @@ const Grid = ({
           <div className="p-3 col-xl-4 col-xl-3 col-md-4 col-sm-6 col-12 grid-item item-3">
             <h4>La Manga del Mar Menor</h4>
             <div>
-              <img src="/DSCF2864.JPG" className="mb-3"/>
+              <img src="/laManga.jpg" className="mb-3"/>
             </div>
             <p>
             {getTranslation("grid.textThree", language)}
@@ -41,7 +41,7 @@ const Grid = ({
           <div className="p-3 col-xl-4  col-xl-3  col-md-4  col-sm-6 col-12 grid-item item-4">
             <h4>Calblanque</h4>
             <div>
-              <img src="/DSCF2982.JPG" className="mb-3"/>
+              <img src="/calblanque.jpg" className="mb-3"/>
             </div>
             <p>
             {getTranslation("grid.textFour", language)}

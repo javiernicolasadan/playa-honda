@@ -5,6 +5,7 @@ import { useMediaQuery } from "@react-hook/media-query";
 import { getTranslation } from "../services/localizationservice";
 import Button from "react-bootstrap/Button";
 
+
 const NavigationBar = ({ language, onLanguageChange }) => {
   const [expanded, setExpanded] = useState(false);
   const isMobile = useMediaQuery("(max-width: 768px)");
@@ -58,7 +59,7 @@ const NavigationBar = ({ language, onLanguageChange }) => {
             {getTranslation("navbar.weather", language)}
             </Link>
             <Button variant="light" onClick={() => onLanguageChange(!language)}>
-              {language === "es" ? "EN" : "ES"}
+              {language === "es" ?  "EN" : "ES" }              
             </Button>
           </Nav>
         </Navbar.Collapse>
