@@ -2,8 +2,9 @@ import { useState } from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useMediaQuery } from "@react-hook/media-query";
+import { getTranslation } from "../services/localizationservice";
 
-const NavigationBar = () => {
+const NavigationBar = ({ language, onLanguageChange }) => {
   const [expanded, setExpanded] = useState(false);
   const isMobile = useMediaQuery("(max-width: 768px)");
 
@@ -37,24 +38,27 @@ const NavigationBar = () => {
               className="nav-link"
               onClick={handleLinkClick}
             >
-              Inicio
+              {getTranslation("welcome", language)}
             </Nav.Link>
             <Link to="/gallery" className="nav-link" onClick={handleLinkClick}>
-              Galería
+              {getTranslation("navbar.gallery", language)}
             </Link>
             <Link
               to="/activities"
               className="nav-link"
               onClick={handleLinkClick}
             >
-              Actividades
+              {getTranslation("navbar.activities", language)}
             </Link>
-             <Link to="/booking" className="nav-link" onClick={handleLinkClick}>
-              Reserva
+            <Link to="/booking" className="nav-link" onClick={handleLinkClick}>
+              {getTranslation("navbar.booking", language)}
             </Link>
             <Link to="/weather" className="nav-link" onClick={handleLinkClick}>
-              El Tiempo
+            {getTranslation("navbar.weather", language)}
             </Link>
+            <button onClick={() => onLanguageChange(!language)}>
+              {language === "es" ? "EN" : "ES"}
+            </button>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

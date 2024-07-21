@@ -3,8 +3,7 @@ import React, { useEffect, useState } from "react";
 import DatePicker, { registerLocale } from "react-datepicker"
 //importing date-fns dependecy to handle dates 
 import { addDays, addMonths } from "date-fns"
-//importing from other file letting the possibility of other idioms in the future
-import es from "../../locales/es";
+
 //THIS IS THE FILE WERE WE ARE MANAGING THE RESERVATIONS AND THE PRICING, to show properly in the calendar.
 import reservations from "./PricingAndReservations";
 import { priceWeekdayHighSeason,priceWeekdayLowSeason, priceWeekendHighSeason,priceWeekendLowSeason } from "./PricingAndReservations";

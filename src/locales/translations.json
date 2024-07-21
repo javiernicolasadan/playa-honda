@@ -1,0 +1,29 @@
+
+{
+  "es": {
+    "navbar": {
+      "home": "Inicio",
+      "gallery": "Galería",
+      "activities": "Actividades",
+      "booking": "Reserva",
+      "weather": "El Tiempo"
+    },
+    "welcome": "Bienvenido",
+    "footer": {
+      "copyright": "Todos los derechos reservados"
+    }
+  },
+  "en": {
+    "navbar": {
+      "home": "Home",
+      "gallery": "Gallery",
+      "activities": "Activities",
+      "booking": "Booking",
+      "weather": "Weather"
+    },
+    "welcome": "Welcome",
+    "footer": {
+      "copyright": "All rights reserved"
+    }
+  }
+}
