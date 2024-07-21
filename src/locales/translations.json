@@ -29,6 +29,19 @@
       "humidity": "humedad",
       "speedWind": "viento"
       
+    },
+    "home": {
+      "textOne": "Bienvenido a nuestro apartamento en Playa Honda, un paraíso costero en la hermosa Región de Murcia. Ubicado en un enclave privilegiado, este lugar te invita a sumergirte en un escenario idílico donde el sol, el mar y la tranquilidad se unen para brindarte una experiencia inolvidable.",
+      "textTwo": "Imagina despertar cada mañana con el suave sonido de las olas del Mediterráneo, mientras te deleitas con la vista panorámica que este apartamento ofrece. La serenidad y la paz se entrelazan en cada rincón, invitándote a disfrutar de momentos inolvidables en la costa murciana.",
+      "textThree": "La región de Murcia te ofrece una amplia gama de actividades para todos los gustos. Desde relajarte en las playas de aguas cristalinas hasta aventurarte en emocionantes deportes acuáticos como el windsurf o el paddle surf. Los amantes de la naturaleza encontrarán en los alrededores innumerables rutas de senderismo para explorar la belleza natural de la zona.",
+      "textFour": "Además, la rica cultura y la deliciosa gastronomía local son imperdibles. Descubre los encantadores pueblos pesqueros cercanos, donde podrás degustar exquisitos platos de mariscos frescos y disfrutar de la hospitalidad de sus habitantes.",
+      "textFive": "El apartamento en Playa Honda te ofrece un refugio acogedor y moderno, equipado con todas las comodidades necesarias para garantizar una estancia placentera. Con amplias terrazas que ofrecen vistas impresionantes, podrás relajarte y disfrutar de magníficos atardeceres.",
+      "textSix" : "¡Sumérgete en la calidez de la Costa Cálida y descubre un lugar donde la tranquilidad y la diversión se unen de manera perfecta para ofrecerte unas vacaciones inolvidables!",
+      "textSeven" : "¡Te esperamos para vivir una experiencia única en nuestro apartamento en Playa Honda, Murcia!",
+      "textEight" : "Descubre nuestro apartamento en Playa Honda, Murcia. Sumérgete en un paraíso costero, donde el sol y el mar se combinan para brindarte una experiencia inolvidable.",
+      "textNine" : "Despierta con el sonido suave de las olas del Mar y disfruta de la serenidad en cada rincón.",
+      "textTen" : "Explora playas cristalinas, practica deportes acuáticos emocionantes o haz senderismo para admirar la belleza natural. Sumado a la rica cultura y deliciosa gastronomía local, nuestro acogedor apartamento te ofrece comodidad y vistas impresionantes para relajarte y disfrutar de magníficos atardeceres.",
+      "textEleven" : "Únete a nosotros en este refugio moderno y cálido en la Costa Cálida para unas vacaciones inolvidables." 
     }
   },
   "en": {
@@ -58,7 +71,19 @@
       "weatherToday": "The weather today in Playa Honda:",
       "humidity": "humidity",
       "speedWind": "speedWind"
-      
-    }
+    },
+    "home": {
+      "textOne": "Welcome to our apartment in Playa Honda, a coastal paradise in the beautiful Region of Murcia. Located in a privileged enclave, this place invites you to immerse yourself in an idyllic setting where the sun, the sea, and tranquility come together to offer you an unforgettable experience.",
+      "textTwo": "Imagine waking up every morning to the gentle sound of the waves of the Mediterranean, while you delight in the panoramic view that this apartment offers. Serenity and peace intertwine in every corner, inviting you to enjoy unforgettable moments on the Murcian coast.",
+      "textThree": "The region of Murcia offers a wide range of activities for all tastes. From relaxing on the beaches with crystal clear waters to venturing into exciting water sports such as windsurfing or paddle surfing. Nature lovers will find countless hiking trails in the surroundings to explore the natural beauty of the area.",
+      "textFour": "In addition, the rich culture and delicious local gastronomy are a must. Discover the charming nearby fishing villages, where you can taste exquisite dishes of fresh seafood and enjoy the hospitality of the locals.",
+      "textFive": "The apartment in Playa Honda offers you a cozy and modern retreat, equipped with all the necessary amenities to ensure a pleasant stay. With spacious terraces that offer stunning views, you can relax and enjoy magnificent sunsets.",
+      "textSix": "Immerse yourself in the warmth of the Costa Cálida and discover a place where tranquility and fun come together perfectly to offer you an unforgettable vacation!",
+      "textSeven": "We look forward to welcoming you to live a unique experience in our apartment in Playa Honda, Murcia!",
+      "textEight": "Discover our apartment in Playa Honda, Murcia. Immerse yourself in a coastal paradise where the sun and the sea combine to offer you an unforgettable experience.",
+      "textNine": "Wake up to the gentle sound of the waves of the Mediterranean and enjoy serenity in every corner.",
+      "textTen": "Explore crystal-clear beaches, engage in exciting water sports, or go hiking to admire the natural beauty. Combined with the rich culture and delicious local gastronomy, our cozy apartment offers you comfort and stunning views to relax and enjoy magnificent sunsets.",
+      "textEleven": "Join us in this modern and warm retreat in the Costa Cálida for an unforgettable vacation."
+  }
   }
 }

@@ -2,11 +2,8 @@ import { useEffect } from "react";
 import { getTranslation } from "../services/localizationservice";
 
 const Text = (language, onLanguageChange) => {
-  {console.log(language)}
-  useEffect(() => {
-    {console.log(language)}
-    
-  }, [language]);
+  //{console.log(language)}
+  
 
   return (
     <>
