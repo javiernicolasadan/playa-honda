@@ -8,7 +8,9 @@
       "booking": "Reserva",
       "weather": "El Tiempo"
     },
-    "welcome": "Bienvenido",
+    "gallery": {
+      "category": "Selecciona una categoría"
+    },
     "footer": {
       "copyright": "Todos los derechos reservados"
     }
@@ -21,7 +23,9 @@
       "booking": "Booking",
       "weather": "Weather"
     },
-    "welcome": "Welcome",
+    "gallery": {
+      "category": "Select a category"
+    },
     "footer": {
       "copyright": "All rights reserved"
     }

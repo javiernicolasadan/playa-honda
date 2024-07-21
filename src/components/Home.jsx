@@ -5,14 +5,16 @@ import Parallax from "./Parallax/Parallax";
 import { Spinner } from "react-bootstrap";
 import { useEffect } from "react";
 
-const Home = ({ isLoading, handleLoadingChange }) => {
+const Home = ({ isLoading, handleLoadingChange, language, onLanguageChange }) => {
+  
    useEffect(()=>{
     handleLoadingChange(true)
    },[]) 
-
+  
   setTimeout(() => {
     handleLoadingChange(false);
-  }, 2000);
+    
+  }, 2000); 
 
   return (
     <>
@@ -21,7 +23,8 @@ const Home = ({ isLoading, handleLoadingChange }) => {
       ) : (
         <>
           <CarouselComponent />
-          <Text />
+          <Text  language={language} onLanguageChange={onLanguageChange}/>
+          
           <Parallax />
           <Grid />
         </>

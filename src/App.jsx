@@ -18,8 +18,8 @@ function App() {
   const handleLoadingChange = (value) => {
     setIsLoading(value);
   };
+  
   const [language, setLanguage] = useState("es");
-
   const handleLanguageChange = () => {
     setLanguage(prevLanguage => (prevLanguage === "es" ? "en" : "es"));
   };
@@ -27,13 +27,15 @@ function App() {
   return (
     <>
       <NavigationBar language={language} onLanguageChange={handleLanguageChange}  />
-      {console.log(language)}
+      
       <Routes>
-        <Route path="/" element={<Home isLoading={isLoading} handleLoadingChange={handleLoadingChange}/>}
-        language={language} onLanguageChange={handleLanguageChange} />
-        <Route path="/gallery" element={<Gallery isLoading={isLoading} handleLoadingChange={handleLoadingChange} />} 
-          language={language} onLanguageChange={handleLanguageChange}
+        <Route path="/" element={<Home isLoading={isLoading} handleLoadingChange={handleLoadingChange} language={language} onLanguageChange={handleLanguageChange}/>}
+         />
+        
+        <Route path="/gallery" element={<Gallery isLoading={isLoading} handleLoadingChange={handleLoadingChange} language={language} onLanguageChange={handleLanguageChange}/>} 
+          
         />
+        {console.log(language)}
         <Route path="/activities" element={<Activities isLoading={isLoading} handleLoadingChange={handleLoadingChange}/>} 
           language={language} onLanguageChange={handleLanguageChange}
         />

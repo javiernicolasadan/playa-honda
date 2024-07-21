@@ -39,7 +39,7 @@ const NavigationBar = ({ language, onLanguageChange }) => {
               className="nav-link"
               onClick={handleLinkClick}
             >
-              {getTranslation("welcome", language)}
+              {getTranslation("navbar.home", language)}
             </Nav.Link>
             <Link to="/gallery" className="nav-link" onClick={handleLinkClick}>
               {getTranslation("navbar.gallery", language)}

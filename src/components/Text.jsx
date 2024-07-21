@@ -1,4 +1,13 @@
-const Text = () => {
+import { useEffect } from "react";
+import { getTranslation } from "../services/localizationservice";
+
+const Text = (language, onLanguageChange) => {
+  {console.log(language)}
+  useEffect(() => {
+    {console.log(language)}
+    
+  }, [language]);
+
   return (
     <>
       <div className="logo-container py-3">
@@ -6,8 +15,10 @@ const Text = () => {
       </div>
       <div className="text-container-big px-5 py-2">
         <h5 className="text-center">
+        
+       
           Bienvenido a nuestro apartamento en Playa Honda, un paraíso costero en
-          la hermosa región de Murcia. Ubicado en un enclave privilegiado, este
+          la hermosa Región de Murcia. Ubicado en un enclave privilegiado, este
           lugar te invita a sumergirte en un escenario idílico donde el sol, el
           mar y la tranquilidad se unen para brindarte una experiencia
           inolvidable.
