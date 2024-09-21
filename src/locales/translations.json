@@ -12,7 +12,9 @@
       "category": "Selecciona una categoría"
     },
     "booking": {
-      "intro": "Por favor, contacta en este email para cualquier consulta o sugerencia:"
+      "intro": "Reserva tu estancia en Apartamento Brisa y Mar.",
+      "info": "Haz clic en el botón para realizar tu reserva a través de Cartagena Costa, donde encontrarás toda la información actualizada.",
+      "redirect": "Reserva ahora."
       
     },
     "footer": {
@@ -64,7 +66,10 @@
       "category": "Select a category"
     },
     "booking": {
-      "intro": "Please contact us at this email for any inquiries or suggestions:"
+      "intro": "Book your stay at Brisa y Mar Apartment.",
+      "info": "Click the button to make your reservation through Cartagena Costa, where you'll find all the updated information.",
+      "redirect": "Book now."
+
     },
     "footer": {
       "adress": "Julietta Orbaiceta Street, Playa Honda, Cartagena",
