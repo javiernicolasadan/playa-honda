@@ -9,6 +9,7 @@ const Footer = ({ isLoading, language, onLanguageChange }) => {
           <Col md={6}>
             <p>{getTranslation("footer.adress", language)}</p>
             <p>javiernicolasadan@gmail.com</p>
+            <p>{getTranslation("footer.register", language)} VV.MU.6915-1</p>
           </Col>
           <Col md={6}>
             <ul className="list-unstyled">

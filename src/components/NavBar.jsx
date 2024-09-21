@@ -28,6 +28,7 @@ const NavigationBar = ({ language, onLanguageChange }) => {
         className="NavigationBar  bg-body-tertiary  m-0 navbar-expand-md-lg-xl-xxl sticky-top"
       >
         <Navbar.Toggle onClick={handleNavbarToggle} />
+
         <Navbar.Collapse>
           <Nav
             className="navbar-nav-centered"
@@ -57,7 +58,11 @@ const NavigationBar = ({ language, onLanguageChange }) => {
             <Link to="/weather" className="nav-link" onClick={handleLinkClick}>
               {getTranslation("navbar.weather", language)}
             </Link>
-            <Button variant="light" onClick={() => onLanguageChange(!language)} className="language-button">
+            <Button
+              variant="light"
+              onClick={() => onLanguageChange(!language)}
+              className="language-button"
+            >
               {language === "es" ? "EN" : "ES"}
               {language === "es" ? (
                 <img src="/gb.svg" alt="Descripción del SVG" />

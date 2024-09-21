@@ -54,9 +54,9 @@ const Home = ({
           </div>
           <div className="text-container-small px-5 py-2">
             <h6 className="text-center">
-            {getTranslation("home.textEight", language)}
+              {getTranslation("home.textEight", language)}
               <br />
-              <br /> 
+              <br />
               {getTranslation("home.textNine", language)}
               <br />
               <br />
@@ -66,9 +66,9 @@ const Home = ({
               {getTranslation("home.textEleven", language)}
             </h6>
           </div>
-
-          <Parallax language={language} onLanguageChange={onLanguageChange}/>
-          <Grid language={language} onLanguageChange={onLanguageChange}/>
+          
+          <Parallax language={language} onLanguageChange={onLanguageChange} />
+          <Grid language={language} onLanguageChange={onLanguageChange} />
         </>
       )}
     </>

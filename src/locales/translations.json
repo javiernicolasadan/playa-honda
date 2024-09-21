@@ -17,6 +17,7 @@
     },
     "footer": {
       "adress": "Ave. Julietta Orbaiceta, Playa Honda, Cartagena",
+      "register": "Licencia de Vivienda Turística:",
       "home": "Inicio",
       "gallery": "Galería",
       "activities": "Actividades",
@@ -67,6 +68,7 @@
     },
     "footer": {
       "adress": "Julietta Orbaiceta Street, Playa Honda, Cartagena",
+      "register": "Vacation Rental License Number:",
       "home": "Home",
       "gallery": "Gallery",
       "activities": "Activities",
