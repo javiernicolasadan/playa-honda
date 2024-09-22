@@ -15,7 +15,7 @@ const Weather = ({language, onLanguageChange}) => {
     try {
       const response = await fetch(
         //`https://api.openweathermap.org/data/2.5/weather?lat=37.63&lon=-0.84&appid=${process.env.OPENWEATHERMAP_API_KEY}&units=metric&lang=es`
-        `http://localhost:3000/api/weather?lat=37.63&lon=-0.84&lang=es`
+        `https://playa-honda.vercel.app/`
       );
       if (response.status === 200) {
         const parsed = await response.json();
@@ -35,7 +35,7 @@ const Weather = ({language, onLanguageChange}) => {
     try {
       const response = await fetch(
         //`https://api.openweathermap.org/data/2.5/weather?lat=37.63&lon=-0.84&appid=${process.env.OPENWEATHERMAP_API_KEY}&units=metric&lang=en`
-        `http://localhost:3000/api/weather?lat=37.63&lon=-0.84&lang=en`
+        `https://playa-honda.vercel.app/`
       );
       if (response.status === 200) {
         const parsed = await response.json();
