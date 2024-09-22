@@ -168,7 +168,26 @@ div.row {
     margin: auto 0;
     max-width: 50px; /* Centra verticalmente de otra manera */
   }
+
   
+  .contact{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-booking {
+    width: 100%;
+      height: 20rem;
+      background-image: url(/calareona.jpg);
+      background-size: cover;
+      position: block;
+    }
+    .text-booking{
+    position:relative;
+    text-align: center;
+  }
 }
 
 @media (min-width: 576px) {
@@ -219,8 +238,29 @@ div.row {
   .date-picker-all{
     min-height: 60vh;
   }
-  .contact {
-    min-height: 59vh;
+  .contact{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-booking {
+    width: 80%;
+    height: 20rem;
+    background-image: url(/calareona.jpg);
+    border-radius: 50%; 
+    }
+  .text-booking{
+    position:relative;
+    text-align: center;
+    max-width: 80%;
+  }
+  .navbar-nav-centered {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap:2rem;
   }
 }
 
@@ -238,21 +278,37 @@ div.row {
     justify-content: center;
     width: 100%;
     gap:2rem;
-}
+  }
   div.row{
      gap: 0 !important;
   }
   footer li,
   footer p {
     text-align: center;
-}
+  }
+  .img-booking {
+    width: 80%;
+    height: 20rem;
+    background-image: url(/calareona.jpg);
+    background-size: cover;
+    position: block;
+    border-radius: 50%;
+    }
 }
 
 @media (min-width: 992px) {
   /* body::before {
     content: "LG";
   } */
-}
+  .img-booking {
+    width: 80%;
+    height: 20rem;
+    background-image: url(/calareona.jpg);
+    background-size: cover;
+    position: block;
+    border-radius: 50%;
+    }
+  }
 
 @media (min-width: 1200px) {
   /* body::before {
@@ -265,6 +321,15 @@ div.row {
     max-width: 50%;
     margin: 0 auto;
   }
+  .img-booking {
+    width: 60%;
+    height: 20rem;
+    background-image: url(/calareona.jpg);
+    border-radius: 50%;
+    }
+    .text-booking{
+      max-width: 60%;
+    }
 }
 
 @media (min-width: 1400px) {
