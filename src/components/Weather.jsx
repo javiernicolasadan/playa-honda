@@ -35,7 +35,7 @@ const Weather = ({language, onLanguageChange}) => {
     try {
       const response = await fetch(
         //`https://api.openweathermap.org/data/2.5/weather?lat=37.63&lon=-0.84&appid=${process.env.OPENWEATHERMAP_API_KEY}&units=metric&lang=en`
-        `https://backend-playa-honda.vercel.app/api//weather?lat=37.63&lon=-0.84&appid=${process.env.OPENWEATHERMAP_API_KEY}&units=metric&lang=en`
+        `https://backend-playa-honda.vercel.app/api/weather?lat=37.63&lon=-0.84&appid=${process.env.OPENWEATHERMAP_API_KEY}&units=metric&lang=en`
       );
       if (response.status === 200) {
         const parsed = await response.json();
