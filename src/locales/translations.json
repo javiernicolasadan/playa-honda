@@ -14,7 +14,7 @@
     "booking": {
       "intro": "Reserva tu estancia en Apartamento Brisa y Mar.",
       "info": "Haz clic en el botón para realizar tu reserva a través de Cartagena Costa, donde encontrarás toda la información actualizada.",
-      "redirect": "Reserva ahora."
+      "redirect": "Llevame a la Web de Inmocristal"
       
     },
     "footer": {
@@ -68,7 +68,7 @@
     "booking": {
       "intro": "Book your stay at Brisa y Mar Apartment.",
       "info": "Click the button to make your reservation through Cartagena Costa, where you'll find all the updated information.",
-      "redirect": "Book now."
+      "redirect": "Redirect me to the Inmocristal Website"
 
     },
     "footer": {
