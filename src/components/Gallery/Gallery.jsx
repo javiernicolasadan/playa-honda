@@ -21,7 +21,7 @@ const Gallery = ({
   const translatedCategories = categories.map((category) =>
     getTranslation(`gallery.categories.${category}`, language)
   );
-  //console.log(categories)
+  
   const imagesByCategory = categories.reduce((result, category) => {
     result[category] = media.categories[category];
     return result;
@@ -36,12 +36,14 @@ const Gallery = ({
   }, 2500);
 
   const changeCategory = (categoryKey) => {
+    console.log("Category selected:", categoryKey);
     setActiveCategory(categoryKey);
     setSelectedImage(null);
   };
 
   useEffect(() => {
     setActiveCategory("all"); 
+    console.log("Language changed, setting category to 'all'")
   }, [language]);
 
   return (
@@ -55,7 +57,7 @@ const Gallery = ({
             {translatedCategories.map((category, index) => (
               <Nav.Link
                 key={index}
-                onClick={() => changeCategory(category)}
+                onClick={() => changeCategory(categories[index])}
                 style={{ fontSize: "1.3rem", padding: " 0 0.7rem" }}
               >
                 {translatedCategories[index]}

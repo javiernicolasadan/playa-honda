@@ -98,11 +98,18 @@ const NavigationBar = ({ language, onLanguageChange }) => {
                     alt="british flag"
                     style={{ width: "20px", height: "20px" }}
                   />
-                  : <img
+                  : language === "fr" ?
+                   <img
                     src="/fr.svg"
                     alt="french flag"
                     style={{ width: "20px", height: "15px" }}
-                  />}
+                  />
+                  : <img
+                    src="/nl.svg"
+                    alt="dutch flag"
+                    style={{ width: "20px", height: "15px" }}
+                  />
+                  }
               </Dropdown.Toggle>
               <Dropdown.Menu>
                 <Dropdown.Item eventKey="es">
@@ -128,6 +135,14 @@ const NavigationBar = ({ language, onLanguageChange }) => {
                     style={{ width: "20px", height: "15px" }}
                   />{" "}
                   Français
+                </Dropdown.Item>
+                <Dropdown.Item eventKey="nl">
+                  <img
+                    src="/nl.svg"
+                    alt="dutch flag"
+                    style={{ width: "20px", height: "15px" }}
+                  />{" "}
+                  Nederlands
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>

@@ -1,5 +1,3 @@
-//carData array to show in the component
-
 const cardData = [
   {
     imageSrc: "/Buceo1.jpg",
@@ -7,11 +5,13 @@ const cardData = [
       es: "Deportes Nauticos",
       en: "Water Sports",
       fr: "Sports Nautiques",
+      nl: "Watersporten",
     },
     description: {
       es: "Escuela de deportes nauticos para alquilar tablas de windsurf, patines, barcos de vela, clases...",
       en: "Water sports school for renting windsurf boards, skates, sailboats, classes...",
       fr: "École de sports nautiques pour louer des planches à voile, patins, bateaux à voile, cours...",
+      nl: "Watersportschool voor het huren van windsurfplanken, schaatsen, zeilboten, lessen...",
     },
     button: "KSURF",
     path: "https://www.google.com/maps/place/KSURF+LA+MANGA/@37.6333893,-0.7479462,17z/data=!3m1!4b1!4m6!3m5!1s0xd6322a8ee5c830b:0x6bb819a51fc01cbb!8m2!3d37.6333851!4d-0.7453713!16s%2Fg%2F12hkpx764?entry=ttu",
@@ -26,11 +26,13 @@ const cardData = [
       es: "Espacios de ocio.",
       en: "Leisure Spaces",
       fr: "Espaces de Loisirs",
+      nl: "Vrijetijdsruimtes",
     },
     description: {
       es: "Cerca del apartamento puedes encontrar espacios de ocio tranquilos para relajarse con una bebida y/o comida.",
       en: "Near the apartment, you can find quiet leisure spaces to relax with a drink and/or food.",
       fr: "Près de l'appartement, vous pouvez trouver des espaces de loisirs tranquilles pour vous détendre avec une boisson et/ou de la nourriture.",
+      nl: "In de buurt van het appartement vind je rustige vrijetijdsruimtes om te ontspannen met een drankje en/of eten.",
     },
     button: "Miaya Beach",
     path: "https://www.google.com/maps/place/Miaya+Beach/@37.6321939,-0.7383953,17z/data=!4m14!1m7!3m6!1s0xd6322a6caaa3423:0xe9f4920688d617a2!2sPlaya+Honda!8m2!3d37.6319714!4d-0.7355354!16s%2Fg%2F11clwn6l_4!3m5!1s0xd632348a6eec18d:0x1ed95d41c502b088!8m2!3d37.6315502!4d-0.7388016!16s%2Fg%2F11s3ydhp32?entry=ttu",
@@ -43,11 +45,13 @@ const cardData = [
       es: "Paseos en barco",
       en: "Boat Tours",
       fr: "Tours en Bateau",
+      nl: "Boottochten",
     },
     description: {
       es: "Puedes dar paseos en barco desde varios puntos del Mar Menor.",
       en: "You can take boat tours from various points in the Mar Menor.",
       fr: "Vous pouvez faire des tours en bateau depuis plusieurs points du Mar Menor.",
+      nl: "Je kunt boottochten maken vanaf verschillende punten in de Mar Menor.",
     },
     button: "Chapi Taxi",
     path: "https://chapitaxi.com/",
@@ -64,12 +68,14 @@ const cardData = [
     title: {
       es: "Gastronomía",
       en: "Gastronomy",
-      fr: "Gastronomie"
+      fr: "Gastronomie",
+      nl: "Gastronomie",
     },
     description: {
       es: "Gastronomía para disfrutar de la vida en la Costa.",
       en: "Gastronomy for enjoying life in the Costa.",
-      fr: "Gastronomie pour profiter de la vie sur la côte."
+      fr: "Gastronomie pour profiter de la vie sur la côte.",
+      nl: "Gastronomie om te genieten van het leven aan de kust.",
     },
     button: "Malvasia",
     path: "https://restaurantemalvasia.com/",
@@ -81,12 +87,14 @@ const cardData = [
     title: {
       es: "Experiencias",
       en: "Experiences",
-      fr: "Expériences"
+      fr: "Expériences",
+      nl: "Ervaringen",
     },
     description: {
       es: "Disfruta de multitud de experiencias inolvidables en la zona.",
       en: "Enjoy a multitude of unforgettable experiences in the area.",
-      fr: "Profitez d'une multitude d'expériences inoubliables dans la région."
+      fr: "Profitez d'une multitude d'expériences inoubliables dans la région.",
+      nl: "Geniet van een veelvoud aan onvergetelijke ervaringen in de omgeving.",
     },
     button: "Masaje Thailandes",
     path: "https://yayathai.com/",

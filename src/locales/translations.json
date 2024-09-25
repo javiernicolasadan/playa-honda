@@ -181,5 +181,64 @@
       "textThree": "La Manga del Mar Menor est une belle région qui abrite cette grande lagune d'eau salée séparée de la Méditerranée par La Manga. Tout au long de la Mar Menor se trouvent des villes allant de San Javier à Cabo de Palos. La bande de La Manga, longue de 21 km, crée une entrée depuis la Méditerranée vers la lagune. Cette lagune est idéale pour les sports nautiques avec des eaux chaudes et calmes. Il y a des kilomètres de plages dorées avec des températures agréables presque toute l'année. La région connaît peu de pluie, ce qui en fait une destination idéale pour les vacances tout au long de l'année. Elle offre des restaurants de poisson, des bars avec des tapas abordables et des marchés avec des produits locaux. Il y a des activités telles que la plongée, la voile, le golf, entre autres, et des lieux pour se détendre avec des massages et des vins régionaux.",
       "textFour": "Calblanque est une réserve naturelle spectaculaire située dans la région. Avec ses plages vierges et ses paysages époustouflants, c'est un paradis pour les amoureux de la nature. Ses côtes offrent des plages de sable doré et des eaux cristallines idéales pour se détendre et profiter du cadre environnant. Cette réserve est parfaite pour la randonnée, le cyclisme et l'observation des oiseaux, en plus d'être un endroit idéal pour échapper à l'agitation et profiter de la tranquillité. Avec ses sentiers naturels, ses plages immaculées et un environnement naturel incomparable, Calblanque est un endroit parfait pour apprécier la beauté naturelle et la sérénité."
     }
+  },
+  "nl": {
+    "navbar": {
+      "home": "Home",
+      "gallery": "Galerij",
+      "activities": "Activiteiten",
+      "booking": "Boeking",
+      "weather": "Weer"
+    },
+    "gallery": {
+      "category": "Selecteer een categorie",
+      "categories": {
+        "all": "Alles",
+        "apartment": "Appartement",
+        "activities": "Activiteiten",
+        "nature": "Natuur",
+        "places": "Plaatsen"
+      }
+    },
+    "booking": {
+      "intro": "Boek je verblijf in Appartement Brisa y Mar.",
+      "info": "Klik op de knop om je boeking te maken via Cartagena Costa, waar je alle bijgewerkte informatie kunt vinden.",
+      "redirect": "Leid me naar de Inmocristal-website"
+    },
+    "footer": {
+      "adress": "Julietta Orbaiceta Straat, Playa Honda, Cartagena",
+      "register": "Registratienummer voor vakantiewoningen:",
+      "home": "Home",
+      "gallery": "Galerij",
+      "activities": "Activiteiten",
+      "booking": "Boeking",
+      "weather": "Weer",
+      "madeWith": "Gemaakt met ❤️ door JavierN"
+    },
+    "weather": {
+      "weatherToday": "Het weer vandaag in Playa Honda:",
+      "humidity": "vochtigheid",
+      "speedWind": "windsnelheid"
+    },
+    "home": {
+      "textOne": "Welkom in ons appartement in Playa Honda, een kustparadijs in de prachtige regio Murcia. Gelegen op een bevoorrechte locatie, nodigt deze plek je uit om je onder te dompelen in een idyllische omgeving waar zon, zee en rust samenkomen om je een onvergetelijke ervaring te bieden.",
+      "textTwo": "Stel je voor dat je elke ochtend wakker wordt met het zachte geluid van de golven van de Middellandse Zee, terwijl je geniet van het panoramische uitzicht dat dit appartement biedt. Sereniteit en rust verweven zich in elke hoek, nodigen je uit om onvergetelijke momenten te beleven aan de kust van Murcia.",
+      "textThree": "De regio Murcia biedt een breed scala aan activiteiten voor alle smaken. Van ontspannen op de stranden met kristalhelder water tot het beoefenen van spannende watersporten zoals windsurfen of paddle surfen. Natuurliefhebbers zullen talloze wandelpaden in de omgeving vinden om de natuurlijke schoonheid van het gebied te verkennen.",
+      "textFour": "Daarnaast zijn de rijke cultuur en de heerlijke lokale gastronomie niet te missen. Ontdek de charmante nabijgelegen vissersdorpjes, waar je kunt genieten van heerlijke verse visgerechten en de gastvrijheid van de lokale bevolking.",
+      "textFive": "Het appartement in Playa Honda biedt je een gezellig en modern toevluchtsoord, uitgerust met alle nodige voorzieningen om een aangenaam verblijf te garanderen. Met ruime terrassen die een prachtig uitzicht bieden, kun je ontspannen en genieten van magnifieke zonsondergangen.",
+      "textSix": "Dompel jezelf onder in de warmte van de Costa Cálida en ontdek een plek waar rust en plezier perfect samenkomen om je een onvergetelijke vakantie te bieden!",
+      "textSeven": "We kijken ernaar uit om je te verwelkomen voor een unieke ervaring in ons appartement in Playa Honda, Murcia!",
+      "textEight": "Ontdek ons appartement in Playa Honda, Murcia. Dompel jezelf onder in een kustparadijs, waar de zon en de zee samenkomen om je een onvergetelijke ervaring te bieden.",
+      "textNine": "Word wakker met het zachte geluid van de golven van de zee en geniet van de sereniteit in elke hoek.",
+      "textTen": "Verken kristalheldere stranden, beoefen spannende watersporten of wandel om de natuurlijke schoonheid te bewonderen. In combinatie met de rijke cultuur en de heerlijke lokale gastronomie biedt ons gezellige appartement je comfort en een prachtig uitzicht om te ontspannen en te genieten van magnifieke zonsondergangen.",
+      "textEleven": "Sluit je bij ons aan in dit moderne en warme toevluchtsoord aan de Costa Cálida voor een onvergetelijke vakantie.",
+      "parallax": "Je toevlucht aan zee wacht op je in Playa Honda"
+    },
+    "grid": {
+      "textOne": "Playa Honda is een plaats gelegen nabij het zuidelijke uiteinde van de Mar Menor. Het is overwegend vlak, wat het een ideale plek maakt om te wandelen en te fietsen. Het heeft een lange promenade vanwaar je kunt genieten van het prachtige uitzicht op La Manga. Tijdens de drukke maanden kun je een waterfiets huren of gewoon ontspannen op een ligstoel. Het strand heeft fijn zand en grenst aan het kalme en ondiepe water van de Mar Menor. In de zomer is het gebied erg druk met veel bezoekers. Buiten het zomerseizoen is het gebied rustiger, maar elk jaar ontdekken meer mensen de schoonheid van de plek, samen met de milde wintertemperaturen.",
+      "textTwo": "Cabo de Palos is een charmant dorp aan het zuidelijke uiteinde van La Manga, naast de Middellandse Zee. Het is perfect voor liefhebbers van natuur en zee, met zijn iconische vuurtoren en vissershaven. Het staat bekend om zijn restaurants met heerlijke zeevruchtenschotels en verse vis. Bovendien is het ideaal om te duiken en te snorkelen dankzij het uitzonderlijke onderwaterleven. In de zomer zijn de stranden met kristalhelder water populair, en buiten het hoogseizoen biedt het rust en natuurlijke schoonheid. Er zijn ook markten met verse producten en activiteiten zoals paardrijden, wandelen en het proeven van regionale wijnen.",
+      "textThree": "La Manga del Mar Menor is een prachtig gebied dat deze grote zoutwaterlagune herbergt, gescheiden van de Middellandse Zee door La Manga. Langs de Mar Menor liggen steden van San Javier tot Cabo de Palos. De strook van La Manga, 21 km lang, creëert een doorgang van de Middellandse Zee naar de lagune. Deze lagune is ideaal voor watersporten met warm, rustig water. Er zijn kilometers aan gouden stranden met aangename temperaturen bijna het hele jaar door. De regio kent weinig regen, ideaal voor vakanties het hele jaar door. Het biedt visrestaurants, bars met betaalbare tapas en markten met lokale producten. Er zijn activiteiten zoals duiken, zeilen, golfen en plaatsen om te ontspannen met massages en regionale wijnen.",
+      "textFour": "Calblanque is een spectaculaire natuurreservaat in de regio. Met zijn ongerepte stranden en adembenemende landschappen is het een paradijs voor natuurliefhebbers. De kust biedt gouden zandstranden en kristalhelder water, ideaal om te ontspannen en van de omgeving te genieten. Dit reservaat is perfect om te wandelen, fietsen en vogels te spotten, en is een ideale plek om aan de drukte te ontsnappen en te genieten van de rust. Met zijn natuurlijke paden, ongerepte stranden en een ongeëvenaarde natuurlijke omgeving is Calblanque een perfecte plek om te genieten van natuurlijke schoonheid en sereniteit."
+    }
   }
 }
