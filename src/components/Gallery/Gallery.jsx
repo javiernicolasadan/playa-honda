@@ -7,49 +7,25 @@ import { Nav } from "react-bootstrap";
 import { Spinner } from "react-bootstrap";
 import { getTranslation } from "../../services/localizationservice";
 
-const Gallery = ({isLoading, handleLoadingChange, language, onLanguageChange,}) => {
-  //{console.log(language)}
-  const categoryTranslations = {
-    "De todo": {
-      en: "All",
-      es: "De Todo",
-    },
-    All: {
-      en: "All",
-      es: "Todo",
-    },
-    Apartamento: {
-      en: "Apartment",
-      es: "Apartamento",
-    },
-    Actividades: {
-      en: "Activities",
-      es: "Actividades",
-    },
-    Naturaleza: {
-      en: "Nature",
-      es: "Naturaleza",
-    },
-    Lugares: {
-      en: "Places",
-      es: "Lugares",
-    },
-  };
+const Gallery = ({
+  isLoading,
+  handleLoadingChange,
+  language,
+  onLanguageChange,
+}) => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [activeCategory, setActiveCategory] = useState("De todo");
-  const categories = Object.keys(media.categories);
-  const translatedCategories = categories.map(
-    (category) => categoryTranslations[category][language]
+
+  const categories = ["all", "apartment", "activities", "nature", "places"];
+
+  const translatedCategories = categories.map((category) =>
+    getTranslation(`gallery.categories.${category}`, language)
   );
   //console.log(categories)
-  const imagesByCategory = Object.keys(media.categories).reduce(
-    (result, category) => {
-      const translatedCategory = categoryTranslations[category][language];
-      result[translatedCategory] = media.categories[category];
-      return result;
-    },
-    {}
-  );
+  const imagesByCategory = categories.reduce((result, category) => {
+    result[category] = media.categories[category];
+    return result;
+  }, {});
 
   useEffect(() => {
     handleLoadingChange(true);
@@ -59,24 +35,13 @@ const Gallery = ({isLoading, handleLoadingChange, language, onLanguageChange,}) 
     handleLoadingChange(false);
   }, 2500);
 
-  const changeCategory = (category) => {
-    setActiveCategory(category);
+  const changeCategory = (categoryKey) => {
+    setActiveCategory(categoryKey);
     setSelectedImage(null);
   };
-  useEffect(() => {
-    const defaultCategory = language === "es" ? "De todo" : "All";
-    const translatedDefaultCategory =
-      categoryTranslations[defaultCategory] &&
-      categoryTranslations[defaultCategory][language];
 
-    if (translatedDefaultCategory) {
-      changeCategory(translatedDefaultCategory);
-    } else {
-      // Manejar el caso en el que la traducción de la categoría no está definida
-      console.error(
-        `Translation not defined for category: ${defaultCategory} in language: ${language}`
-      );
-    }
+  useEffect(() => {
+    setActiveCategory("all"); 
   }, [language]);
 
   return (
@@ -93,7 +58,7 @@ const Gallery = ({isLoading, handleLoadingChange, language, onLanguageChange,}) 
                 onClick={() => changeCategory(category)}
                 style={{ fontSize: "1.3rem", padding: " 0 0.7rem" }}
               >
-                {category}
+                {translatedCategories[index]}
               </Nav.Link>
             ))}
           </div>

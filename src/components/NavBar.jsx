@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Nav, Navbar } from "react-bootstrap";
+import { Nav, Navbar, Dropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useMediaQuery } from "@react-hook/media-query";
 import { getTranslation } from "../services/localizationservice";
@@ -14,6 +14,14 @@ const NavigationBar = ({ language, onLanguageChange }) => {
       setExpanded(!expanded);
     }
   };
+  /**
+   * Handle the click event on a link in the navigation bar.
+   *
+   * When a link is clicked, we collapse the navbar if it is expanded on mobile.
+   * This is because the navbar is only expanded on mobile when the user clicks
+   * the hamburger menu, and it should be collapsed as soon as the user navigates
+   * to a different page.
+   */
   const handleLinkClick = () => {
     if (isMobile) {
       setExpanded(false);
@@ -58,6 +66,7 @@ const NavigationBar = ({ language, onLanguageChange }) => {
             <Link to="/weather" className="nav-link" onClick={handleLinkClick}>
               {getTranslation("navbar.weather", language)}
             </Link>
+            {/*
             <Button
               variant="light"
               onClick={() => onLanguageChange(!language)}
@@ -70,6 +79,58 @@ const NavigationBar = ({ language, onLanguageChange }) => {
                 <img src="/es.svg" alt="Descripción del SVG" />
               )}
             </Button>
+            */}
+            <Dropdown onSelect={onLanguageChange}>
+              <Dropdown.Toggle
+                variant="light"
+                id="dropdown-basic"
+                className="language-button"
+              >
+                {language === "es"
+                  ? <img
+                    src="/es.svg"
+                    alt="spanish flag"
+                    style={{ width: "20px", height: "20px" }}
+                  />
+                  : language === "en"
+                  ? <img
+                    src="/gb.svg"
+                    alt="british flag"
+                    style={{ width: "20px", height: "20px" }}
+                  />
+                  : <img
+                    src="/fr.svg"
+                    alt="french flag"
+                    style={{ width: "20px", height: "15px" }}
+                  />}
+              </Dropdown.Toggle>
+              <Dropdown.Menu>
+                <Dropdown.Item eventKey="es">
+                  <img
+                    src="/es.svg"
+                    alt="spanish flag"
+                    style={{ width: "20px", height: "20px" }}
+                  />{" "}
+                  Español
+                </Dropdown.Item>
+                <Dropdown.Item eventKey="en">
+                  <img
+                    src="/gb.svg"
+                    alt="british flag"
+                    style={{ width: "20px", height: "20px" }}
+                  />{" "}
+                  English
+                </Dropdown.Item>
+                <Dropdown.Item eventKey="fr">
+                  <img
+                    src="/fr.svg"
+                    alt="french flag"
+                    style={{ width: "20px", height: "15px" }}
+                  />{" "}
+                  Français
+                </Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

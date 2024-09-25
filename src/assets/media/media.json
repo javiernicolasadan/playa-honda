@@ -1,105 +1,95 @@
 {
-    "categories": {
-        "De todo" :
-          [
-            "./atardecer3.jpg",
-            "./DSCF2786.JPG",
-            "./DSCF2816.JPG",
-            "./Terraza_1_min.jpg",
-            "./Salon_cocina_1_min.jpg",
-            "./Miaya2.jpg",
-            "./atardecer4.jpg",
-            "./calblanque2.jpg",
-            "./buceo4.jpg",
-            "./DSCF2803.JPG",
-            "./BarcoSolaz4.jpg",
-            "./Miaya3.jpg",
-            "./surf2.jpg",
-            "./DSCF2959.JPG",
-            "./Bote1.jpg",
-            "./Dormitorio_principal_1_min.jpg",
-            "./calblanque.jpg",
-            "./atardecer5.jpg",
-            "./bote2.jpg",
-            "./cabopalos2.jpg",
-            "./faro.jpg",
-            "./Miaya4.jpg"
-         ],
-        
-        "Apartamento" : 
-          [
-            "./Terraza_1_min.jpg",
-            "./Salon_cocina_1_min.jpg",
-            "./Salon_2_min.jpg",
-            "./Salon_1_min.jpg",
-            "./Aseo_2_min.jpg",
-            "./Aseo_1_min.jpg",
-            "./Cocina_1_min.jpg",
-            "./Cocina_2_min.jpg",
-            "./Cocina_3_min.jpg",
-            "./DSCF2895.JPG",
-            "./Aseo_3_min.jpg",
-            "./Distribuidor_1_min.jpg",
-            "./Distribuidor_2_min.jpg",
-            "./Dormitorio_principal_1_min.jpg",
-            "./Dormitorio_principal_2_min.jpg",
-            "./Dormitorio_principal_3_min.jpg",
-            "./Dormitorio_literas_1_min.jpg",
-            "./Dormitorio_literas_2_min.jpg",
-            "./DSCF2911.JPG"
-          ],
-        "Actividades" :  
-          [
-            "./BarcoSolaz.jpg",
-            "./BarcoSolaz2.jpg",
-            "./BarcoSolaz3.jpeg",
-            "./DSCF2751.JPG",
-            "./BarcoSolaz4.jpg",
-            "./Buceo1.jpg",
-            "./buceo2.jpg",
-            "./DSCF2751.JPG",
-            "./buceo4.jpg",
-            "./buceo5.png",
-            "./DSCF2706.JPG",
-            "./paddelsurf.jpg",
-            "./paddelsurf2.jpg",
-            "./surf1.jpg",
-            "./surf2.jpg",
-            "./DSCF2692.JPG"
-          ],
-        "Naturaleza" : 
-          [
-            "./atardecer4.jpg",
-            "./DSCF2786.JPG",
-            "./DSCF2816.JPG",
-            "./flamencos.jpg",
-            "./atardecer5.jpg",
-            "./Bote1.jpg",
-            "./DSCF2903.JPG",
-            "./cabopalos2.jpg",
-            "./calafria.jpg",
-            "./atardecer3.jpg",
-            "./calblanque.jpg",
-            "./calblanque2.jpg",
-            "./atardecer2.jpg",
-            "./pluma.jpg",
-            "./Mar.jpg",
-            "./Playa1.jpg",
-            "./atardecer6.jpg"
-           ],
-        "Lugares" : 
-          [
-            "./faro.jpg",
-            "./laManga.jpg",
-            "./calblanque.jpg",
-            "./marchamalo.jpg",
-            "./estacio.jpg",
-            "./puerto.jpg",
-            "./teatroRomano.jpg"
-                       
-          ]
-        
-    }
-    
+  "categories": {
+    "all": [
+      "./atardecer3.jpg",
+      "./DSCF2786.JPG",
+      "./DSCF2816.JPG",
+      "./Terraza_1_min.jpg",
+      "./Salon_cocina_1_min.jpg",
+      "./Miaya2.jpg",
+      "./atardecer4.jpg",
+      "./calblanque2.jpg",
+      "./buceo4.jpg",
+      "./DSCF2803.JPG",
+      "./BarcoSolaz4.jpg",
+      "./Miaya3.jpg",
+      "./surf2.jpg",
+      "./DSCF2959.JPG",
+      "./Bote1.jpg",
+      "./Dormitorio_principal_1_min.jpg",
+      "./calblanque.jpg",
+      "./atardecer5.jpg",
+      "./bote2.jpg",
+      "./cabopalos2.jpg",
+      "./faro.jpg",
+      "./Miaya4.jpg"
+    ],
+    "apartment": [
+      "./Terraza_1_min.jpg",
+      "./Salon_cocina_1_min.jpg",
+      "./Salon_2_min.jpg",
+      "./Salon_1_min.jpg",
+      "./Aseo_2_min.jpg",
+      "./Aseo_1_min.jpg",
+      "./Cocina_1_min.jpg",
+      "./Cocina_2_min.jpg",
+      "./Cocina_3_min.jpg",
+      "./DSCF2895.JPG",
+      "./Aseo_3_min.jpg",
+      "./Distribuidor_1_min.jpg",
+      "./Distribuidor_2_min.jpg",
+      "./Dormitorio_principal_1_min.jpg",
+      "./Dormitorio_principal_2_min.jpg",
+      "./Dormitorio_principal_3_min.jpg",
+      "./Dormitorio_literas_1_min.jpg",
+      "./Dormitorio_literas_2_min.jpg",
+      "./DSCF2911.JPG"
+    ],
+    "activities": [
+      "./BarcoSolaz.jpg",
+      "./BarcoSolaz2.jpg",
+      "./BarcoSolaz3.jpeg",
+      "./DSCF2751.JPG",
+      "./BarcoSolaz4.jpg",
+      "./Buceo1.jpg",
+      "./buceo2.jpg",
+      "./DSCF2751.JPG",
+      "./buceo4.jpg",
+      "./buceo5.png",
+      "./DSCF2706.JPG",
+      "./paddelsurf.jpg",
+      "./paddelsurf2.jpg",
+      "./surf1.jpg",
+      "./surf2.jpg",
+      "./DSCF2692.JPG"
+    ],
+    "nature": [
+      "./atardecer4.jpg",
+      "./DSCF2786.JPG",
+      "./DSCF2816.JPG",
+      "./flamencos.jpg",
+      "./atardecer5.jpg",
+      "./Bote1.jpg",
+      "./DSCF2903.JPG",
+      "./cabopalos2.jpg",
+      "./calafria.jpg",
+      "./atardecer3.jpg",
+      "./calblanque.jpg",
+      "./calblanque2.jpg",
+      "./atardecer2.jpg",
+      "./pluma.jpg",
+      "./Mar.jpg",
+      "./Playa1.jpg",
+      "./atardecer6.jpg"
+    ],
+    "places": [
+      "./faro.jpg",
+      "./laManga.jpg",
+      "./calblanque.jpg",
+      "./marchamalo.jpg",
+      "./estacio.jpg",
+      "./puerto.jpg",
+      "./teatroRomano.jpg"
+    ]
   }
-  
+}

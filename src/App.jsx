@@ -18,35 +18,81 @@ function App() {
   const handleLoadingChange = (value) => {
     setIsLoading(value);
   };
-  
+
   const [language, setLanguage] = useState("es");
-  const handleLanguageChange = () => {
-    setLanguage(prevLanguage => (prevLanguage === "es" ? "en" : "es"));
+  const handleLanguageChange = (selectedLanguage) => {
+    setLanguage(selectedLanguage);
   };
 
   return (
     <>
-      <NavigationBar language={language} onLanguageChange={handleLanguageChange}  />
-      
+      <NavigationBar
+        language={language}
+        onLanguageChange={handleLanguageChange}
+      />
+
       <Routes>
-        <Route path="/" element={<Home isLoading={isLoading} handleLoadingChange={handleLoadingChange} language={language} onLanguageChange={handleLanguageChange}/>}
-         />
-        <Route path="/gallery" element={<Gallery isLoading={isLoading} handleLoadingChange={handleLoadingChange} language={language} onLanguageChange={handleLanguageChange}/>} 
-         />
-        <Route path="/activities" element={<Activities isLoading={isLoading} handleLoadingChange={handleLoadingChange} language={language} onLanguageChange={handleLanguageChange}/>} 
-          
+        <Route
+          path="/"
+          element={
+            <Home
+              isLoading={isLoading}
+              handleLoadingChange={handleLoadingChange}
+              language={language}
+              onLanguageChange={handleLanguageChange}
+            />
+          }
+        />
+        <Route
+          path="/gallery"
+          element={
+            <Gallery
+              isLoading={isLoading}
+              handleLoadingChange={handleLoadingChange}
+              language={language}
+              onLanguageChange={handleLanguageChange}
+            />
+          }
+        />
+        <Route
+          path="/activities"
+          element={
+            <Activities
+              isLoading={isLoading}
+              handleLoadingChange={handleLoadingChange}
+              language={language}
+              onLanguageChange={handleLanguageChange}
+            />
+          }
         />
         <Route path="/availability" element={<Calendar />} />
-        <Route path="/booking" element={<Booking language={language} onLanguageChange={handleLanguageChange}/>} 
+        <Route
+          path="/booking"
+          element={
+            <Booking
+              language={language}
+              onLanguageChange={handleLanguageChange}
+            />
+          }
         />
-        <Route path="/weather" element={<Weather isLoading={isLoading} handleLoadingChange={handleLoadingChange} language={language} onLanguageChange={handleLanguageChange}/>} 
-          
+        <Route
+          path="/weather"
+          element={
+            <Weather
+              isLoading={isLoading}
+              handleLoadingChange={handleLoadingChange}
+              language={language}
+              onLanguageChange={handleLanguageChange}
+            />
+          }
         />
-        
       </Routes>
-      
 
-      <Footer isLoading={isLoading} language={language} onLanguageChange={handleLanguageChange}/>
+      <Footer
+        isLoading={isLoading}
+        language={language}
+        onLanguageChange={handleLanguageChange}
+      />
     </>
   );
 }
