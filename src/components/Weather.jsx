@@ -22,6 +22,23 @@ const Weather = ({ language, onLanguageChange }) => {
   const cloudyDaysData = [7, 8, 7, 7, 5, 4, 5, 6, 6, 8, 8, 8]; // Cloudy days
   const overcastDaysData = [4, 3, 3, 5, 2, 3, 4, 3, 6, 3, 5, 5];
 
+  const getTranslatedMonths = () => {
+    return [
+      getTranslation("weather.jan", language),
+      getTranslation("weather.feb", language),
+      getTranslation("weather.mar", language),
+      getTranslation("weather.apr", language),
+      getTranslation("weather.may", language),
+      getTranslation("weather.jun", language),
+      getTranslation("weather.jul", language),
+      getTranslation("weather.aug", language),
+      getTranslation("weather.sep", language),
+      getTranslation("weather.oct", language),
+      getTranslation("weather.nov", language),
+      getTranslation("weather.dec", language),
+    ];
+  };
+
   useEffect(() => {
     const canvasTemp = document.getElementById("staticWeatherChart");
     const ctxTemp = canvasTemp.getContext("2d");
@@ -41,26 +58,15 @@ const Weather = ({ language, onLanguageChange }) => {
 
     window.addEventListener("resize", resizeCanvas);
     // Render the chart using static data
+    const translatedMonths = getTranslatedMonths();
+    
     const tempChart = new Chart(ctxTemp, {
       type: "bar",
       data: {
-        labels: [
-          "Jan",
-          "Feb",
-          "Mar",
-          "Apr",
-          "May",
-          "Jun",
-          "Jul",
-          "Aug",
-          "Sep",
-          "Oct",
-          "Nov",
-          "Dec",
-        ],
+        labels: translatedMonths,
         datasets: [
           {
-            label: "Average Daytime Temperature(ºC)",
+            label: getTranslation("weather.daytimeTempLabel", language),
             data: staticTemperatureData.daytimeTemp, // Static max temperature data
             backgroundColor: "rgba(255, 99, 132, 0.5)", // Soft red color
             borderColor: "rgba(255, 99, 132, 1)",
@@ -68,7 +74,7 @@ const Weather = ({ language, onLanguageChange }) => {
             borderRadius: 5,
           },
           {
-            label: "Average NightTime Temperature(ºC)",
+            label: getTranslation("weather.nighttimeTempLabel", language),
             data: staticTemperatureData.nighttimeTemp, // Static min temperature data
             backgroundColor: "rgba(54, 162, 235, 0.5)", // Soft blue color
             borderColor: "rgba(54, 162, 235, 1)",
@@ -83,7 +89,7 @@ const Weather = ({ language, onLanguageChange }) => {
         plugins: {
           title: {
             display: true, // Show the title
-            text: "Monthly Temperature Data", // Title text
+            text: getTranslation("weather.tempChartTitle", language), // Title text
             font: {
               size: 24, // Set the font size for the title
             },
@@ -105,33 +111,20 @@ const Weather = ({ language, onLanguageChange }) => {
     const weatherDaysChart = new Chart(ctxWeather, {
       type: "bar",
       data: {
-        labels: [
-          "Jan",
-          "Feb",
-          "Mar",
-          "Apr",
-          "May",
-          "Jun",
-          "Jul",
-          "Aug",
-          "Sep",
-          "Oct",
-          "Nov",
-          "Dec",
-        ],
+        labels: translatedMonths,
         datasets: [
           {
-            label: "Sunny Days",
+            label: getTranslation("weather.sunnyDaysLabel", language),
             data: sunnyDaysData,
             backgroundColor: "rgba(54, 162, 235, 0.6)", // Blue
           },
           {
-            label: "Cloudy Days",
+            label: getTranslation("weather.cloudyDaysLabel", language),
             data: cloudyDaysData,
             backgroundColor: "rgba(99, 132, 255, 0.6)", // Grey
           },
           {
-            label: "Overcast Days",
+            label: getTranslation("weather.overcastDaysLabel", language),
             data: overcastDaysData,
             backgroundColor: "rgba(75, 192, 192, 0.6)", // Teal
           },
@@ -148,7 +141,7 @@ const Weather = ({ language, onLanguageChange }) => {
         plugins: {
           title: {
             display: true,
-            text: "Days of Sunshine, Cloudiness, and Overcast (AROUND 270 SUNNY DAYS PER YEAR)",
+            text: getTranslation("weather.weatherDaysChartTitle", language),
           },
         },
       },
@@ -160,7 +153,7 @@ const Weather = ({ language, onLanguageChange }) => {
       tempChart.destroy();
       weatherDaysChart.destroy();
     };
-  }, []); // Empty dependency array to run the effect once when the component mounts
+  }, [language]); // Empty dependency array to run the effect once when the component mounts
 
   //here we manage the api call to get the weather, using a .env variable to hide the api personal password
   //and render the info in the component if everything its ok
