@@ -86,14 +86,14 @@ const NavigationBar = ({ language, onLanguageChange }) => {
                 id="dropdown-basic"
                 className="language-button"
               >
-                {language === "es"
-                  ? <img
+                {language === "es" ? 
+                  <img
                     src="/es.svg"
                     alt="spanish flag"
                     style={{ width: "20px", height: "20px" }}
                   />
-                  : language === "en"
-                  ? <img
+                  : language === "en" ? 
+                  <img
                     src="/gb.svg"
                     alt="british flag"
                     style={{ width: "20px", height: "20px" }}
@@ -104,10 +104,23 @@ const NavigationBar = ({ language, onLanguageChange }) => {
                     alt="french flag"
                     style={{ width: "20px", height: "15px" }}
                   />
-                  : <img
+                  : language === "nl" ?
+                   <img
                     src="/nl.svg"
                     alt="dutch flag"
-                    style={{ width: "20px", height: "15px" }}
+                    style={{ width: "20px", height: "20px" }}
+                  /> 
+                  :language === "de" ?
+                   <img
+                    src="/de.svg"
+                    alt="german flag"
+                    style={{ width: "20px", height: "20px" }}
+                  />
+                  : 
+                   <img
+                    src="/pt.svg"
+                    alt="portuguese flag"
+                    style={{ width: "20px", height: "20px" }}
                   />
                   }
               </Dropdown.Toggle>
@@ -143,6 +156,22 @@ const NavigationBar = ({ language, onLanguageChange }) => {
                     style={{ width: "20px", height: "15px" }}
                   />{" "}
                   Nederlands
+                </Dropdown.Item>
+                <Dropdown.Item eventKey="de">
+                  <img
+                    src="/de.svg"
+                    alt="german flag"
+                    style={{ width: "20px", height: "15px" }}
+                  />{" "}
+                  Deutsch
+                </Dropdown.Item>
+                <Dropdown.Item eventKey="pt">
+                  <img
+                    src="/pt.svg"
+                    alt="portuguese flag"
+                    style={{ width: "20px", height: "15px" }}
+                  />{" "}
+                  Português
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>

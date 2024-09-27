@@ -240,5 +240,123 @@
       "textThree": "La Manga del Mar Menor is een prachtig gebied dat deze grote zoutwaterlagune herbergt, gescheiden van de Middellandse Zee door La Manga. Langs de Mar Menor liggen steden van San Javier tot Cabo de Palos. De strook van La Manga, 21 km lang, creëert een doorgang van de Middellandse Zee naar de lagune. Deze lagune is ideaal voor watersporten met warm, rustig water. Er zijn kilometers aan gouden stranden met aangename temperaturen bijna het hele jaar door. De regio kent weinig regen, ideaal voor vakanties het hele jaar door. Het biedt visrestaurants, bars met betaalbare tapas en markten met lokale producten. Er zijn activiteiten zoals duiken, zeilen, golfen en plaatsen om te ontspannen met massages en regionale wijnen.",
       "textFour": "Calblanque is een spectaculaire natuurreservaat in de regio. Met zijn ongerepte stranden en adembenemende landschappen is het een paradijs voor natuurliefhebbers. De kust biedt gouden zandstranden en kristalhelder water, ideaal om te ontspannen en van de omgeving te genieten. Dit reservaat is perfect om te wandelen, fietsen en vogels te spotten, en is een ideale plek om aan de drukte te ontsnappen en te genieten van de rust. Met zijn natuurlijke paden, ongerepte stranden en een ongeëvenaarde natuurlijke omgeving is Calblanque een perfecte plek om te genieten van natuurlijke schoonheid en sereniteit."
     }
+  },
+  "de": {
+    "navbar": {
+      "home": "Startseite",
+      "gallery": "Galerie",
+      "activities": "Aktivitäten",
+      "booking": "Buchung",
+      "weather": "Wetter"
+    },
+    "gallery": {
+      "category": "Wähle eine Kategorie",
+      "categories": {
+        "all": "Alle",
+        "apartment": "Apartment",
+        "activities": "Aktivitäten",
+        "nature": "Natur",
+        "places": "Orte"
+      }
+    },
+    "booking": {
+      "intro": "Buchen Sie Ihren Aufenthalt im Apartment Brisa y Mar.",
+      "info": "Klicken Sie auf den Button, um Ihre Reservierung über Cartagena Costa vorzunehmen, wo Sie alle aktuellen Informationen finden.",
+      "redirect": "Weiterleiten zur Inmocristal Webseite"
+    },
+    "footer": {
+      "adress": "Julietta Orbaiceta Straße, Playa Honda, Cartagena",
+      "register": "Ferienwohnungs-Lizenznummer:",
+      "home": "Startseite",
+      "gallery": "Galerie",
+      "activities": "Aktivitäten",
+      "booking": "Buchung",
+      "weather": "Wetter",
+      "madeWith": "Mit ❤️ gemacht von JavierN"
+    },
+    "weather": {
+      "weatherToday": "Das Wetter jetzt in Playa Honda:",
+      "humidity": "Luftfeuchtigkeit",
+      "speedWind": "Windgeschwindigkeit"
+    },
+    "home": {
+      "textOne": "Willkommen in unserem Apartment in Playa Honda, einem Küstenparadies in der wunderschönen Region Murcia. In privilegierter Lage lädt dieser Ort dazu ein, sich in einer idyllischen Umgebung zu verlieren, in der Sonne, Meer und Ruhe zusammenkommen, um Ihnen ein unvergessliches Erlebnis zu bieten.",
+      "textTwo": "Stellen Sie sich vor, Sie wachen jeden Morgen mit dem sanften Klang der Wellen des Mittelmeers auf und genießen den Panoramablick, den dieses Apartment bietet. Ruhe und Frieden verweben sich in jeder Ecke und laden dazu ein, unvergessliche Momente an der Küste von Murcia zu genießen.",
+      "textThree": "Die Region Murcia bietet eine breite Palette an Aktivitäten für jeden Geschmack. Entspannen Sie sich an den Stränden mit kristallklarem Wasser oder wagen Sie sich in aufregende Wassersportarten wie Windsurfen oder Paddleboarding. Naturliebhaber finden zahlreiche Wanderwege in der Umgebung, um die Schönheit der Gegend zu erkunden.",
+      "textFour": "Darüber hinaus sind die reiche Kultur und die köstliche lokale Gastronomie ein Muss. Entdecken Sie die charmanten Fischerdörfer in der Umgebung, wo Sie exquisite frische Meeresfrüchte genießen und die Gastfreundschaft der Einheimischen erleben können.",
+      "textFive": "Das Apartment in Playa Honda bietet Ihnen einen gemütlichen und modernen Rückzugsort, ausgestattet mit allem Komfort, um einen angenehmen Aufenthalt zu gewährleisten. Mit geräumigen Terrassen, die atemberaubende Ausblicke bieten, können Sie sich entspannen und die prächtigen Sonnenuntergänge genießen.",
+      "textSix": "Tauchen Sie ein in die Wärme der Costa Cálida und entdecken Sie einen Ort, an dem Ruhe und Spaß perfekt miteinander verschmelzen, um Ihnen einen unvergesslichen Urlaub zu bieten!",
+      "textSeven": "Wir freuen uns darauf, Ihnen ein einzigartiges Erlebnis in unserem Apartment in Playa Honda, Murcia, zu bieten!",
+      "textEight": "Entdecken Sie unser Apartment in Playa Honda, Murcia. Tauchen Sie ein in ein Küstenparadies, in dem Sonne und Meer eine unvergessliche Erfahrung bieten.",
+      "textNine": "Wachen Sie mit dem sanften Klang der Wellen des Mittelmeers auf und genießen Sie die Ruhe in jeder Ecke.",
+      "textTen": "Erkunden Sie kristallklare Strände, betreiben Sie aufregende Wassersportarten oder wandern Sie, um die natürliche Schönheit zu bewundern. In Kombination mit der reichen Kultur und der köstlichen lokalen Gastronomie bietet Ihnen unser gemütliches Apartment Komfort und atemberaubende Ausblicke, um sich zu entspannen und prächtige Sonnenuntergänge zu genießen.",
+      "textEleven": "Schließen Sie sich uns in diesem modernen und warmen Rückzugsort an der Costa Cálida für einen unvergesslichen Urlaub an.",
+      "parallax": "Ihr Rückzugsort am Meer erwartet Sie in Playa Honda"
+    },
+    "grid": {
+      "textOne": "Playa Honda ist ein Ort in der Nähe des südlichen Endes des Mar Menor. Es ist größtenteils flach und daher ideal zum Spazierengehen und Radfahren. Es gibt eine lange Promenade, von der aus man die wunderbaren Ausblicke auf La Manga genießen kann. In den Hochsommermonaten kann man ein Tretboot mieten oder sich einfach auf einem Liegestuhl entspannen. Der Strand hat feinen Sand und grenzt an das ruhige, flache Wasser des Mar Menor. Im Sommer ist die Gegend sehr belebt, aber außerhalb der Saison ist es ruhiger, obwohl jedes Jahr mehr Menschen die Schönheit des Ortes und die milden Wintertemperaturen entdecken.",
+      "textTwo": "Cabo de Palos ist ein charmantes Dorf am südlichen Ende von La Manga, direkt am Mittelmeer. Es ist perfekt für Natur- und Meeresliebhaber, mit seinem ikonischen Leuchtturm und dem Fischereihafen. Berühmt für seine Restaurants mit köstlichen Fischgerichten und frischen Meeresfrüchten, ist es auch ein Paradies für Taucher und Schnorchler dank seiner außergewöhnlichen Meeresfauna. Im Sommer sind die kristallklaren Strände beliebt, aber auch außerhalb der Saison bietet das Dorf Ruhe und natürliche Schönheit. Zudem gibt es Märkte mit frischen Produkten sowie Aktivitäten wie Reiten, Wandern und regionale Weinproben.",
+      "textThree": "La Manga del Mar Menor ist ein wunderschönes Gebiet, das diese große Salzwasserlagune beherbergt, die vom Mittelmeer durch die Landzunge La Manga getrennt ist. Entlang des Mar Menor befinden sich Dörfer von San Javier bis Cabo de Palos. Die 21 km lange Landzunge La Manga schafft einen Durchlass vom Mittelmeer in die Lagune. Diese Lagune ist ideal für Wassersportarten, mit warmem, ruhigem Wasser. Es gibt kilometerlange goldene Strände mit angenehmen Temperaturen fast das ganze Jahr über. Die Region hat wenig Regen und ist somit ideal für ganzjährige Urlaubsziele. Sie bietet Fischrestaurants, Bars mit erschwinglichen Tapas und Märkte mit lokalen Produkten. Es gibt Aktivitäten wie Tauchen, Segeln, Golf und vieles mehr sowie Orte zum Entspannen mit Massagen und regionalen Weinen.",
+      "textFour": "Calblanque ist ein spektakuläres Naturschutzgebiet in der Region. Mit seinen unberührten Stränden und atemberaubenden Landschaften ist es ein Paradies für Naturliebhaber. Die Küste bietet goldene Sandstrände und kristallklares Wasser, ideal zum Entspannen und Genießen der Umgebung. Dieses Naturschutzgebiet ist perfekt zum Wandern, Radfahren und zur Vogelbeobachtung. Es ist der ideale Ort, um dem Trubel zu entfliehen und die Ruhe zu genießen. Mit seinen natürlichen Wegen, unberührten Stränden und einer unvergleichlichen Naturlandschaft ist Calblanque ein perfekter Ort, um die natürliche Schönheit und Ruhe zu genießen."
+    }
+  },
+  "pt": {
+    "navbar": {
+      "home": "Início",
+      "gallery": "Galeria",
+      "activities": "Atividades",
+      "booking": "Reserva",
+      "weather": "Tempo"
+    },
+    "gallery": {
+      "category": "Selecione uma categoria",
+      "categories": {
+        "all": "Tudo",
+        "apartment": "Apartamento",
+        "activities": "Atividades",
+        "nature": "Natureza",
+        "places": "Lugares"
+      }
+    },
+    "booking": {
+      "intro": "Reserve a sua estadia no Apartamento Brisa y Mar.",
+      "info": "Clique no botão para fazer a sua reserva através de Cartagena Costa, onde encontrará todas as informações atualizadas.",
+      "redirect": "Redirecionar para o site da Inmocristal"
+    },
+    "footer": {
+      "adress": "Rua Julietta Orbaiceta, Playa Honda, Cartagena",
+      "register": "Número de Licença de Alojamento Local:",
+      "home": "Início",
+      "gallery": "Galeria",
+      "activities": "Atividades",
+      "booking": "Reserva",
+      "weather": "Tempo",
+      "madeWith": "Feito com ❤️ por JavierN"
+    },
+    "weather": {
+      "weatherToday": "O tempo agora em Playa Honda:",
+      "humidity": "humidade",
+      "speedWind": "velocidade do vento"
+    },
+    "home": {
+      "textOne": "Bem-vindo ao nosso apartamento em Playa Honda, um paraíso costeiro na bela região de Múrcia. Localizado em um enclave privilegiado, este lugar convida você a se imergir em um cenário idílico, onde sol, mar e tranquilidade se unem para lhe proporcionar uma experiência inesquecível.",
+      "textTwo": "Imagine acordar todas as manhãs com o suave som das ondas do Mediterrâneo, enquanto se delicia com a vista panorâmica que este apartamento oferece. A serenidade e a paz entrelaçam-se em cada canto, convidando-o a desfrutar de momentos inesquecíveis na costa de Múrcia.",
+      "textThree": "A região de Múrcia oferece uma vasta gama de atividades para todos os gostos. Desde relaxar nas praias de águas cristalinas até aventurar-se em emocionantes esportes aquáticos, como windsurf ou paddleboard. Os amantes da natureza encontrarão inúmeros trilhos para explorar a beleza natural da área.",
+      "textFour": "Além disso, a rica cultura e a deliciosa gastronomia local são imperdíveis. Descubra as encantadoras vilas de pescadores nas proximidades, onde você pode degustar pratos de frutos do mar frescos e desfrutar da hospitalidade dos habitantes locais.",
+      "textFive": "O apartamento em Playa Honda oferece-lhe um refúgio aconchegante e moderno, equipado com todas as comodidades necessárias para garantir uma estadia agradável. Com amplos terraços que oferecem vistas deslumbrantes, você pode relaxar e desfrutar de magníficos pores do sol.",
+      "textSix": "Mergulhe no calor da Costa Cálida e descubra um lugar onde tranquilidade e diversão se unem de maneira perfeita para lhe proporcionar umas férias inesquecíveis!",
+      "textSeven": "Estamos ansiosos para recebê-lo para viver uma experiência única no nosso apartamento em Playa Honda, Múrcia!",
+      "textEight": "Descubra nosso apartamento em Playa Honda, Múrcia. Mergulhe em um paraíso costeiro, onde sol e mar se combinam para lhe proporcionar uma experiência inesquecível.",
+      "textNine": "Acorde com o suave som das ondas do Mediterrâneo e desfrute da serenidade em cada canto.",
+      "textTen": "Explore praias cristalinas, pratique esportes aquáticos emocionantes ou faça trilhas para admirar a beleza natural. Combinado com a rica cultura e deliciosa gastronomia local, nosso aconchegante apartamento oferece conforto e vistas deslumbrantes para relaxar e desfrutar de magníficos pores do sol.",
+      "textEleven": "Junte-se a nós neste refúgio moderno e acolhedor na Costa Cálida para umas férias inesquecíveis.",
+      "parallax": "O seu refúgio à beira-mar espera por você em Playa Honda"
+    },
+    "grid": {
+      "textOne": "Playa Honda é uma localidade situada perto do extremo sul do Mar Menor. É principalmente plana, tornando-se um lugar ideal para caminhadas e ciclismo. Possui um longo calçadão de onde se pode admirar as maravilhosas vistas para La Manga. Nos meses de maior movimento, pode-se alugar um pedalinho ou simplesmente relaxar em uma espreguiçadeira. A praia tem areia fina e margeia as águas calmas e rasas do Mar Menor. Durante o verão, a área é muito movimentada, mas fora da alta temporada, a região é mais tranquila, embora a cada ano mais pessoas descubram a beleza do lugar e as suaves temperaturas de inverno.",
+      "textTwo": "Cabo de Palos é uma vila encantadora localizada no extremo sul de La Manga, junto ao Mar Mediterrâneo. É perfeito para os amantes da natureza e do mar, com seu icônico farol e porto de pesca. Famoso por seus restaurantes que servem deliciosos pratos de frutos do mar e peixes frescos. Além disso, é ideal para mergulho e snorkeling graças à sua vida marinha excepcional. Durante o verão, suas praias de águas cristalinas são populares, e fora da alta temporada oferece tranquilidade e beleza natural. A vila também tem mercados com produtos frescos e atividades como equitação, trilhas e degustação de vinhos regionais.",
+      "textThree": "La Manga del Mar Menor é uma área linda que abriga esta grande lagoa de água salgada separada do Mediterrâneo pela faixa de La Manga. Ao longo do Mar Menor, há vilarejos que vão de San Javier a Cabo de Palos. A faixa de La Manga, com 21 km de comprimento, cria uma entrada do Mediterrâneo para a lagoa. Esta lagoa é ideal para esportes aquáticos, com águas mornas e calmas. Existem quilômetros de praias douradas com temperaturas agradáveis quase o ano todo. A região tem pouca chuva, ideal para férias durante todo o ano. Oferece restaurantes de peixe, bares com tapas acessíveis e mercados com produtos locais. Existem atividades como mergulho, vela, golfe, entre outras, e lugares para relaxar com massagens e vinhos regionais.",
+      "textFour": "Calblanque é uma espetacular reserva natural localizada na região. Com suas praias virgens e paisagens deslumbrantes, é um paraíso para os amantes da natureza. Suas costas oferecem praias de areia dourada e águas cristalinas, ideais para relaxar e desfrutar do ambiente. Esta reserva é perfeita para caminhadas, ciclismo e observação de aves, além de ser um local ideal para escapar da agitação e desfrutar da tranquilidade. Com suas trilhas naturais, praias imaculadas e um ambiente natural incomparável, Calblanque é o lugar perfeito para apreciar a beleza natural e a serenidade."
+    }
   }
 }
