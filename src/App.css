@@ -161,15 +161,12 @@ div.row {
   .date-picker-all{
     min-height: 80vh;
   }
-  
-  .language-button {
+    .language-button {
     font-size: 1.5rem; /* Aumenta el tamaño de fuente */
     height: 4rem; /* Ajusta la altura del contenedor */
     margin: auto 0;
     max-width: 50px; /* Centra verticalmente de otra manera */
   }
-
-  
   .contact{
     text-align: center;
     display: flex;
@@ -187,6 +184,12 @@ div.row {
     .text-booking{
     position:relative;
     text-align: center;
+  }
+  #staticWeatherChart{
+    visibility: hidden;
+  }
+  #weatherDaysChart{
+    visibility: hidden;
   }
 }
 
@@ -262,6 +265,12 @@ div.row {
     width: 100%;
     gap:2rem;
   }
+  #staticWeatherChart{
+    visibility: hidden;
+  }
+  #weatherDaysChart{
+    visibility: hidden;
+  }
 }
 
 @media (min-width: 768px) {
@@ -293,7 +302,38 @@ div.row {
     background-size: cover;
     position: block;
     border-radius: 50%;
-    }
+  }
+  .text-center weather{
+      text-align: center;
+  }
+  .weather-text{
+     transform: translate(-50%, -170%);
+  }
+  #staticWeatherChart{
+    visibility: visible;
+    position: absolute;
+    width: 70%;
+    height: auto;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -115%);
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 8px;
+    text-align: center;
+  }
+  #weatherDaysChart{
+    visibility: visible;
+    position: absolute;
+    width: 70%;
+    height: 30%;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -110%);
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 8px;
+    text-align: center;
+  }
+    
 }
 
 @media (min-width: 992px) {
