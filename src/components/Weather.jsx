@@ -88,11 +88,51 @@ const Weather = ({ language, onLanguageChange }) => {
       console.log(error);
     }
   };
+  const fetchWeatherDe = async () => {
+    try {
+      const response = await fetch(
+        //`https://api.openweathermap.org/data/2.5/weather?lat=37.63&lon=-0.84&appid=${process.env.OPENWEATHERMAP_API_KEY}&units=metric&lang=en`
+        `https://backend-playa-honda.vercel.app/api/weather?lat=37.63&lon=-0.84&appid=${process.env.OPENWEATHERMAP_API_KEY}&units=metric&lang=de`
+      );
+      if (response.status === 200) {
+        const parsed = await response.json();
+        setDescription(parsed.weather[0].description);
+        setTemp(parsed.main.temp);
+        setTempMax(parsed.main.temp_max);
+        setTempMin(parsed.main.temp_min);
+        setHumidity(parsed.main.humidity);
+        setSpeedWind(parsed.wind.speed);
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  const fetchWeatherPt = async () => {
+    try {
+      const response = await fetch(
+        //`https://api.openweathermap.org/data/2.5/weather?lat=37.63&lon=-0.84&appid=${process.env.OPENWEATHERMAP_API_KEY}&units=metric&lang=en`
+        `https://backend-playa-honda.vercel.app/api/weather?lat=37.63&lon=-0.84&appid=${process.env.OPENWEATHERMAP_API_KEY}&units=metric&lang=pt`
+      );
+      if (response.status === 200) {
+        const parsed = await response.json();
+        setDescription(parsed.weather[0].description);
+        setTemp(parsed.main.temp);
+        setTempMax(parsed.main.temp_max);
+        setTempMin(parsed.main.temp_min);
+        setHumidity(parsed.main.humidity);
+        setSpeedWind(parsed.wind.speed);
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
   useEffect(() => {
     language === "es" && fetchWeatherEs();
     language === "en" && fetchWeatherEn();
     language === "fr" && fetchWeatherFr();
     language === "nl" && fetchWeatherNl();
+    language === "de" && fetchWeatherDe();
+    language === "pt" && fetchWeatherPt();
   }, [language]);
 
   //In case we want to add polution info from the API
