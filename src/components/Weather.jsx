@@ -322,7 +322,7 @@ const Weather = ({ language, onLanguageChange }) => {
             </p>
           </div>
         </div>
-        <div style={{ width: "80%", height: "40%" }}>
+        <div style={{ width: "80%", height: "35%" }}>
           <canvas
             id="staticWeatherChart"
             style={{ width: "100%", height: "100%" }}

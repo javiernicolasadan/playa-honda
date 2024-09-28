@@ -307,16 +307,14 @@ div.row {
       text-align: center;
   }
   .weather-text{
-     transform: translate(-50%, -170%);
+     transform: translate(-50%, -125%);
   }
   #staticWeatherChart{
     visibility: visible;
     position: absolute;
-    width: 70%;
-    height: auto;
     top: 66%;
     left: 50%;
-    transform: translate(-50%, -115%);
+    transform: translate(-50%, -90%);
     background-color: rgba(255, 255, 255, 0.7); 
     border-radius: 8px;
     text-align: center;
@@ -324,11 +322,9 @@ div.row {
   #weatherDaysChart{
     visibility: visible;
     position: absolute;
-    width: 70%;
-    height: 30%;
     top: 86%;
     left: 50%;
-    transform: translate(-50%, -110%);
+    transform: translate(-50%, -53%);
     background-color: rgba(255, 255, 255, 0.7); 
     border-radius: 8px;
     text-align: center;
@@ -347,6 +343,9 @@ div.row {
     background-size: cover;
     position: block;
     border-radius: 50%;
+    }
+    #weatherDaysChart{
+      visibility: hidden;
     }
   }
 
