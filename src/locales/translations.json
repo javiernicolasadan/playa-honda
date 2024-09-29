@@ -3,6 +3,7 @@
   "es": {
     "navbar": {
       "home": "Inicio",
+      "apartment": "Apartamento",
       "gallery": "Galería",
       "activities": "Actividades",
       "booking": "Reserva",
@@ -84,6 +85,7 @@
   "en": {
     "navbar": {
       "home": "Home",
+      "apartment": "Apartament",
       "gallery": "Gallery",
       "activities": "Activities",
       "booking": "Booking",

@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import { useState } from "react";
 import Booking from "./components/Booking";
+import Apartment from "./components/Apartment";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -36,6 +37,17 @@ function App() {
           path="/"
           element={
             <Home
+              isLoading={isLoading}
+              handleLoadingChange={handleLoadingChange}
+              language={language}
+              onLanguageChange={handleLanguageChange}
+            />
+          }
+        />
+        <Route
+          path="/apartment"
+          element={
+            <Apartment
               isLoading={isLoading}
               handleLoadingChange={handleLoadingChange}
               language={language}

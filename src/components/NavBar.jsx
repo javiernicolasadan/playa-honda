@@ -50,6 +50,9 @@ const NavigationBar = ({ language, onLanguageChange }) => {
             >
               {getTranslation("navbar.home", language)}
             </Nav.Link>
+            <Link to="/apartment" className="nav-link" onClick={handleLinkClick}>
+              {getTranslation("navbar.apartment", language)}
+            </Link>
             <Link to="/gallery" className="nav-link" onClick={handleLinkClick}>
               {getTranslation("navbar.gallery", language)}
             </Link>
