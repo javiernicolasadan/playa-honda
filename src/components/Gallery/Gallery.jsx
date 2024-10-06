@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-//in media.json we are filtering the tag of each picture for "all", "nature", "activities" and "places"
+//in media.json we are filtering the tag of each picture 
 import media from "../../assets/media/media.json";
 //particular CSS for the gallery
 import "./gallery.css";
@@ -7,12 +7,7 @@ import { Nav } from "react-bootstrap";
 import { Spinner } from "react-bootstrap";
 import { getTranslation } from "../../services/localizationservice";
 
-const Gallery = ({
-  isLoading,
-  handleLoadingChange,
-  language,
-  onLanguageChange,
-}) => {
+const Gallery = ({ isLoading, handleLoadingChange, language }) => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [activeCategory, setActiveCategory] = useState("De todo");
 
@@ -21,7 +16,7 @@ const Gallery = ({
   const translatedCategories = categories.map((category) =>
     getTranslation(`gallery.categories.${category}`, language)
   );
-  
+
   const imagesByCategory = categories.reduce((result, category) => {
     result[category] = media.categories[category];
     return result;
@@ -42,8 +37,8 @@ const Gallery = ({
   };
 
   useEffect(() => {
-    setActiveCategory("all"); 
-    console.log("Language changed, setting category to 'all'")
+    setActiveCategory("all");
+    console.log("Language changed, setting category to 'all'");
   }, [language]);
 
   return (
