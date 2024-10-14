@@ -31,15 +31,17 @@ const Gallery = ({ isLoading, handleLoadingChange, language }) => {
   }, 2500);
 
   const changeCategory = (categoryKey) => {
-    console.log("Category selected:", categoryKey);
+    //console.log("Category selected:", categoryKey);
     setActiveCategory(categoryKey);
     setSelectedImage(null);
   };
 
   useEffect(() => {
     setActiveCategory("all");
-    console.log("Language changed, setting category to 'all'");
+    //console.log("Language changed, setting category to 'all'");
   }, [language]);
+
+  
 
   return (
     <>
@@ -62,12 +64,22 @@ const Gallery = ({ isLoading, handleLoadingChange, language }) => {
           <div className="media-container">
             {imagesByCategory[activeCategory] &&
               imagesByCategory[activeCategory].map((image, index) => (
+                
                 <div
                   className="media"
                   key={index}
-                  onClick={() => setSelectedImage(image)}
+                  onClick={() => setSelectedImage(image.large)}
                 >
-                  <img src={image} alt={`image ${index + 1}`} />
+                
+                <img
+                      src={image.small || image.large} // Usa small si existe, sino usa large
+                      alt={`image ${index + 1}`}
+                      onError={(e) => {
+                        console.log(`Image small not found, fallback to large: ${image.large}`); // Depura cuando el fallback a large se usa
+                        e.target.onerror = null; // Evita bucles infinitos en caso de error
+                        e.target.src = image.large;
+                      }}
+                    />
                 </div>
               ))}
           </div>
