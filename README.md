@@ -14,6 +14,7 @@ Welcome to the Playa Honda Apartment Website repository! This project is a respo
   - [Installation](#installation)
 - [Usage](#usage)
 - [Routes](#Routes.React-Router-Routes-(React-App))
+- [Backend](#Backend)
 - [Contributing](#contributing)
   - [How to Contribute](#how-to-contribute)
 - [Acknowledgements](#acknowledgements)
@@ -43,7 +44,7 @@ Welcome to the Playa Honda Apartment Website repository! This project is a respo
 
 Ensure you have **Node.js** and **npm** installed. You can download them from [Node.js Official Site](https://nodejs.org/).
 
-### Installation
+### Frontend Installation
 
 1. Clone the repository:
 
@@ -69,7 +70,46 @@ Ensure you have **Node.js** and **npm** installed. You can download them from [N
    npm start
    ```
 
-The app should now be running on [http://localhost:3000](http://localhost:3000).
+### Backend Installation
+
+1. Clone the backend repository:
+
+   ```sh
+   git clone https://github.com/javiernicolasadan/backend-playa-honda.git
+   ```
+
+2. Navigate to the backend project directory:
+
+   ```sh
+   cd backend-playa-honda
+   ```
+
+3. Install the dependencies:
+
+   ```sh
+   npm install
+   ```
+### Running the Application
+
+#### Running Backend
+
+1. Start the backend server:
+
+   ```sh
+   npm start
+   ```
+
+   The backend server should now be running on [http://localhost:5000](http://localhost:5000).
+
+#### Running Frontend
+
+1. Start the development server for the frontend:
+
+   ```sh
+   npm start
+   ```
+
+   The frontend application should now be running on [http://localhost:3000](http://localhost:3000).
 
 ## Usage
 
@@ -85,6 +125,10 @@ This project is a demonstration website for showcasing an apartment in Playa Hon
 | `/activities`                | Activities               | public `<Route>`           | Showcases various activities in the area, with links to their respective websites.   |
 | `/booking`              | Booking             | public `<Route>` | Displays a link for redirect to another web where you can book the apartment, and a iframe of this web.                  |
 | `/weather`             | Weather            | public `<Route>` | Allows users to check real-time weather in the area.                                       |
+
+## Backend
+
+The backend of this project is responsible for handling API requests, such as fetching real-time weather information using the OpenWeather API. It is implemented using Node.js and Express.js. The backend acts as a bridge between the front-end and external services, ensuring data retrieval is seamless and secure.
 
 ## Contributing
 
