@@ -2,7 +2,6 @@ import { getTranslation } from "../services/localizationservice";
 
 const Grid = ({
   language,
-  onLanguageChange,
 }) => {
   return (
     <>

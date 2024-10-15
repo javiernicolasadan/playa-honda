@@ -347,6 +347,11 @@ div.row {
     #weatherDaysChart{
       visibility: hidden;
     }
+    .apartment-section{
+    margin-top: 4rem;
+    max-width: 800px;
+    margin: 0 auto;
+    }
   }
 
 @media (min-width: 1200px) {
@@ -369,12 +374,47 @@ div.row {
     .text-booking{
       max-width: 60%;
     }
+    .apartment-section{
+      margin-top: 4rem;
+      max-width: 1000px;
+      margin: 0 auto;
+      }
   
 }
 
 @media (min-width: 1400px) {
-  /* body::before {
-    content: "XXL";
-  } */
+  .apartment-section{
+    margin-top: 4rem;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+    }
+    .image-slider {
+      display: flex;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      height: 300px;
+      border-radius: 20px;
+    }
+    
+    .slide {
+      min-width: 100%;
+      transition: transform 1s ease-in-out;
+      animation: slide-animation 20s infinite;
+    }
+    
+    @keyframes slide-animation {
+      0% { transform: translateX(0); }
+      20% { transform: translateX(0); }
+      25% { transform: translateX(-100%); }
+      45% { transform: translateX(-100%); }
+      50% { transform: translateX(-200%); }
+      70% { transform: translateX(-200%); }
+      75% { transform: translateX(-300%); }
+      95% { transform: translateX(-300%); }
+      100% { transform: translateX(0); }
+    }
+    
 }
 
