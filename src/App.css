@@ -347,6 +347,11 @@ div.row {
     #weatherDaysChart{
       visibility: hidden;
     }
+    .apartment-section{
+    margin-top: 4rem;
+    max-width: 800px;
+    margin: 0 auto;
+    }
   }
 
 @media (min-width: 1200px) {
@@ -369,12 +374,19 @@ div.row {
     .text-booking{
       max-width: 60%;
     }
+    .apartment-section{
+      margin-top: 4rem;
+      max-width: 1000px;
+      margin: 0 auto;
+      }
   
 }
 
 @media (min-width: 1400px) {
-  /* body::before {
-    content: "XXL";
-  } */
+  .apartment-section{
+    margin-top: 4rem;
+    max-width: 1300px;
+    margin: 0 auto;
+    }
 }
 
