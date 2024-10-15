@@ -10,22 +10,69 @@ const Apartament = ({ language }) => {
     { title: "apartment.titleBathroom", image: "/small_Aseo_1.jpg", textKey: "apartment.descriptionBathroom", orientation: "portrait" },
   ];
 
+  const galleryImages = [
+    "/DSC_6253.jpg",
+    "/DSC_6364-HDR-1.jpg",
+    "/DSC_6477.jpg",
+    "/DSC_6526-HDR.jpg",
+    "/DSC_6612.jpg",
+    "/DSC_6616.jpg",
+    "/DSC_6619.jpg",
+  ];
+
   return (
     <div className="container-fluid grid-container apartment-section" style={{ marginTop: "4rem" }}>
+
+      {/* Banda Horizontal de Imágenes */}
+      <div className="horizontal-gallery" style={{
+        display: "flex",
+        overflowX: "auto",
+        gap: "1rem",
+        padding: "1rem",
+        backgroundColor: "#f0f0f0",
+        borderRadius: "10px",
+        marginBottom: "2rem"
+      }}>
+        {galleryImages.map((image, index) => (
+          <div key={index} style={{
+            flex: "0 0 auto",
+            height: "200px", // Altura fija, ajusta si es necesario
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            overflow: "hidden",
+            borderRadius: "10px",
+          }}>
+            <img
+              src={image}
+              alt={`gallery image ${index + 1}`}
+              style={{
+                maxHeight: "100%", // Para mantener la altura dentro del contenedor
+                maxWidth: "100%",  // Para mantener la proporción de la imagen
+                objectFit: "contain",
+              }}
+            />
+          </div>
+        ))}
+      </div>
+
+      {/* Sección principal del apartamento */}
       <div className="row justify-content-evenly" style={{ gap: "2rem" }}>
         {items.map((item, index) => (
           <div
             key={index}
-            className={`d-flex ${index % 2 === 0 ? "apartment-section" : "flex-row-reverse apartment-section" }`}
+            className={`d-flex ${index % 2 === 0 ? "apartment-section" : "flex-row-reverse apartment-section"}`}
             style={{ alignItems: "center", marginBottom: "2rem", gap: "2rem" }}
           >
-           
             <div
               style={{
                 flex: "0 0 45%",
-                height: item.orientation === "landscape" ? "300px" : "500px",
+                height: item.orientation === "landscape" ? "400px" : "600px",
                 overflow: "hidden",
-                borderRadius: item.orientation === "landscape" ? "20px" : "40%",  
+                borderRadius: item.orientation === "landscape" ? "50px" : "60%",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
               }}
             >
               <img
@@ -33,7 +80,7 @@ const Apartament = ({ language }) => {
                 style={{
                   width: "100%",
                   height: "100%",
-                  objectFit: "cover",
+                  objectFit: "cover", // Mostrar la imagen completa sin recortar
                 }}
               />
             </div>
@@ -41,7 +88,7 @@ const Apartament = ({ language }) => {
               style={{
                 flex: "0 0 50%",
                 padding: "20px",
-                background: "#f0f0f0",  
+                background: "#f0f0f0",
                 borderRadius: "10px",
                 textAlign: "left",
               }}
