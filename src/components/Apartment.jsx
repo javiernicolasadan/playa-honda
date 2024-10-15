@@ -2,11 +2,11 @@ import { getTranslation } from "../services/localizationservice";
 
 const Apartament = ({ language }) => {
   const items = [
-    { title: "apartment.titleLiving", image: "/small_Salon_2.jpg", textKey: "apartment.descriptionLiving", orientation: "landscape" },
+    { title: "apartment.titleLiving", image: "/small_Salon_2.jpg", textKey: "apartment.descriptionLiving", orientation: "portrait" },
     { title: "apartment.titleTerrace", image: "/small_Terraza_1.jpg", textKey: "apartment.descriptionTerrace", orientation: "portrait" },
-    { title: "apartment.titleKitchen", image: "/small_Cocina_1.jpg", textKey: "apartment.descriptionKitchen", orientation: "landscape" },
+    { title: "apartment.titleKitchen", image: "/small_Cocina_1.jpg", textKey: "apartment.descriptionKitchen", orientation: "portrait" },
     { title: "apartment.titleBedroomOne", image: "/small_Dormitorio_principal_1.jpg", textKey: "apartment.descriptionBedroomOne", orientation: "portrait" },
-    { title: "apartment.titleBedroomTwo", image: "/small_Dormitorio_literas_1.jpg", textKey: "apartment.descriptionBedroomTwo", orientation: "landscape" },
+    { title: "apartment.titleBedroomTwo", image: "/small_Dormitorio_literas_1.jpg", textKey: "apartment.descriptionBedroomTwo", orientation: "portrait" },
     { title: "apartment.titleBathroom", image: "/small_Aseo_1.jpg", textKey: "apartment.descriptionBathroom", orientation: "portrait" },
   ];
 
@@ -23,9 +23,9 @@ const Apartament = ({ language }) => {
             <div
               style={{
                 flex: "0 0 45%",
-                height: item.orientation === "landscape" ? "300px" : "400px",
+                height: item.orientation === "landscape" ? "300px" : "300px",
                 overflow: "hidden",
-                borderRadius: item.orientation === "landscape" ? "20px" : "50%",  
+                borderRadius: item.orientation === "landscape" ? "20px" : "40%",  
               }}
             >
               <img
@@ -37,7 +37,6 @@ const Apartament = ({ language }) => {
                 }}
               />
             </div>
-            {/* Text */}
             <div
               style={{
                 flex: "0 0 50%",
