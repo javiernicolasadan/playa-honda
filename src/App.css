@@ -191,6 +191,18 @@ div.row {
   #weatherDaysChart{
     visibility: hidden;
   }
+  
+  .img-responsive{
+    margin-top: 20px;
+  }
+  .apartment-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    }
+    
 }
 
 @media (min-width: 576px) {

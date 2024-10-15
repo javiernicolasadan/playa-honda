@@ -137,19 +137,20 @@ const Apartament = ({ language }) => {
             style={{ alignItems: "center", marginBottom: "2rem", gap: "2rem" }}
           >
             <div
-              className="media"
+              className="media "
               style={{
                 flex: "0 0 45%",
                 height: item.orientation === "landscape" ? "400px" : "600px",
                 overflow: "hidden",
                 borderRadius: item.orientation === "landscape" ? "50px" : "60%",
                 display: "flex",
+                
                 justifyContent: "center",
                 alignItems: "center",
               }}
               onClick={() => setSelectedImage(item.image)}
             >
-              <img
+              <img 
                 src={item.image}
                 style={{
                   width: "100%",
@@ -159,6 +160,7 @@ const Apartament = ({ language }) => {
               />
             </div>
             <div
+            className="img-responsive"
               style={{
                 flex: "0 0 50%",
                 padding: "20px",
