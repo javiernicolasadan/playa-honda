@@ -16,8 +16,8 @@ const titleStyle = {
 }
 
 //using handleLoadingChange to show spinner 2seg untill pic are showed
-const Activities = ({ isLoading, handleLoadingChange, language, onHandleLanguageChange }) => {
-  //console.log(language)
+const Activities = ({ isLoading, handleLoadingChange, language }) => {
+  
   useEffect(()=>{
     handleLoadingChange(true)
    },[])
@@ -34,7 +34,7 @@ const Activities = ({ isLoading, handleLoadingChange, language, onHandleLanguage
           {cardData.map((card, idx) => (
             <Col key={idx} xs={1} sm={1} lg={2} style={{ width: "35rem", height: "32rem", padding:"0" }}>
               <Card className="border border-5 rounded-3 " >
-                <Card.Img variant="top" src={card.imageSrc} />
+                <Card.Img variant="top" src={card.imageSrc} alt={card.title[language]}/>
                 <Card.Body>
                   <Card.Title style={titleStyle}>{card.title[language]}</Card.Title>
                   <Card.Text>{card.description[language]}</Card.Text>

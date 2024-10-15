@@ -1,7 +1,7 @@
 import { getTranslation } from "../../services/localizationservice";
 import "./parallax.css";
 
-const Parallax = ({language,onHandleLanguage}) => {
+const Parallax = ({language}) => {
   return (
     <>
       <section className="parallax">

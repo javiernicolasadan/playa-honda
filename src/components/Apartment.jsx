@@ -61,7 +61,7 @@ const Apartament = ({ language }) => {
       className="container-galleryTwo mt-0 container-fluid grid-container apartment-section"
       style={{ marginTop: "4rem" }}
     >
-      {/* Banda Horizontal de Imágenes */}
+      {/* horizontal banner pictures */}
       <div
         className="horizontal-gallery media-container"
         style={{
@@ -79,7 +79,7 @@ const Apartament = ({ language }) => {
             key={index}
             style={{
               flex: "0 0 auto",
-              height: "200px", // Altura fija, ajusta si es necesario
+              height: "200px", 
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
@@ -92,8 +92,8 @@ const Apartament = ({ language }) => {
               src={image}
               alt={`gallery image ${index + 1}`}
               style={{
-                maxHeight: "100%", // Para mantener la altura dentro del contenedor
-                maxWidth: "100%", // Para mantener la proporción de la imagen
+                maxHeight: "100%", 
+                maxWidth: "100%", 
                 objectFit: "contain",
               }}
             />
@@ -118,7 +118,7 @@ const Apartament = ({ language }) => {
         <p>{getTranslation("apartment.general1", language)}</p>
         <p>{getTranslation("apartment.general2", language)}</p>
       </div>
-      {/* Popup para mostrar la imagen ampliada */}
+      {/* Popup for showing zoomed image */}
       {selectedImage && (
         <div className="popup-media">
           <span onClick={() => setSelectedImage(null)}>&times;</span>
@@ -126,8 +126,8 @@ const Apartament = ({ language }) => {
         </div>
       )}
 
-      {/* Sección principal del apartamento */}
-      <div className=" row justify-content-evenly" style={{ gap: "2rem" }}>
+      {/* apartment main section */}
+      <div className="row justify-content-evenly" style={{ gap: "2rem" }}>
         {items.map((item, index) => (
           <div
             key={index}
@@ -160,7 +160,7 @@ const Apartament = ({ language }) => {
                 style={{
                   width: "100%",
                   height: "100%",
-                  objectFit: "cover", // Mostrar la imagen completa sin recortar
+                  objectFit: "cover", 
                 }}
               />
             </div>

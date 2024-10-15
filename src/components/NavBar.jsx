@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Nav, Navbar, Dropdown } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
 import { useMediaQuery } from "@react-hook/media-query";
@@ -7,7 +7,12 @@ import { getTranslation } from "../services/localizationservice";
 const NavigationBar = ({ language, onLanguageChange }) => {
   const [expanded, setExpanded] = useState(false);
   const isMobile = useMediaQuery("(max-width: 768px)");
-  const location = useLocation(); // Obtener la ubicación actual
+  const location = useLocation(); 
+
+  useEffect(() => {
+    // Call getCurrentPageName for logging purposes, without rendering its value
+    getCurrentPageName();
+  }, [location]);
 
   const handleNavbarToggle = () => {
     if (isMobile) {
@@ -21,9 +26,9 @@ const NavigationBar = ({ language, onLanguageChange }) => {
     }
   };
 
-  // Función para obtener el nombre de la página actual según la ruta
+  // Function to get the current page name
   const getCurrentPageName = () => {
-    console.log(location.pathname)
+    console.log("Current pathname:", location.pathname); // Debugging console.log to check the current pathname
     switch (location.pathname) {
       case "/":
         return getTranslation("navbar.home", language);
@@ -71,26 +76,26 @@ const NavigationBar = ({ language, onLanguageChange }) => {
             className="navbar-nav-centered"
             style={{ fontWeight: "bold", fontSize: "125%" }}
           >
-            <Nav.Link as={Link} to="/" className="nav-link" onClick={handleLinkClick}>
+            <Nav.Link as={Link} to="/" className={`nav-link ${location.pathname === "/" ? "active-link" : ""}`} onClick={handleLinkClick}>
               {getTranslation("navbar.home", language)}
             </Nav.Link>
-            <Link to="/apartment" className="nav-link" onClick={handleLinkClick}>
+            <Nav.Link as={Link} to="/apartment" className={`nav-link ${location.pathname === "/apartment" ? "active-link" : ""}`} onClick={handleLinkClick}>
               {getTranslation("navbar.apartment", language)}
-            </Link>
-            <Link to="/gallery" className="nav-link" onClick={handleLinkClick}>
+            </Nav.Link>
+            <Nav.Link as={Link} to="/gallery" className={`nav-link ${location.pathname === "/gallery" ? "active-link" : ""}`} onClick={handleLinkClick}>
               {getTranslation("navbar.gallery", language)}
-            </Link>
-            <Link to="/activities" className="nav-link" onClick={handleLinkClick}>
+            </Nav.Link>
+            <Nav.Link as={Link} to="/activities" className={`nav-link ${location.pathname === "/activities" ? "active-link" : ""}`} onClick={handleLinkClick}>
               {getTranslation("navbar.activities", language)}
-            </Link>
-            <Link to="/booking" className="nav-link" onClick={handleLinkClick}>
+            </Nav.Link>
+            <Nav.Link as={Link} to="/booking" className={`nav-link ${location.pathname === "/booking" ? "active-link" : ""}`} onClick={handleLinkClick}>
               {getTranslation("navbar.booking", language)}
-            </Link>
-            <Link to="/weather" className="nav-link" onClick={handleLinkClick}>
+            </Nav.Link>
+            <Nav.Link as={Link} to="/weather" className={`nav-link ${location.pathname === "/weather" ? "active-link" : ""}`} onClick={handleLinkClick}>
               {getTranslation("navbar.weather", language)}
-            </Link>
+            </Nav.Link>
 
-            {/* Dropdown para el idioma */}
+            {/* Dropdown for language */}
             <Dropdown onSelect={onLanguageChange}>
               <Dropdown.Toggle
                 variant="light"

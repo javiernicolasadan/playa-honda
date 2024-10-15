@@ -9,7 +9,7 @@ import { getTranslation } from "../../services/localizationservice";
 
 const Gallery = ({ isLoading, handleLoadingChange, language }) => {
   const [selectedImage, setSelectedImage] = useState(null);
-  const [activeCategory, setActiveCategory] = useState("De todo");
+  const [activeCategory, setActiveCategory] = useState("all");
 
   const categories = ["all", "apartment", "activities", "nature", "places"];
 
@@ -38,7 +38,6 @@ const Gallery = ({ isLoading, handleLoadingChange, language }) => {
 
   useEffect(() => {
     setActiveCategory("all");
-    //console.log("Language changed, setting category to 'all'");
   }, [language]);
 
   
