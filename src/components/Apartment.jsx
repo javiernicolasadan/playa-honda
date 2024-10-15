@@ -1,9 +1,11 @@
 import { useState } from "react";
 import "./Gallery/gallery.css";
 import { getTranslation } from "../services/localizationservice";
+import { useMediaQuery } from "@react-hook/media-query";
 
 const Apartament = ({ language }) => {
   const [selectedImage, setSelectedImage] = useState(null);
+  const isMobile = useMediaQuery("(max-width: 768px)");
 
   const items = [
     {
@@ -130,10 +132,13 @@ const Apartament = ({ language }) => {
           <div
             key={index}
             className={`d-flex ${
-              index % 2 === 0
-                ? "apartment-section"
-                : "flex-row-reverse apartment-section"
-            }`}
+  index % 2 === 0
+    ? "apartment-section"
+    : isMobile
+    ? "flex-column apartment-section"
+    : "flex-row-reverse apartment-section"
+}`}
+
             style={{ alignItems: "center", marginBottom: "2rem", gap: "2rem" }}
           >
             <div
