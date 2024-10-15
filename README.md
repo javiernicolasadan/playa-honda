@@ -90,7 +90,7 @@ Ensure you have **Node.js** and **npm** installed. You can download them from [N
 1. Start the backend server:
 
    ```sh
-   npm start
+   npm run dev
    ```
 
    The backend server should now be running on [http://localhost:5000](http://localhost:5000).
