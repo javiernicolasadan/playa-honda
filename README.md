@@ -13,7 +13,7 @@ Welcome to the Playa Honda Apartment Website repository! This project is a respo
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Routes](#routes)
+- [Routes](#Routes.React-Router-Routes-(React-App))
 - [Contributing](#contributing)
   - [How to Contribute](#how-to-contribute)
 - [Acknowledgements](#acknowledgements)
