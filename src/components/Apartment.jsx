@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./gallery/gallery.css";
+import "./Gallery/gallery.css";
 import { getTranslation } from "../services/localizationservice";
 
 const Apartament = ({ language }) => {
