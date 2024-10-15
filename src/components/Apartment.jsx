@@ -60,7 +60,22 @@ const Apartament = ({ language }) => {
           </div>
         ))}
       </div>
-
+      
+      <div
+              style={{
+                flex: "0 0 50%",
+                padding: "20px",
+                background: "#f0f0f0",
+                borderRadius: "10px",
+                textAlign: "left",
+                marginTop: "2rem",
+                marginBottom: "2rem"
+              }}
+            >
+              <h4 style={{ marginBottom: "1rem" }}>{getTranslation("apartment.title", language)}</h4>
+              <p>{getTranslation("apartment.general1", language)}</p>
+              <p>{getTranslation("apartment.general2", language)}</p>
+            </div>
       {/* Popup para mostrar la imagen ampliada */}
      {selectedImage && (
         <div className="popup-media">

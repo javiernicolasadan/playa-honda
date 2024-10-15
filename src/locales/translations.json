@@ -10,6 +10,9 @@
       "weather": "El Tiempo"
     },
     "apartment": {
+      "title": "Comodidades",
+      "general1": "Disfruta de todas las comodidades que ofrece nuestro apartamento para hacer tu estancia lo más cómoda posible. Contamos con conexión WiFi gratuita en toda la casa, así como sombrillas, tumbona y sillas de playa para relajarte junto al mar.",
+      "general2": "Además, podrás disfrutar de entretenimiento en la TV gracias al Chromecast, que te permitirá transmitir fácilmente contenidos desde tu móvil.",
       "titleLiving": "Salón",
       "descriptionLiving": "Un acogedor salón con vistas directas al mar, perfecto para relajarse mientras disfrutas del paisaje. Cuenta con una amplia mesa extensible de gran capacidad, ideal para comidas familiares o reuniones, ubicada convenientemente junto a la barra de la cocina, facilitando la puesta y recogida de mesa, y creando un espacio funcional y elegante. Dispone de ventilador de techo.",
       "titleTerrace": "Terraza",
