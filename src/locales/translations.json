@@ -108,6 +108,23 @@
       "booking": "Booking",
       "weather": "Weather"
     },
+    "apartment": {
+    "title": "Amenities",
+    "general1": "Enjoy all the amenities our apartment has to offer to make your stay as comfortable as possible. We provide free WiFi throughout the house, as well as umbrellas, a deckchair, and beach chairs for relaxing by the sea.",
+    "general2": "Additionally, you can enjoy entertainment on the TV thanks to Chromecast, which allows you to easily stream content from your mobile phone.",
+    "titleLiving": "Living Room",
+    "descriptionLiving": "A cozy living room with direct sea views, perfect for relaxing while enjoying the scenery. It features a large extendable table, ideal for family meals or gatherings, conveniently located next to the kitchen counter, making it easy to set and clear the table, creating a functional and elegant space. It has a ceiling fan.",
+    "titleTerrace": "Terrace",
+    "descriptionTerrace": "Beautiful terrace right on the beach, facing the Mar Menor, accessed from the living room, equipped with a table and chairs for outdoor dining, all on artificial grass flooring. Ideal for relaxing at sunset or spending unforgettable moments while enjoying the stunning coastal views.",
+    "titleKitchen": "Kitchen",
+    "descriptionKitchen": "This kitchen is fully equipped with everything you need for your comfort. It includes a refrigerator with freezer, toaster, microwave, ceramic hob with two burners, extra electric stove, pots, pans, wine glasses, corkscrew, cutlery, tray, and all the utensils (plates, bowls, glasses, cups...).",
+    "titleBedroomOne": "Bedroom One",
+    "descriptionBedroomOne": "Space with a window directly facing the sea. It has a 1.5-meter bed and features a chest of drawers and an open wardrobe with hangers. Two bedside tables with drawers and their respective auxiliary lamps.",
+    "titleBedroomTwo": "Bedroom Two",
+    "descriptionBedroomTwo": "This room also has a window directly facing the sea. It has two bunk beds and a spacious wardrobe with drawers.",
+    "titleBathroom": "Bathroom",
+    "descriptionBathroom": "Full bathroom with towels, shower gel, shampoo, bath mat, hairdryer, and radiator for winter showers. It has a full-length mirror right in front of the bathroom."
+  },
     "gallery": {
       "category": "Select a category",
       "categories": {
@@ -182,11 +199,29 @@
   "fr": {
     "navbar": {
       "home": "Accueil",
+      "apartment": "Appartement",
       "gallery": "Galerie",
       "activities": "Activités",
       "booking": "Réservation",
       "weather": "Météo"
     },
+    "apartment": {
+    "title": "Commodités",
+    "general1": "Profitez de toutes les commodités que notre appartement a à offrir pour rendre votre séjour le plus confortable possible. Nous offrons une connexion WiFi gratuite dans toute la maison, ainsi que des parasols, une chaise longue et des chaises de plage pour se détendre au bord de la mer.",
+    "general2": "De plus, vous pouvez profiter de divertissements sur la TV grâce au Chromecast, qui vous permet de diffuser facilement des contenus depuis votre téléphone portable.",
+    "titleLiving": "Salon",
+    "descriptionLiving": "Un salon confortable avec vue directe sur la mer, parfait pour se détendre tout en profitant du paysage. Il dispose d'une grande table extensible, idéale pour les repas en famille ou entre amis, située juste à côté du comptoir de la cuisine, ce qui facilite la mise et le débarrassage de la table, créant un espace fonctionnel et élégant. Il dispose d'un ventilateur de plafond.",
+    "titleTerrace": "Terrasse",
+    "descriptionTerrace": "Belle terrasse en première ligne de plage, orientée vers la Mar Menor, accessible depuis le salon, équipée d'une table et de chaises pour les repas en plein air, le tout sur un sol en gazon artificiel. Idéal pour se détendre au coucher du soleil ou passer des moments inoubliables en contemplant la vue imprenable sur la côte.",
+    "titleKitchen": "Cuisine",
+    "descriptionKitchen": "Cette cuisine est entièrement équipée de tout ce dont vous avez besoin pour votre confort. Elle comprend un réfrigérateur avec congélateur, un grille-pain, un micro-ondes, une plaque vitrocéramique à deux feux, une cuisinière électrique supplémentaire, des casseroles, des poêles, des verres à vin, un tire-bouchon, des couverts, un plateau et toute la vaisselle (assiettes, bols, verres, tasses...).",
+    "titleBedroomOne": "Chambre Une",
+    "descriptionBedroomOne": "Espace avec une fenêtre donnant directement sur la mer. Elle dispose d'un lit de 1,5 mètre et comprend une commode à tiroirs et une penderie ouverte avec des cintres. Deux tables de chevet avec des tiroirs et leurs lampes auxiliaires respectives.",
+    "titleBedroomTwo": "Chambre Deux",
+    "descriptionBedroomTwo": "Cette chambre dispose également d'une fenêtre donnant directement sur la mer. Elle est équipée de deux lits superposés et d'une grande armoire avec tiroirs.",
+    "titleBathroom": "Salle de bain",
+    "descriptionBathroom": "Salle de bain complète avec serviettes, gel douche, shampoing, tapis de bain, sèche-cheveux et radiateur pour les douches d'hiver. Elle dispose d'un miroir pleine longueur juste en face de la salle de bain."
+  },
     "gallery": {
       "category": "Sélectionnez une catégorie",
       "categories": {
@@ -260,10 +295,28 @@
   "nl": {
     "navbar": {
       "home": "Home",
+      "apartment": "Appartement",
       "gallery": "Galerij",
       "activities": "Activiteiten",
       "booking": "Boeking",
       "weather": "Weer"
+    },
+    "apartment": {
+      "title": "Voorzieningen",
+      "general1": "Geniet van alle voorzieningen die ons appartement te bieden heeft om uw verblijf zo comfortabel mogelijk te maken. We bieden gratis WiFi in het hele huis, evenals parasols, een ligstoel en strandstoelen om te ontspannen aan zee.",
+      "general2": "Daarnaast kunt u genieten van entertainment op de tv dankzij Chromecast, waarmee u eenvoudig content vanaf uw mobiele telefoon kunt streamen.",
+      "titleLiving": "Woonkamer",
+      "descriptionLiving": "Een gezellige woonkamer met direct uitzicht op zee, perfect om te ontspannen terwijl u van het uitzicht geniet. Het beschikt over een grote uitschuifbare tafel, ideaal voor familiediners of bijeenkomsten, gunstig gelegen naast het aanrecht van de keuken, waardoor het gemakkelijk is om de tafel te dekken en af te ruimen, en een functionele en elegante ruimte ontstaat. Het heeft een plafondventilator.",
+      "titleTerrace": "Terras",
+      "descriptionTerrace": "Mooi terras direct aan het strand, gericht op de Mar Menor, toegankelijk vanuit de woonkamer, uitgerust met een tafel en stoelen voor dineren in de buitenlucht, alles op kunstgras. Ideaal om te ontspannen bij zonsondergang of onvergetelijke momenten door te brengen terwijl u geniet van het prachtige uitzicht op de kust.",
+      "titleKitchen": "Keuken",
+      "descriptionKitchen": "Deze keuken is volledig uitgerust met alles wat u nodig heeft voor uw comfort. Het bevat een koelkast met vriezer, broodrooster, magnetron, keramische kookplaat met twee pitten, extra elektrische kookplaat, potten, pannen, wijnglazen, kurkentrekker, bestek, dienblad en al het keukengerei (borden, kommen, glazen, kopjes...).",
+      "titleBedroomOne": "Slaapkamer Een",
+      "descriptionBedroomOne": "Ruimte met een raam dat direct op zee uitkijkt. Het heeft een bed van 1,5 meter en is voorzien van een ladekast en een open kledingkast met hangers. Twee nachtkastjes met laden en bijbehorende lampen.",
+      "titleBedroomTwo": "Slaapkamer Twee",
+      "descriptionBedroomTwo": "Deze kamer heeft ook een raam dat direct op zee uitkijkt. Het heeft twee stapelbedden en een ruime kast met lades.",
+      "titleBathroom": "Badkamer",
+      "descriptionBathroom": "Volledige badkamer met handdoeken, douchegel, shampoo, badmat, haardroger en radiator voor winterse douchebeurten. Het heeft een grote spiegel recht voor de badkamer."
     },
     "gallery": {
       "category": "Selecteer een categorie",
@@ -338,11 +391,29 @@
   "de": {
     "navbar": {
       "home": "Startseite",
+      "apartment": "Wohnung",
       "gallery": "Galerie",
       "activities": "Aktivitäten",
       "booking": "Buchung",
       "weather": "Wetter"
     },
+    "apartment": {
+    "title": "Ausstattung",
+    "general1": "Genießen Sie alle Annehmlichkeiten, die unsere Wohnung zu bieten hat, um Ihren Aufenthalt so angenehm wie möglich zu gestalten. Wir bieten kostenloses WLAN im gesamten Haus sowie Sonnenschirme, einen Liegestuhl und Strandstühle zum Entspannen am Meer.",
+    "general2": "Darüber hinaus können Sie dank Chromecast Unterhaltung auf dem Fernseher genießen, mit dem Sie Inhalte einfach von Ihrem Handy streamen können.",
+    "titleLiving": "Wohnzimmer",
+    "descriptionLiving": "Ein gemütliches Wohnzimmer mit direktem Meerblick, perfekt zum Entspannen und Genießen der Landschaft. Es verfügt über einen großen ausziehbaren Tisch, ideal für Familienessen oder Zusammenkünfte, günstig in der Nähe der Küchentheke gelegen, was das Decken und Abräumen des Tisches erleichtert und einen funktionalen und eleganten Raum schafft. Es gibt einen Deckenventilator.",
+    "titleTerrace": "Terrasse",
+    "descriptionTerrace": "Schöne Terrasse direkt am Strand, mit Blick auf das Mar Menor, zugänglich vom Wohnzimmer, ausgestattet mit einem Tisch und Stühlen für Mahlzeiten im Freien, alles auf Kunstrasen. Ideal zum Entspannen bei Sonnenuntergang oder für unvergessliche Momente beim Genuss des atemberaubenden Küstenblicks.",
+    "titleKitchen": "Küche",
+    "descriptionKitchen": "Diese Küche ist komplett ausgestattet mit allem, was Sie für Ihren Komfort benötigen. Sie verfügt über einen Kühlschrank mit Gefrierfach, einen Toaster, eine Mikrowelle, ein Glaskeramikkochfeld mit zwei Brennern, eine zusätzliche elektrische Kochplatte, Töpfe, Pfannen, Weingläser, Korkenzieher, Besteck, Tablett und alle Utensilien (Teller, Schüsseln, Gläser, Tassen...).",
+    "titleBedroomOne": "Schlafzimmer Eins",
+    "descriptionBedroomOne": "Raum mit einem Fenster mit direktem Blick auf das Meer. Es verfügt über ein 1,5-Meter-Bett und eine Kommode sowie einen offenen Kleiderschrank mit Bügeln. Zwei Nachttische mit Schubladen und ihren jeweiligen Lampen.",
+    "titleBedroomTwo": "Schlafzimmer Zwei",
+    "descriptionBedroomTwo": "Dieses Zimmer verfügt ebenfalls über ein Fenster mit direktem Meerblick. Es gibt zwei Etagenbetten und einen geräumigen Kleiderschrank mit Schubladen.",
+    "titleBathroom": "Badezimmer",
+    "descriptionBathroom": "Voll ausgestattetes Badezimmer mit Handtüchern, Duschgel, Shampoo, Badematte, Haartrockner und Heizung für Winterduschen. Es gibt einen Ganzkörperspiegel direkt gegenüber dem Badezimmer."
+  },
     "gallery": {
       "category": "Wähle eine Kategorie",
       "categories": {
@@ -417,9 +488,27 @@
     "navbar": {
       "home": "Início",
       "gallery": "Galeria",
+      "apartment": "Apartamento",
       "activities": "Atividades",
       "booking": "Reserva",
       "weather": "Tempo"
+    },
+    "apartment": {
+      "title": "Comodidades",
+      "general1": "Desfrute de todas as comodidades que o nosso apartamento tem a oferecer para tornar a sua estadia o mais confortável possível. Disponibilizamos WiFi gratuito em toda a casa, assim como guarda-sóis, uma espreguiçadeira e cadeiras de praia para relaxar junto ao mar.",
+      "general2": "Além disso, você pode desfrutar de entretenimento na TV graças ao Chromecast, que permite transmitir conteúdo facilmente do seu celular.",
+      "titleLiving": "Sala de Estar",
+      "descriptionLiving": "Uma aconchegante sala de estar com vista direta para o mar, perfeita para relaxar enquanto aprecia a paisagem. Possui uma grande mesa extensível, ideal para refeições em família ou reuniões, convenientemente localizada ao lado da bancada da cozinha, facilitando a montagem e o recolhimento da mesa, criando um espaço funcional e elegante. Possui um ventilador de teto.",
+      "titleTerrace": "Terraço",
+      "descriptionTerrace": "Belo terraço em frente à praia, voltado para o Mar Menor, acessível pela sala de estar, equipado com mesa e cadeiras para refeições ao ar livre, tudo em piso de grama artificial. Ideal para relaxar ao entardecer ou passar momentos inesquecíveis enquanto desfruta das vistas deslumbrantes da costa.",
+      "titleKitchen": "Cozinha",
+      "descriptionKitchen": "Esta cozinha está totalmente equipada com tudo o que você precisa para o seu conforto. Inclui geladeira com freezer, torradeira, micro-ondas, fogão vitrocerâmico com duas bocas, fogão elétrico extra, panelas, frigideiras, taças de vinho, saca-rolhas, talheres, bandeja e todos os utensílios (pratos, tigelas, copos, xícaras...).",
+      "titleBedroomOne": "Quarto Um",
+      "descriptionBedroomOne": "Espaço com uma janela com vista direta para o mar. Possui uma cama de 1,5 metro e conta com uma cômoda com gavetas e um guarda-roupa aberto com cabides. Dois criados-mudos com gavetas e suas respectivas lâmpadas auxiliares.",
+      "titleBedroomTwo": "Quarto Dois",
+      "descriptionBedroomTwo": "Este quarto também possui uma janela com vista direta para o mar. Possui dois beliches e um espaçoso guarda-roupa com gavetas.",
+      "titleBathroom": "Banheiro",
+      "descriptionBathroom": "Banheiro completo com toalhas, gel de banho, shampoo, tapete de banho, secador de cabelo e radiador para banhos no inverno. Possui um espelho de corpo inteiro bem em frente ao banheiro."
     },
     "gallery": {
       "category": "Selecione uma categoria",
