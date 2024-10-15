@@ -2,12 +2,12 @@ import { getTranslation } from "../services/localizationservice";
 
 const Apartament = ({ language }) => {
   const items = [
-    { title: "apartment.titleLiving", image: "/Salon_2_min.jpg", textKey: "apartment.descriptionLiving", orientation: "landscape" },
-    { title: "apartment.titleTerrace", image: "/Terraza_1_min.jpg", textKey: "apartment.descriptionTerrace", orientation: "portrait" },
-    { title: "apartment.titleKitchen", image: "/Cocina_1_min.jpg", textKey: "apartment.descriptionKitchen", orientation: "landscape" },
-    { title: "apartment.titleBedroomOne", image: "/Dormitorio_principal_1_min.jpg", textKey: "apartment.descriptionBedroomOne", orientation: "portrait" },
-    { title: "apartment.titleBedroomTwo", image: "/Dormitorio_literas_1_min.jpg", textKey: "apartment.descriptionBedroomTwo", orientation: "landscape" },
-    { title: "apartment.titleBathroom", image: "/Aseo_1_min.jpg", textKey: "apartment.descriptionBathroom", orientation: "portrait" },
+    { title: "apartment.titleLiving", image: "/small_Salon_2.jpg", textKey: "apartment.descriptionLiving", orientation: "landscape" },
+    { title: "apartment.titleTerrace", image: "/small_Terraza_1.jpg", textKey: "apartment.descriptionTerrace", orientation: "portrait" },
+    { title: "apartment.titleKitchen", image: "/small_Cocina_1.jpg", textKey: "apartment.descriptionKitchen", orientation: "landscape" },
+    { title: "apartment.titleBedroomOne", image: "/small_Dormitorio_principal_1.jpg", textKey: "apartment.descriptionBedroomOne", orientation: "portrait" },
+    { title: "apartment.titleBedroomTwo", image: "/small_Dormitorio_literas_1.jpg", textKey: "apartment.descriptionBedroomTwo", orientation: "landscape" },
+    { title: "apartment.titleBathroom", image: "/small_Aseo_1.jpg", textKey: "apartment.descriptionBathroom", orientation: "portrait" },
   ];
 
   return (
