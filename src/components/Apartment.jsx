@@ -1,6 +1,10 @@
+import { useState } from "react";
+import "./gallery/gallery.css";
 import { getTranslation } from "../services/localizationservice";
 
 const Apartament = ({ language }) => {
+  const [selectedImage, setSelectedImage] = useState(null);
+
   const items = [
     { title: "apartment.titleLiving", image: "/small_Salon_2.jpg", textKey: "apartment.descriptionLiving", orientation: "landscape" },
     { title: "apartment.titleTerrace", image: "/small_Terraza_1.jpg", textKey: "apartment.descriptionTerrace", orientation: "portrait" },
@@ -21,10 +25,10 @@ const Apartament = ({ language }) => {
   ];
 
   return (
-    <div className="container-fluid grid-container apartment-section" style={{ marginTop: "4rem" }}>
+    <div className="container-galleryTwo mt-0 container-fluid grid-container apartment-section" style={{ marginTop: "4rem" }}>
 
       {/* Banda Horizontal de Imágenes */}
-      <div className="horizontal-gallery" style={{
+      <div className="horizontal-gallery media-container" style={{
         display: "flex",
         overflowX: "auto",
         gap: "1rem",
@@ -34,7 +38,7 @@ const Apartament = ({ language }) => {
         marginBottom: "2rem"
       }}>
         {galleryImages.map((image, index) => (
-          <div key={index} style={{
+          <div key={index}  style={{
             flex: "0 0 auto",
             height: "200px", // Altura fija, ajusta si es necesario
             display: "flex",
@@ -42,7 +46,8 @@ const Apartament = ({ language }) => {
             alignItems: "center",
             overflow: "hidden",
             borderRadius: "10px",
-          }}>
+          }}
+          onClick={() => setSelectedImage(image)} >
             <img
               src={image}
               alt={`gallery image ${index + 1}`}
@@ -56,8 +61,16 @@ const Apartament = ({ language }) => {
         ))}
       </div>
 
+      {/* Popup para mostrar la imagen ampliada */}
+     {selectedImage && (
+        <div className="popup-media">
+          <span onClick={() => setSelectedImage(null)}>&times;</span>
+          <img src={selectedImage} alt="Selected Image" />
+        </div>
+      )}
+
       {/* Sección principal del apartamento */}
-      <div className="row justify-content-evenly" style={{ gap: "2rem" }}>
+      <div className=" row justify-content-evenly" style={{ gap: "2rem" }}>
         {items.map((item, index) => (
           <div
             key={index}
@@ -65,6 +78,7 @@ const Apartament = ({ language }) => {
             style={{ alignItems: "center", marginBottom: "2rem", gap: "2rem" }}
           >
             <div
+              className="media"
               style={{
                 flex: "0 0 45%",
                 height: item.orientation === "landscape" ? "400px" : "600px",
@@ -74,6 +88,7 @@ const Apartament = ({ language }) => {
                 justifyContent: "center",
                 alignItems: "center",
               }}
+              onClick={() => setSelectedImage(item.image)}
             >
               <img
                 src={item.image}
