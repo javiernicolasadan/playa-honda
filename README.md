@@ -128,7 +128,7 @@ For any inquiries, suggestions, or collaboration opportunities, feel free to con
 
 - **Email**: [javiernicolasadan@gmail.com](mailto:javiernicolasadan@gmail.com)
 - **GitHub**: [javiernicolasadan](https://github.com/javiernicolasadan)
-- **Deployed**^: [Deployed App Link](https://playa-honda.vercel.app/) 
+- **Deployed**: [Deployed App Link](https://playa-honda.vercel.app/) 
 
 
 
