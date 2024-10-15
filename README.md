@@ -64,12 +64,6 @@ Ensure you have **Node.js** and **npm** installed. You can download them from [N
    npm install
    ```
 
-4. Start the development server:
-
-   ```sh
-   npm start
-   ```
-
 ### Backend Installation
 
 1. Clone the backend repository:
@@ -106,7 +100,7 @@ Ensure you have **Node.js** and **npm** installed. You can download them from [N
 1. Start the development server for the frontend:
 
    ```sh
-   npm start
+   npm run dev
    ```
 
    The frontend application should now be running on [http://localhost:3000](http://localhost:3000).
