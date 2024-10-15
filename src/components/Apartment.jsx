@@ -129,7 +129,7 @@ const Apartament = ({ language }) => {
         {items.map((item, index) => (
           <div
             key={index}
-            className={"combi-pic-text"+`d-flex ${
+            className={`d-flex ${
               index % 2 === 0
                 ? "apartment-section"
                 : "flex-row-reverse apartment-section"
@@ -144,6 +144,7 @@ const Apartament = ({ language }) => {
                 overflow: "hidden",
                 borderRadius: item.orientation === "landscape" ? "50px" : "60%",
                 display: "flex",
+                
                 justifyContent: "center",
                 alignItems: "center",
               }}
