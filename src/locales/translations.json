@@ -24,7 +24,9 @@
       "titleBedroomTwo": "Dormitorio Dos",
       "descriptionBedroomTwo": "Esta habitacion dispone igualmente de ventana directamente al mar. Cuenta con dos literas y un armario amplio, con cajones.",
       "titleBathroom": "Baño",
-      "descriptionBathroom": "Baño completo, con toallas, gel y champú, alfombra de baño, secador de pelo y radiador para las duchas en invierno. Cuenta con un espejo de cuerpo justo enfrente del baño."
+      "titlePromenade": "Hermoso paseo de playa",
+      "descriptionPromenade": "Disfruta del hermoso paseo de playa que discurre pegado al apartamento desde un extremo de Playa Honda hasta La Manga, pasando por las Salinas de Marchamalo."
+      
     },
     "gallery": {
       "category": "Selecciona una categoría",
@@ -123,7 +125,10 @@
     "titleBedroomTwo": "Bedroom Two",
     "descriptionBedroomTwo": "This room also has a window directly facing the sea. It has two bunk beds and a spacious wardrobe with drawers.",
     "titleBathroom": "Bathroom",
-    "descriptionBathroom": "Full bathroom with towels, shower gel, shampoo, bath mat, hairdryer, and radiator for winter showers. It has a full-length mirror right in front of the bathroom."
+    "descriptionBathroom": "Full bathroom with towels, shower gel, shampoo, bath mat, hairdryer, and radiator for winter showers. It has a full-length mirror right in front of the bathroom.",
+    "titlePromenade": "Beautiful beach promenade",
+"descriptionPromenade": "Enjoy the beautiful beach promenade that runs right next to the apartment from one end of Playa Honda to La Manga, passing through the Salinas de Marchamalo."
+
   },
     "gallery": {
       "category": "Select a category",
@@ -220,7 +225,10 @@
     "titleBedroomTwo": "Chambre Deux",
     "descriptionBedroomTwo": "Cette chambre dispose également d'une fenêtre donnant directement sur la mer. Elle est équipée de deux lits superposés et d'une grande armoire avec tiroirs.",
     "titleBathroom": "Salle de bain",
-    "descriptionBathroom": "Salle de bain complète avec serviettes, gel douche, shampoing, tapis de bain, sèche-cheveux et radiateur pour les douches d'hiver. Elle dispose d'un miroir pleine longueur juste en face de la salle de bain."
+    "descriptionBathroom": "Salle de bain complète avec serviettes, gel douche, shampoing, tapis de bain, sèche-cheveux et radiateur pour les douches d'hiver. Elle dispose d'un miroir pleine longueur juste en face de la salle de bain.",
+    "titlePromenade": "Magnifique promenade de plage",
+"descriptionPromenade": "Profitez de la magnifique promenade de plage qui longe l'appartement, allant d'un bout de Playa Honda à La Manga, en passant par les Salinas de Marchamalo."
+
   },
     "gallery": {
       "category": "Sélectionnez une catégorie",
@@ -316,7 +324,10 @@
       "titleBedroomTwo": "Slaapkamer Twee",
       "descriptionBedroomTwo": "Deze kamer heeft ook een raam dat direct op zee uitkijkt. Het heeft twee stapelbedden en een ruime kast met lades.",
       "titleBathroom": "Badkamer",
-      "descriptionBathroom": "Volledige badkamer met handdoeken, douchegel, shampoo, badmat, haardroger en radiator voor winterse douchebeurten. Het heeft een grote spiegel recht voor de badkamer."
+      "descriptionBathroom": "Volledige badkamer met handdoeken, douchegel, shampoo, badmat, haardroger en radiator voor winterse douchebeurten. Het heeft een grote spiegel recht voor de badkamer.",
+      "titlePromenade": "Mooie strandpromenade",
+"descriptionPromenade": "Geniet van de mooie strandpromenade die langs het appartement loopt, van het ene uiteinde van Playa Honda naar La Manga, langs de Salinas de Marchamalo."
+
     },
     "gallery": {
       "category": "Selecteer een categorie",
@@ -412,7 +423,10 @@
     "titleBedroomTwo": "Schlafzimmer Zwei",
     "descriptionBedroomTwo": "Dieses Zimmer verfügt ebenfalls über ein Fenster mit direktem Meerblick. Es gibt zwei Etagenbetten und einen geräumigen Kleiderschrank mit Schubladen.",
     "titleBathroom": "Badezimmer",
-    "descriptionBathroom": "Voll ausgestattetes Badezimmer mit Handtüchern, Duschgel, Shampoo, Badematte, Haartrockner und Heizung für Winterduschen. Es gibt einen Ganzkörperspiegel direkt gegenüber dem Badezimmer."
+    "descriptionBathroom": "Voll ausgestattetes Badezimmer mit Handtüchern, Duschgel, Shampoo, Badematte, Haartrockner und Heizung für Winterduschen. Es gibt einen Ganzkörperspiegel direkt gegenüber dem Badezimmer.",
+    "titlePromenade": "Schöne Strandpromenade",
+"descriptionPromenade": "Genießen Sie die schöne Strandpromenade, die direkt am Apartment entlang von einem Ende von Playa Honda bis nach La Manga verläuft, vorbei an den Salinas de Marchamalo."
+
   },
     "gallery": {
       "category": "Wähle eine Kategorie",
@@ -508,7 +522,10 @@
       "titleBedroomTwo": "Quarto Dois",
       "descriptionBedroomTwo": "Este quarto também possui uma janela com vista direta para o mar. Possui dois beliches e um espaçoso guarda-roupa com gavetas.",
       "titleBathroom": "Banheiro",
-      "descriptionBathroom": "Banheiro completo com toalhas, gel de banho, shampoo, tapete de banho, secador de cabelo e radiador para banhos no inverno. Possui um espelho de corpo inteiro bem em frente ao banheiro."
+      "descriptionBathroom": "Banheiro completo com toalhas, gel de banho, shampoo, tapete de banho, secador de cabelo e radiador para banhos no inverno. Possui um espelho de corpo inteiro bem em frente ao banheiro.",
+      "titlePromenade": "Bela promenade de praia",
+"descriptionPromenade": "Aproveite a bela promenade de praia que passa ao lado do apartamento, desde uma extremidade de Playa Honda até La Manga, passando pelas Salinas de Marchamalo."
+
     },
     "gallery": {
       "category": "Selecione uma categoria",

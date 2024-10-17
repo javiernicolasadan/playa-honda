@@ -44,13 +44,22 @@ const Apartament = ({ language }) => {
       textKey: "apartment.descriptionBathroom",
       orientation: "portrait",
     },
+    {
+      title: "apartment.titlePromenade",
+      image: "/Paseo_2.jpeg",
+      textKey: "apartment.descriptionPromenade",
+      orientation: "landscape",
+    },
   ];
 
   const galleryImages = [
     "/DSC_6253.jpg",
     "/DSC_6477.jpg",
+    "/Jardin_1.jpeg",
     "/DSC_6364-HDR-1.jpg",
+    "/Edificio_4.jpeg",
     "/DSC_6526-HDR.jpg",
+    "/Paseo_2.jpeg",
     "/DSC_6612.jpg",
     "/DSC_6616.jpg",
     "/DSC_6619.jpg",
