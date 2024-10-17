@@ -28,7 +28,7 @@ const NavigationBar = ({ language, onLanguageChange }) => {
 
   // Function to get the current page name
   const getCurrentPageName = () => {
-    console.log("Current pathname:", location.pathname); // Debugging console.log to check the current pathname
+    //console.log("Current pathname:", location.pathname); // Debugging console.log to check the current pathname
     switch (location.pathname) {
       case "/":
         return getTranslation("navbar.home", language);

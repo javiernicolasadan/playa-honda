@@ -67,8 +67,8 @@ const Home = ({
             </h6>
           </div>
           
-          <Parallax language={language} onLanguageChange={onLanguageChange} />
-          <Grid language={language} onLanguageChange={onLanguageChange} />
+          <Parallax language={language}  />
+          <Grid language={language}  />
         </>
       )}
     </>
