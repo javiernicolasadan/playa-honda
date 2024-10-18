@@ -59,7 +59,7 @@ const Weather = ({ language, onLanguageChange }) => {
     window.addEventListener("resize", resizeCanvas);
     // Render the chart using static data
     const translatedMonths = getTranslatedMonths();
-    
+
     const tempChart = new Chart(ctxTemp, {
       type: "bar",
       data: {
@@ -106,7 +106,6 @@ const Weather = ({ language, onLanguageChange }) => {
         },
       },
     });
-    
 
     const weatherDaysChart = new Chart(ctxWeather, {
       type: "bar",
@@ -300,8 +299,8 @@ const Weather = ({ language, onLanguageChange }) => {
 
   return (
     <>
-      <div className="text-center weather">
-        <div
+      <section className="text-center weather">
+        <section
           className="weather-text overflow-auto weather-info"
           style={{ minHeight: "100px", maxHeight: "300px" }}
         >
@@ -321,20 +320,20 @@ const Weather = ({ language, onLanguageChange }) => {
               {speedWind} m/s - {getTranslation("weather.speedWind", language)}
             </p>
           </div>
-        </div>
-        <div style={{ width: "80%", height: "35%" }}>
+        </section>
+        <aside style={{ width: "80%", height: "35%" }}>
           <canvas
             id="staticWeatherChart"
             style={{ width: "100%", height: "100%" }}
           ></canvas>
-        </div>
-        <div style={{ width: "80%",height: "25%" }}>
+        </aside>
+        <aside style={{ width: "80%", height: "25%" }}>
           <canvas
             id="weatherDaysChart"
             style={{ width: "100%", height: "50%" }}
           ></canvas>
-        </div>
-      </div>
+        </aside>
+      </section>
     </>
   );
 };

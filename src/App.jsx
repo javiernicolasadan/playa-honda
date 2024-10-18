@@ -5,7 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { Route, Routes } from "react-router-dom";
 import Activities from "./components/Activities/Activities";
-import Calendar from "./components/Calendar/Calendar";
 import Gallery from "./components/Gallery/Gallery";
 import Weather from "./components/Weather";
 import NavigationBar from "./components/NavBar";

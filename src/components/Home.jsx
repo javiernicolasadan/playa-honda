@@ -20,16 +20,16 @@ const Home = ({
   }, 2000);
 
   return (
-    <>
+    <main>
       {isLoading ? (
         <Spinner />
       ) : (
         <>
           <CarouselComponent />
-          <div className="logo-container py-3">
+          <figure className="logo-container py-3">
             <img src="/logo-costa-calida-color.png" alt="logo" />
-          </div>
-          <div className="text-container-big px-5 py-2">
+          </figure>
+          <section className="text-container-big px-5 py-2">
             <h5 className="text-center">
               {getTranslation("home.textOne", language)}
               <br />
@@ -51,8 +51,8 @@ const Home = ({
               <br />
               {getTranslation("home.textSeven", language)}
             </h5>
-          </div>
-          <div className="text-container-small px-5 py-2">
+          </section>
+          <section className="text-container-small px-5 py-2">
             <h6 className="text-center">
               {getTranslation("home.textEight", language)}
               <br />
@@ -65,13 +65,13 @@ const Home = ({
               <br />
               {getTranslation("home.textEleven", language)}
             </h6>
-          </div>
+          </section>
           
           <Parallax language={language}  />
           <Grid language={language}  />
         </>
       )}
-    </>
+    </main>
   );
 };
 

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-//in media.json we are filtering the tag of each picture 
+//in media.json we are filtering the tag of each picture
 import media from "../../assets/media/media.json";
 //particular CSS for the gallery
 import "./gallery.css";
@@ -40,14 +40,12 @@ const Gallery = ({ isLoading, handleLoadingChange, language }) => {
     setActiveCategory("all");
   }, [language]);
 
-  
-
   return (
     <>
       {isLoading ? (
         <Spinner />
       ) : (
-        <div className="container-galleryTwo mt-0">
+        <section className="container-galleryTwo mt-0">
           <h2>{getTranslation("gallery.category", language)}</h2>
           <div className="category-buttons flex-wrap g-0">
             {translatedCategories.map((category, index) => (
@@ -63,22 +61,22 @@ const Gallery = ({ isLoading, handleLoadingChange, language }) => {
           <div className="media-container">
             {imagesByCategory[activeCategory] &&
               imagesByCategory[activeCategory].map((image, index) => (
-                
                 <div
                   className="media"
                   key={index}
                   onClick={() => setSelectedImage(image.large)}
                 >
-                
-                <img
-                      src={image.small || image.large} // Usa small si existe, sino usa large
-                      alt={`image ${index + 1}`}
-                      onError={(e) => {
-                        console.log(`Image small not found, fallback to large: ${image.large}`); // Depura cuando el fallback a large se usa
-                        e.target.onerror = null; // Evita bucles infinitos en caso de error
-                        e.target.src = image.large;
-                      }}
-                    />
+                  <img
+                    src={image.small || image.large} // Usa small si existe, sino usa large
+                    alt={`image ${index + 1}`}
+                    onError={(e) => {
+                      console.log(
+                        `Image small not found, fallback to large: ${image.large}`
+                      ); // Depura cuando el fallback a large se usa
+                      e.target.onerror = null; // Evita bucles infinitos en caso de error
+                      e.target.src = image.large;
+                    }}
+                  />
                 </div>
               ))}
           </div>
@@ -92,7 +90,7 @@ const Gallery = ({ isLoading, handleLoadingChange, language }) => {
               <img src={selectedImage} alt="Selected Image"></img>
             ) : null}
           </div>
-        </div>
+        </section>
       )}
     </>
   );

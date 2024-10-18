@@ -66,7 +66,7 @@ const Apartament = ({ language }) => {
   ];
 
   return (
-    <div
+    <section
       className="container-galleryTwo mt-0 container-fluid grid-container apartment-section"
       style={{ marginTop: "4rem" }}
     >
@@ -88,7 +88,7 @@ const Apartament = ({ language }) => {
             key={index}
             style={{
               flex: "0 0 auto",
-              height: "200px", 
+              height: "200px",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
@@ -99,10 +99,10 @@ const Apartament = ({ language }) => {
           >
             <img
               src={image}
-              alt={`gallery image ${index + 1}`}
+              alt={`Apartment gallery image ${index + 1}`}
               style={{
-                maxHeight: "100%", 
-                maxWidth: "100%", 
+                maxHeight: "100%",
+                maxWidth: "100%",
                 objectFit: "contain",
               }}
             />
@@ -131,23 +131,22 @@ const Apartament = ({ language }) => {
       {selectedImage && (
         <div className="popup-media">
           <span onClick={() => setSelectedImage(null)}>&times;</span>
-          <img src={selectedImage} alt="Selected Image" />
+          <img src={selectedImage} alt="Selected apartment Image" />
         </div>
       )}
 
       {/* apartment main section */}
       <div className="row justify-content-evenly" style={{ gap: "2rem" }}>
         {items.map((item, index) => (
-          <div
+          <article
             key={index}
             className={`d-flex ${
-  index % 2 === 0
-    ? "apartment-section"
-    : isMobile
-    ? "flex-column apartment-section"
-    : "flex-row-reverse apartment-section"
-}`}
-
+              index % 2 === 0
+                ? "apartment-section"
+                : isMobile
+                ? "flex-column apartment-section"
+                : "flex-row-reverse apartment-section"
+            }`}
             style={{ alignItems: "center", marginBottom: "2rem", gap: "2rem" }}
           >
             <div
@@ -158,23 +157,23 @@ const Apartament = ({ language }) => {
                 overflow: "hidden",
                 borderRadius: item.orientation === "landscape" ? "50px" : "60%",
                 display: "flex",
-                
+
                 justifyContent: "center",
                 alignItems: "center",
               }}
               onClick={() => setSelectedImage(item.image)}
             >
-              <img 
+              <img
                 src={item.image}
                 style={{
                   width: "100%",
                   height: "100%",
-                  objectFit: "cover", 
+                  objectFit: "cover",
                 }}
               />
             </div>
             <div
-            className="img-responsive"
+              className="img-responsive"
               style={{
                 flex: "0 0 50%",
                 padding: "20px",
@@ -186,10 +185,10 @@ const Apartament = ({ language }) => {
               <h4>{getTranslation(item.title, language)}</h4>
               <p>{getTranslation(item.textKey, language)}</p>
             </div>
-          </div>
+          </article>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

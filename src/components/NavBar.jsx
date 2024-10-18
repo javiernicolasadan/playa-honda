@@ -48,7 +48,7 @@ const NavigationBar = ({ language, onLanguageChange }) => {
   };
 
   return (
-    <>
+    <nav>
       <Navbar
         expand="sm"
         expanded={expanded}
@@ -140,7 +140,7 @@ const NavigationBar = ({ language, onLanguageChange }) => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </>
+    </nav>
   );
 };
 

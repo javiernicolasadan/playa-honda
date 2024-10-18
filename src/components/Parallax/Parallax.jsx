@@ -1,12 +1,11 @@
 import { getTranslation } from "../../services/localizationservice";
 import "./parallax.css";
 
-const Parallax = ({language}) => {
+const Parallax = ({ language }) => {
   return (
     <>
       <section className="parallax">
-        <h1>
-        {getTranslation("home.parallax", language)}</h1>
+        <h1>{getTranslation("home.parallax", language)}</h1>
       </section>
     </>
   );
