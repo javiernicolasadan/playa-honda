@@ -99,6 +99,7 @@ const Apartament = ({ language }) => {
           >
             <img
               src={image}
+              loading="lazy"
               alt={`Apartment gallery image ${index + 1}`}
               style={{
                 maxHeight: "100%",
@@ -157,7 +158,6 @@ const Apartament = ({ language }) => {
                 overflow: "hidden",
                 borderRadius: item.orientation === "landscape" ? "50px" : "60%",
                 display: "flex",
-
                 justifyContent: "center",
                 alignItems: "center",
               }}
@@ -165,6 +165,8 @@ const Apartament = ({ language }) => {
             >
               <img
                 src={item.image}
+                loading="lazy"
+                alt={`Apartment ${index + 1}`}
                 style={{
                   width: "100%",
                   height: "100%",

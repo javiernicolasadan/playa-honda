@@ -68,6 +68,7 @@ const Gallery = ({ isLoading, handleLoadingChange, language }) => {
                 >
                   <img
                     src={image.small || image.large} // Usa small si existe, sino usa large
+                    loading="lazy"
                     alt={`image ${index + 1}`}
                     onError={(e) => {
                       console.log(

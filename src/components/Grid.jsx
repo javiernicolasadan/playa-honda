@@ -13,7 +13,7 @@ const Grid = ({
           <article className="p-3 col-xl-4 col-xl-3 col-md-4 col-sm-6 col-12 grid-item item-1">
             
               <h4>Playa Honda</h4>
-              <img src="/atardecer4.jpg" alt="Atardecer en Playa Honda" className="mb-3"/>
+              <img src="/atardecer4.jpg" loading="lazy" alt="Atardecer en Playa Honda" className="mb-3"/>
             
             <p>
             {getTranslation("grid.textOne", language)}
@@ -22,7 +22,7 @@ const Grid = ({
           <article className="p-3 col-xl-4 col-xl-3 col-md-4 col-sm-6 col-12 grid-item item-2">
             <h4>Cabo de palos</h4>
             <div>
-              <img src="/faro.jpg" alt="Faro de Cabo de Palos" className="mb-3"/>
+              <img src="/faro.jpg" loading="lazy" alt="Faro de Cabo de Palos" className="mb-3"/>
             </div>
             <p>
             {getTranslation("grid.textTwo", language)}
@@ -31,7 +31,7 @@ const Grid = ({
           <article className="p-3 col-xl-4 col-xl-3 col-md-4 col-sm-6 col-12 grid-item item-3">
             <h4>La Manga del Mar Menor</h4>
             <div>
-              <img src="/laManga.jpg" alt="Vista aérea de La Manga" className="mb-3"/>
+              <img src="/laManga.jpg" loading="lazy" alt="Vista aérea de La Manga" className="mb-3"/>
             </div>
             <p>
             {getTranslation("grid.textThree", language)}
