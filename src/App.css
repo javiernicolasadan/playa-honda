@@ -219,13 +219,7 @@ div.row {
     justify-content: center;
     align-items: center;
   }
-  .img-booking {
-    width: 100%;
-      height: 20rem;
-      background-image: url(/calareona.jpg);
-      background-size: cover;
-      position: block;
-    }
+  
     .text-booking{
     position:relative;
     text-align: center;
@@ -258,9 +252,7 @@ div.row {
 }
 
 @media (min-width: 576px) {
-  /* body::before {
-    content: "SM";
-  } */
+  
   .imgCarousel {
     width: 95vw;
     height: 65vh;
@@ -275,7 +267,7 @@ div.row {
   }
   .weather {
     height: 45rem;
-    background-image: url(/DSCF2853-2.JPG);
+    background-image: url(/DSCF2853-2_resultado.webp);
     background-size: cover;
   }
   .weather-text{
@@ -312,12 +304,7 @@ div.row {
     justify-content: center;
     align-items: center;
   }
-  .img-booking {
-    width: 80%;
-    height: 20rem;
-    background-image: url(/calareona.jpg);
-    border-radius: 50%; 
-    }
+  
   .text-booking{
     position:relative;
     text-align: center;
@@ -338,9 +325,7 @@ div.row {
 }
 
 @media (min-width: 768px) {
-  /* body::before {
-    content: "MD";
-  } */
+  
   nav.navbar {
     justify-content: space-evenly;
     padding-top: 1rem;
@@ -397,9 +382,7 @@ div.row {
 }
 
 @media (min-width: 992px) {
-  /* body::before {
-    content: "LG";
-  } */
+ 
   .img-booking {
     width: 80%;
     height: 20rem;
