@@ -24,7 +24,7 @@ const Activities = ({ isLoading, handleLoadingChange, language }) => {
 
   setTimeout(() => {
     handleLoadingChange(false);
-  }, 2000);
+  }, 500);
 
   return (
     <>
