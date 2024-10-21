@@ -9,7 +9,6 @@ const Home = ({
   isLoading,
   handleLoadingChange,
   language,
-  onLanguageChange,
 }) => {
   useEffect(() => {
     handleLoadingChange(true);
@@ -17,7 +16,7 @@ const Home = ({
 
   setTimeout(() => {
     handleLoadingChange(false);
-  }, 2000);
+  }, 1000);
 
   return (
     <main>
