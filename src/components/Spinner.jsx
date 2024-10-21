@@ -1,6 +1,6 @@
 import Spinner from "react-bootstrap/Spinner";
 
-const SpinnerComponent = ({ isLoading, handleLoadingChange }) => {
+const SpinnerComponent = ({ isLoading }) => {
   return (
     <>
       {isLoading ? (

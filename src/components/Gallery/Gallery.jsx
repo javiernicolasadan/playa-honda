@@ -28,7 +28,7 @@ const Gallery = ({ isLoading, handleLoadingChange, language }) => {
 
   setTimeout(() => {
     handleLoadingChange(false);
-  }, 2500);
+  }, 1000);
 
   const changeCategory = (categoryKey) => {
     //console.log("Category selected:", categoryKey);
