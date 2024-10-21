@@ -1,6 +1,6 @@
 const cardData = [
   {
-    imageSrc: "/Buceo1.jpg",
+    imageSrc: "/Buceo1_resultado.webp",
     title: {
       es: "Deportes Nauticos",
       en: "Water Sports",
@@ -25,7 +25,7 @@ const cardData = [
     path3: "https://planeta-azul.com/",
   },
   {
-    imageSrc: "/Miaya5.jpg",
+    imageSrc: "/Miaya5_resultado.webp",
     title: {
       es: "Espacios de ocio.",
       en: "Leisure Spaces",
@@ -48,7 +48,7 @@ const cardData = [
     path2: "https://www.tripslamanga.com/main-room",
   },
   {
-    imageSrc: "/BarcoSolaz.jpg",
+    imageSrc: "/BarcoSolaz_resultado.webp",
     title: {
       es: "Paseos en barco",
       en: "Boat Tours",
@@ -75,7 +75,7 @@ const cardData = [
     path4: "https://flippaboat.es/",
   },
   {
-    imageSrc: "/david.jpeg",
+    imageSrc: "/david_resultado.webp",
     title: {
       es: "Gastronomía",
       en: "Gastronomy",
@@ -98,7 +98,7 @@ const cardData = [
     path2: "http://scabetti.es/",
   },
   {
-    imageSrc: "/masaje.jpg",
+    imageSrc: "/masaje_resultado.webp",
     title: {
       es: "Experiencias",
       en: "Experiences",
@@ -121,7 +121,7 @@ const cardData = [
     path2: "https://bikinglamanga.com/wordpress/",
   },
   {
-    imageSrc: "/perro_playa2.jpg",
+    imageSrc: "/perro_playa2_resultado.webp",
     title: {
       es: "Playa Canina",
       en: "Dog Beach",
