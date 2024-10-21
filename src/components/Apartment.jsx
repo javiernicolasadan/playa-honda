@@ -10,60 +10,61 @@ const Apartament = ({ language }) => {
   const items = [
     {
       title: "apartment.titleLiving",
-      image: "/small_Salon_2.jpg",
+      image: "/small_Salon_2_resultado.webp",
       textKey: "apartment.descriptionLiving",
       orientation: "landscape",
     },
     {
       title: "apartment.titleTerrace",
-      image: "/small_Terraza_1.jpg",
+      image: "/small_Terraza_1_resultado.webp",
       textKey: "apartment.descriptionTerrace",
       orientation: "portrait",
     },
     {
       title: "apartment.titleKitchen",
-      image: "/small_Cocina_1.jpg",
+      image: "/small_Cocina_1_resultado.webp",
       textKey: "apartment.descriptionKitchen",
       orientation: "landscape",
     },
     {
       title: "apartment.titleBedroomOne",
-      image: "/small_Dormitorio_principal_1.jpg",
+      image: "/small_Dormitorio_principal_1_resultado.webp",
       textKey: "apartment.descriptionBedroomOne",
       orientation: "portrait",
     },
     {
       title: "apartment.titleBedroomTwo",
-      image: "/small_Dormitorio_literas_1.jpg",
+      image: "/small_Dormitorio_literas_1_resultado.webp",
       textKey: "apartment.descriptionBedroomTwo",
       orientation: "landscape",
     },
     {
       title: "apartment.titleBathroom",
-      image: "/small_Aseo_1.jpg",
+      image: "/small_Aseo_1_resultado.webp",
       textKey: "apartment.descriptionBathroom",
       orientation: "portrait",
     },
     {
       title: "apartment.titlePromenade",
-      image: "/Paseo_2.jpeg",
+      image: "/Paseo_2_resultado.webp",
       textKey: "apartment.descriptionPromenade",
       orientation: "landscape",
     },
   ];
-
+  
   const galleryImages = [
-    "/DSC_6253.jpg",
-    "/DSC_6477.jpg",
-    "/Jardin_1.jpeg",
-    "/DSC_6364-HDR-1.jpg",
-    "/Edificio_4.jpeg",
-    "/DSC_6526-HDR.jpg",
-    "/Paseo_2.jpeg",
-    "/DSC_6612.jpg",
-    "/DSC_6616.jpg",
-    "/DSC_6619.jpg",
+    "/DSC_6253_resultado.webp",
+    "/DSC_6477_resultado.webp",
+    "/Jardin_1_resultado.webp",
+    "/DSC_6364-HDR-1_resultado.webp",
+    "/Edificio_4_resultado.webp",
+    "/DSC_6526-HDR_resultado.webp",
+    "/Paseo_2_resultado.webp",
+    "/DSC_6612_resultado.webp",
+    "/DSC_6616_resultado.webp",
+    "/DSC_6619_resultado.webp",
   ];
+  
 
   return (
     <section
