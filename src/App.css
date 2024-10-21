@@ -21,18 +21,6 @@ footer a{
   color: inherit
 }
 
-/* 
-  Really useful tool to check the screen size while developing
-  body::before {
-  content: "XS";
-  color: red;
-  font-size: 2rem;
-  font-weight: bold;
-  position: fixed;
-  margin-top: 60px;
-  right: 0;
-} */
-
 .spinner-border{
   position: fixed;
   top: 50%;
@@ -41,7 +29,6 @@ footer a{
   justify-content: center;
   align-items: center;
 }
-
 
 /* activities */
 div.card {
@@ -147,16 +134,7 @@ div.row {
 
 
 @media (max-width: 576px) {
-  /* body::before {
-    content: "whatever";
-    .img-thumbnail {
-      margin-top: 100px!important;
-    }
-    .img-fluid {
-      margin-top: 100px!important;
-    }
-  } */
-  .category-buttons {
+    .category-buttons {
     padding-top:1rem;
   }
   .imgCarousel {
