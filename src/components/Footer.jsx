@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { getTranslation } from "../services/localizationservice";
-const Footer = ({ isLoading, language, onLanguageChange }) => {
+const Footer = ({ isLoading, language }) => {
   return isLoading ? null : (
     <footer className="bg-secondary text-light py-4 ">
       <Container>
