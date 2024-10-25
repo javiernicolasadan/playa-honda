@@ -358,6 +358,9 @@ div.row {
   .weather-text{
      transform: translate(-50%, -125%);
   }
+  .weather-text p{
+    margin-bottom: auto;
+ }
   #staticWeatherChart{
     visibility: visible;
     position: absolute;
