@@ -1,6 +1,5 @@
 body{
   font-family: 'Hedvig Letters Serif', serif; 
- 
 }
 h1, h2, h3, h4, h5, h6, p, a {
   font-family: 'Hedvig Letters Serif', serif;
@@ -12,12 +11,10 @@ h1, h2, h3, h4, h5, h6, p, a {
 .current-page-name {
   font-family: 'Hedvig Letters Serif', serif;
 }
-
 footer a{
   text-decoration: none;
   color: inherit
 }
-
 .spinner-border{
   position: fixed;
   top: 50%;
@@ -26,12 +23,9 @@ footer a{
   justify-content: center;
   align-items: center;
 }
-
-/* activities */
 div.card {
   margin-left: 2rem;
   margin-right: 2rem;
-  
 }
 span.react-datepicker__aria-live {
   display: none;
@@ -40,13 +34,11 @@ div.row {
   margin-top: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  
 }
 .card-body a {
   margin: 0.1rem;
   background-color: rgb(151, 163, 170);
 }
-
 .carousel-indicators [data-bs-target] {
   border-radius: 100%;
   width: 1rem!important;
@@ -57,7 +49,6 @@ div.row {
   display: block;
   text-align: center;
 }
-
 .grid-item img{
   max-height:8rem;
   width:100%;
@@ -77,15 +68,13 @@ div.row {
   transform: translateY(-2px);
   text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.3);
 }
-/* NotFound.css */
 .not-found-beach-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #87ceeb; /* Cielo azul */
+  background-color: #87ceeb;
 }
-
 .not-found-content {
   text-align: center;
   background: white;
@@ -95,11 +84,9 @@ div.row {
   max-width: 400px;
   animation: fadeIn 0.5s ease-in-out;
 }
-
 .beach-scene {
   margin-bottom: 20px;
 }
-
 .not-found-link {
   display: inline-block;
   margin-top: 20px;
@@ -110,11 +97,9 @@ div.row {
   border-radius: 5px;
   transition: background-color 0.3s;
 }
-
 .not-found-link:hover {
   background-color: #e5533a;
 }
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -125,10 +110,6 @@ div.row {
     transform: translateY(0);
   }
 }
-
-
-
-
 
 @media (max-width: 576px) {
     .category-buttons {
@@ -216,8 +197,7 @@ div.row {
     justify-content: center;
     align-items: center;
   }
-  
-    .text-booking{
+  .text-booking{
     position:relative;
     text-align: center;
   }
@@ -227,7 +207,6 @@ div.row {
   #weatherDaysChart{
     visibility: hidden;
   }
-  
   .img-responsive{
     margin-top: 20px;
   }
@@ -245,11 +224,9 @@ div.row {
       justify-content: center;
       align-items: center;
     }
-    
 }
 
 @media (min-width: 576px) {
-  
   .imgCarousel {
     width: 95vw;
     height: 65vh;
@@ -301,12 +278,10 @@ div.row {
     justify-content: center;
     align-items: center;
   }
-  
   .text-booking{
     position:relative;
     text-align: center;
     max-width: 80%;
-
   }
   .navbar-nav-centered {
     display: flex;
@@ -342,8 +317,7 @@ div.row {
   footer p {
     text-align: center;
   }
- 
-  .text-center weather{
+ .text-center weather{
       text-align: center;
   }
   .weather-text{
@@ -375,12 +349,9 @@ div.row {
   .text-booking-container{
     background-color: rebeccapurple;
   }
-    
 }
 
 @media (min-width: 992px) {
- 
-  
     #weatherDaysChart{
       visibility: hidden;
     }
@@ -392,9 +363,6 @@ div.row {
   }
 
 @media (min-width: 1200px) {
-  /* body::before {
-    content: "XL";
-  } */
   .text-container-big{
     margin-top: 30px!important;
     display: block;
@@ -402,26 +370,22 @@ div.row {
     max-width: 50%;
     margin: 0 auto;
   }
-  
-    .text-booking{
+  .text-booking{
       max-width: 60%;
-      
-    }
+  }
     .apartment-section{
       margin-top: 4rem;
       max-width: 1000px;
       margin: 0 auto;
       }
-  
-}
+    }
 
 @media (min-width: 1400px) {
   .apartment-section{
     margin-top: 4rem;
     max-width: 1300px;
     margin: 0 auto;
-    
-    }
+}
     .image-slider {
       display: flex;
       overflow: hidden;
@@ -430,14 +394,12 @@ div.row {
       height: 300px;
       border-radius: 20px;
     }
-    
-    .slide {
+.slide {
       min-width: 100%;
       transition: transform 1s ease-in-out;
       animation: slide-animation 20s infinite;
     }
-    
-    @keyframes slide-animation {
+ @keyframes slide-animation {
       0% { transform: translateX(0); }
       20% { transform: translateX(0); }
       25% { transform: translateX(-100%); }
@@ -448,6 +410,5 @@ div.row {
       95% { transform: translateX(-300%); }
       100% { transform: translateX(0); }
     }
-    
 }
 
