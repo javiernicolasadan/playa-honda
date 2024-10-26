@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif&family=Martel+Sans:wght@700&display=swap');
-
 body{
   font-family: 'Hedvig Letters Serif', serif; 
-  
-  
+ 
 }
 h1, h2, h3, h4, h5, h6, p, a {
   font-family: 'Hedvig Letters Serif', serif;
