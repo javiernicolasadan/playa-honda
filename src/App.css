@@ -309,6 +309,7 @@ div.row {
     position:relative;
     text-align: center;
     max-width: 80%;
+
   }
   .navbar-nav-centered {
     display: flex;
@@ -344,14 +345,7 @@ div.row {
   footer p {
     text-align: center;
   }
-  .img-booking {
-    width: 80%;
-    height: 20rem;
-    background-image: url(/calareona.jpg);
-    background-size: cover;
-    position: block;
-    border-radius: 50%;
-  }
+ 
   .text-center weather{
       text-align: center;
   }
@@ -381,19 +375,15 @@ div.row {
     border-radius: 8px;
     text-align: center;
   }
+  .text-booking-container{
+    background-color: rebeccapurple;
+  }
     
 }
 
 @media (min-width: 992px) {
  
-  .img-booking {
-    width: 80%;
-    height: 20rem;
-    background-image: url(/calareona.jpg);
-    background-size: cover;
-    position: block;
-    border-radius: 50%;
-    }
+  
     #weatherDaysChart{
       visibility: hidden;
     }
@@ -415,14 +405,10 @@ div.row {
     max-width: 50%;
     margin: 0 auto;
   }
-  .img-booking {
-    width: 60%;
-    height: 20rem;
-    background-image: url(/calareona.jpg);
-    border-radius: 50%;
-    }
+  
     .text-booking{
       max-width: 60%;
+      
     }
     .apartment-section{
       margin-top: 4rem;

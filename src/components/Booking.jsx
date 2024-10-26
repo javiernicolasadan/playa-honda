@@ -11,7 +11,7 @@ const Booking = ({ language, onLanguageChange }) => {
         {/*
           <img src="/calareona.jpg" alt="calareona" className="img-booking" />
       */}
-        <article>
+        <article className="text-booking-container">
           <h3
             style={{ lineHeight: "2", margin: "2rem 2rem" }}
             className="text-booking"

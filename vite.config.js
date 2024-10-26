@@ -20,7 +20,7 @@ export default defineConfig({
     'process.env': process.env
   },
   server: {
-    middlewareMode: true,  // activa el modo de middleware
+    middlewareMode: false,  // activa el modo de middleware
     setup: (app) => {
       app.use(
         history({

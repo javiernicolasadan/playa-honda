@@ -7,7 +7,7 @@ const CarouselComponent = () => {
     <Carousel>
         <Carousel.Item interval={15000}>
           <img
-            src="/carouselOneJPG_resultado.webp"
+            src="/BarcoSolaz3_resultado.webp"
             className="imgCarousel shadow-1-strong  mb-4 d-block w-100"
             alt="boats in the sea"
           />
@@ -24,7 +24,7 @@ const CarouselComponent = () => {
         </Carousel.Item>
         <Carousel.Item interval={15000}>
           <img
-            src="/BarcoSolaz3_resultado.webp"
+            src="/carouselOneJPG_resultado.webp"
             className="imgCarousel shadow-1-strong mb-4 d-block w-100"
             alt="Mar Menor´s shore"
             loading="lazy" 
