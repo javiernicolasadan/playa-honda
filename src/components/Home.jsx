@@ -16,7 +16,7 @@ const Home = ({
 
   setTimeout(() => {
     handleLoadingChange(false);
-  }, 5);
+  }, 0);
 
   return (
     <main>
