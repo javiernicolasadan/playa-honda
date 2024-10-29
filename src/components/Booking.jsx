@@ -1,16 +1,13 @@
 import { getTranslation } from "../services/localizationservice";
 import Button from "react-bootstrap/Button";
 
-const Booking = ({ language, onLanguageChange }) => {
+const Booking = ({ language }) => {
   return (
     <>
       <section
         style={{ marginTop: "3rem" }}
         className="d-flex justify-content-center align-items-center contact"
       >
-        {/*
-          <img src="/calareona.jpg" alt="calareona" className="img-booking" />
-      */}
         <article className="text-booking-container">
           <h3
             style={{ lineHeight: "2", margin: "2rem 2rem" }}

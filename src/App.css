@@ -346,9 +346,10 @@ div.row {
     border-radius: 8px;
     text-align: center;
   }
-  .text-booking-container{
-    background-color: rebeccapurple;
-  }
+  .text-booking-container   {
+    display: flex;
+    justify-content: center;
+}
 }
 
 @media (min-width: 992px) {
