@@ -155,16 +155,16 @@ div.row {
     text-align: center;
     color: black;  
   }
-  .buttonsNavBar.buttonsNavBar{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-  }
   .buttonsNavBar .navbar-toggler{
     background-color: rgba(156, 152, 152, 0.145);
     margin: 0.15rem 1rem;
+    padding: 0.75rem 1.25rem;
+    position: relative;
+    left: 1rem;
+  }
+  .navbar-toggler-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .logo-container img{
     max-width: 200px;
@@ -224,6 +224,20 @@ div.row {
       justify-content: center;
       align-items: center;
     }
+  .navbar-nav {
+    padding-left: 1rem !important;
+  }
+  .navbar .navbar-collapse .navbar-nav {
+    padding-left: 1rem;
+    margin-left: 0.5rem;
+  }
+  .navbar-nav .nav-item {
+    padding-left: 0.5rem;
+  }
+  button.navbar-toggler.collapsed,
+  button.navbar-toggler {
+    margin-left: 1rem !important;
+  }
 }
 
 @media (min-width: 576px) {
