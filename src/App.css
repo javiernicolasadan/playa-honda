@@ -1,15 +1,15 @@
 body{
-  font-family: 'Hedvig Letters Serif', serif; 
+  font-family: 'Open Sans', sans-serif; 
 }
 h1, h2, h3, h4, h5, h6, p, a {
-  font-family: 'Hedvig Letters Serif', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .nav-link,
 .category-buttons button {
-  font-family: 'Hedvig Letters Serif', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .current-page-name {
-  font-family: 'Hedvig Letters Serif', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 footer a{
   text-decoration: none;
